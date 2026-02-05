@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brutalist Ramadan Calendar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="marquee-container">
+        <div class="marquee-text">
+            /// RAMADAN MUBARAK /// FASTING IS A SHIELD /// READ QURAN /// TAQWA /// RAMADAN MUBARAK /// FASTING IS A
+            SHIELD /// READ QURAN /// TAQWA ///
+        </div>
+    </div>
+
+    <div class="header-layout">
+        <div>
+            <h1 class="header-title">Ramadan<br>Tracker '26</h1>
+            <div class="subtitle">Location: Dhaka, BD // Hijri 1447</div>
+
+            <div id="countdownDisplay" class="countdown-container">
+                <span id="timerLabel" class="timer-label">LOADING...</span>
+                <div id="timerValue" class="timer-value">--:--:--</div>
+            </div>
+        </div>
+
+        <div class="reminders-box">
+            <!-- Command Section -->
+            <div id="commandWrapper" class="reminder-content-wrapper">
+                <span class="reminder-title">The Command</span>
+                <p class="reminder-text" id="commandText">"O you who have believed, decreed upon you is fasting as it
+                    was decreed upon those before you that you may become righteous."</p>
+                <span class="reminder-source" id="commandSource">— Surah Al-Baqarah 2:183</span>
+            </div>
+
+            <div class="reminder-divider"></div>
+
+            <!-- Warning Section -->
+            <div id="warningWrapper" class="reminder-content-wrapper">
+                <span class="reminder-title" style="background: red;">The Warning</span>
+                <p class="reminder-text" id="warningText">"I saw people hanging by their hamstrings, with the sides of
+                    their mouths torn and pouring blood. I said: Who are these? They said: These are the people who
+                    broke their fast before it was time."</p>
+                <span class="reminder-source" id="warningSource">— Sahih Ibn Khuzaymah</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="calendar-grid" id="calendarGrid">
+        <!-- JS will populate this -->
+    </div>
+
+    <!-- Debug Date Picker -->
+    <div class="debug-controls">
+        <label for="debugDate">Debug Date:</label>
+        <input type="date" id="debugDate">
+        <label for="debugTime">Debug Time:</label>
+        <input type="time" id="debugTime" step="1">
+        <button id="testNotifyBtn" style="margin-top: 0.5rem; cursor: pointer;">Test Notify (5s)</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
