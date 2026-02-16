@@ -36,6 +36,13 @@ body {
     overflow: hidden;
     white-space: nowrap;
     margin-bottom: 2rem;
+    display: flex;
+    /* Enable flex for seamless scrolling */
+}
+
+.marquee-content {
+    display: flex;
+    animation: scroll 20s linear infinite;
 }
 
 .marquee-text {
@@ -43,8 +50,7 @@ body {
     font-size: 1rem;
     text-transform: uppercase;
     padding: 0.5rem;
-    display: inline-block;
-    animation: scroll 20s linear infinite;
+    flex-shrink: 0;
 }
 
 @keyframes scroll {
@@ -59,11 +65,19 @@ body {
 
 .header-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    /* Match calendar grid columns for perfect alignment */
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
     margin-bottom: 3rem;
-    align-items: start;
+    align-items: stretch;
 }
+
+.header-left {
+    grid-column: span 2;
+    /* Reverted to 2 spans */
+}
+
+
 
 .header-title {
     font-size: clamp(3rem, 6vw, 5rem);
@@ -83,27 +97,48 @@ body {
 
 /* Quran/Hadith Section */
 .reminders-box {
+    grid-column: span 2;
+    /* Default span */
+    grid-column-end: -1;
+    /* Push to the right edge */
     border: var(--border-thick);
     padding: 1.5rem;
     background: white;
     box-shadow: var(--shadow-hard);
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* height: fit-content; */
     min-height: 300px;
-    /* Ensure space for transitions */
+    overflow: hidden;
+    /* Clip slide animations */
+}
+
+/* Medium Screens (e.g. Tablets) */
+@media (max-width: 1300px) and (min-width: 900px) {
+    .header-left {
+        grid-column: span 2;
+        /* 2 spans on medium screens as requested */
+    }
+
+    .reminders-box {
+        grid-column: span 2;
+        grid-column-end: -1;
+    }
+}
+
+/* Small Screens / Stack - adjusted breakpoint to 900px */
+@media (max-width: 900px) {
+
+    .header-left,
+    .reminders-box {
+        grid-column: 1 / -1;
+    }
 }
 
 .reminder-content-wrapper {
-    transition: opacity 0.5s ease, transform 0.5s ease;
     opacity: 1;
     transform: translateY(0);
-}
-
-.reminder-content-wrapper.fade-out {
-    opacity: 0;
-    transform: translateY(10px);
 }
 
 .reminder-title {
@@ -289,7 +324,6 @@ body {
 }
 
 /* --- Countdown Section --- */
-/* --- Countdown Section --- */
 .countdown-container {
     margin-top: 2.5rem;
     padding: 2rem;
@@ -304,8 +338,40 @@ body {
     transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
     position: relative;
     overflow: hidden;
-    /* Ensure z-index is managed for fullscreen */
     z-index: 100;
+}
+
+/* Reminder Animations */
+@keyframes slideUpIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUpOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+.slide-in {
+    animation: slideUpIn 0.5s forwards;
+}
+
+.slide-out {
+    animation: slideUpOut 0.5s forwards;
 }
 
 /* Fullscreen Mode State */

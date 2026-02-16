@@ -4,6 +4,39 @@ let warnings = [];
 let commandIndex = 0;
 let warningIndex = 0;
 
+// --- Date Display Logic ---
+function updateDateDisplay(referenceDate = null) {
+    const dateDisplay = document.getElementById('dateDisplay');
+    if (!dateDisplay) return;
+
+    // Use simulated offset if available, or just the provided date
+    const now = getSimulatedNow();
+
+    // Hijri Calculation (Est. Ramadan 1 1447 = Feb 19 2026)
+    const startOfRamadan = new Date('2026-02-19T00:00:00');
+    // Reset time components for accurate day diff
+    const nowDate = new Date(now);
+    nowDate.setHours(0, 0, 0, 0);
+
+    const diffTime = nowDate - startOfRamadan;
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)) + 1;
+
+    let hijriDate = "";
+    if (diffDays >= 1 && diffDays <= 30) {
+        hijriDate = `${diffDays} Ramadan 1447`;
+    } else if (diffDays < 1) {
+        hijriDate = "Sha'ban 1447";
+    } else {
+        hijriDate = "Shawwal 1447";
+    }
+
+    // Gregorian Format
+    const options = { weekday: 'long', day: 'numeric', month: 'short', year: 'numeric' };
+    const gregDate = now.toLocaleDateString('en-GB', options);
+
+    dateDisplay.textContent = `${hijriDate} // ${gregDate}`;
+}
+
 // --- Animation Logic ---
 function updateReminders() {
     if (commands.length === 0 || warnings.length === 0) return;
@@ -11,9 +44,11 @@ function updateReminders() {
     const commandWrapper = document.getElementById('commandWrapper');
     const warningWrapper = document.getElementById('warningWrapper');
 
-    // 1. Fade Out
-    commandWrapper.classList.add('fade-out');
-    warningWrapper.classList.add('fade-out');
+    // 1. Slide Out (Up)
+    commandWrapper.classList.remove('slide-in');
+    warningWrapper.classList.remove('slide-in');
+    commandWrapper.classList.add('slide-out');
+    warningWrapper.classList.add('slide-out');
 
     setTimeout(() => {
         // 2. Update Indices
@@ -27,9 +62,11 @@ function updateReminders() {
         document.getElementById('warningText').textContent = warnings[warningIndex].text;
         document.getElementById('warningSource').textContent = warnings[warningIndex].source;
 
-        // 4. Fade In
-        commandWrapper.classList.remove('fade-out');
-        warningWrapper.classList.remove('fade-out');
+        // 4. Slide In (from Bottom)
+        commandWrapper.classList.remove('slide-out');
+        warningWrapper.classList.remove('slide-out');
+        commandWrapper.classList.add('slide-in');
+        warningWrapper.classList.add('slide-in');
     }, 500); // Wait for CSS transition (0.5s) to finish
 }
 
@@ -163,6 +200,7 @@ function updateSimulatedOffset() {
     input.addEventListener('change', () => {
         updateSimulatedOffset();
         loadCalendar(debugDateInput.value);
+        updateDateDisplay();
     });
 });
 
@@ -279,19 +317,20 @@ function startCountdown() {
 // Initial Load
 loadCalendar(debugDateInput.value).then(() => {
     startCountdown();
+    updateDateDisplay();
 });
 
 // --- Test Notification Trigger ---
 document.getElementById('testNotifyBtn').addEventListener('click', () => {
     const btn = document.getElementById('testNotifyBtn');
     btn.disabled = true;
-    btn.textContent = "Triggering in 5s...";
+    btn.textContent = "Triggering in 3s...";
 
     setTimeout(() => {
-        sendNotification("Test Notification", "This is a 5-second test notification for the Ramadan Tracker.");
+        sendNotification("Test Notification", "This is a 3-second test notification for the Ramadan Tracker.");
         btn.disabled = false;
-        btn.textContent = "Test Notify (5s)";
-    }, 5000);
+        btn.textContent = "Test Notify (3s)";
+    }, 3000);
 });
 // --- Fullscreen Logic ---
 const fullscreenToggleBtn = document.getElementById('fullscreenToggle');
