@@ -42,14 +42,18 @@ body {
 
 .marquee-content {
     display: flex;
-    animation: scroll 20s linear infinite;
+    width: max-content;
+    /* Critical for dynamic width */
+    animation: scroll 30s linear infinite;
 }
 
 .marquee-text {
     font-family: 'Space Mono', monospace;
     font-size: 1rem;
     text-transform: uppercase;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
+    /* Vertical padding only */
+    white-space: nowrap;
     flex-shrink: 0;
 }
 
@@ -60,6 +64,7 @@ body {
 
     100% {
         transform: translateX(-50%);
+        /* Scroll exactly half to loop seamlessly */
     }
 }
 

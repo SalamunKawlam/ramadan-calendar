@@ -37,6 +37,40 @@ function updateDateDisplay(referenceDate = null) {
     dateDisplay.textContent = `${hijriDate} // ${gregDate}`;
 }
 
+// --- Marquee Logic ---
+function setupMarquee() {
+    const marqueeContent = document.getElementById('marqueeContent');
+    const marqueeText = marqueeContent.querySelector('.marquee-text');
+    if (!marqueeContent || !marqueeText) return;
+
+    // Clear existing duplicated content (if any, during resize)
+    const originalText = marqueeText.cloneNode(true);
+    marqueeContent.innerHTML = '';
+    marqueeContent.appendChild(originalText);
+
+    const viewportWidth = window.innerWidth;
+    let contentWidth = originalText.offsetWidth;
+
+    // Safety check for offsetWidth being 0 (e.g. if Hidden)
+    if (contentWidth === 0) contentWidth = 1000;
+
+    // Duplicate until we have enough width for a seamless scroll
+    // We need at least 2 * viewportWidth of content to translate -50% safely
+    const repeatCount = Math.ceil((viewportWidth * 2) / contentWidth);
+
+    // We want the total content to be perfectly halfable for the animation
+    // So we'll create a single strip, then duplicate THAT strip once.
+    for (let i = 1; i < repeatCount; i++) {
+        marqueeContent.appendChild(originalText.cloneNode(true));
+    }
+
+    // Now double the entire content to make the -50% translation seamless
+    const currentContent = marqueeContent.innerHTML;
+    marqueeContent.innerHTML = currentContent + currentContent;
+}
+
+window.addEventListener('resize', setupMarquee);
+
 // --- Animation Logic ---
 function updateReminders() {
     if (commands.length === 0 || warnings.length === 0) return;
@@ -165,8 +199,18 @@ async function loadCalendar(simulatedToday = null) {
 }
 
 // --- Debug Logic ---
+const debugContainer = document.querySelector('.debug-controls');
 const debugDateInput = document.getElementById('debugDate');
 const debugTimeInput = document.getElementById('debugTime');
+
+// Only show debug tools on local environments
+const isLocal = window.location.hostname === 'localhost' ||
+    window.location.hostname === '127.0.0.1' ||
+    window.location.hostname === ''; // For local file:// access
+
+if (!isLocal && debugContainer) {
+    debugContainer.style.display = 'none';
+}
 
 let simulatedOffset = 0; // ms difference from real time
 
@@ -318,6 +362,7 @@ function startCountdown() {
 loadCalendar(debugDateInput.value).then(() => {
     startCountdown();
     updateDateDisplay();
+    setupMarquee();
 });
 
 // --- Test Notification Trigger ---
