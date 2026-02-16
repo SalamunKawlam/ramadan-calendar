@@ -293,3 +293,37 @@ document.getElementById('testNotifyBtn').addEventListener('click', () => {
         btn.textContent = "Test Notify (5s)";
     }, 5000);
 });
+// --- Fullscreen Logic ---
+const fullscreenToggleBtn = document.getElementById('fullscreenToggle');
+const countdownContainer = document.getElementById('countdownDisplay');
+const iconExpand = document.querySelector('.icon-expand');
+const iconCollapse = document.querySelector('.icon-collapse');
+
+function toggleFullscreen() {
+    if (!document.fullscreenElement) {
+        countdownContainer.requestFullscreen().catch(err => {
+            console.error(`Error attempting to enable fullscreen: ${err.message}`);
+        });
+    } else {
+        document.exitFullscreen();
+    }
+}
+
+function updateFullscreenUI() {
+    if (document.fullscreenElement) {
+        countdownContainer.classList.add('fullscreen-active');
+        iconExpand.style.display = 'none';
+        iconCollapse.style.display = 'block';
+    } else {
+        countdownContainer.classList.remove('fullscreen-active');
+        iconExpand.style.display = 'block';
+        iconCollapse.style.display = 'none';
+
+        // Removed forced reflow hack to allow smooth CSS transition
+    }
+}
+
+if (fullscreenToggleBtn) {
+    fullscreenToggleBtn.addEventListener('click', toggleFullscreen);
+    document.addEventListener('fullscreenchange', updateFullscreenUI);
+}

@@ -289,24 +289,74 @@ body {
 }
 
 /* --- Countdown Section --- */
+/* --- Countdown Section --- */
 .countdown-container {
     margin-top: 2.5rem;
     padding: 2rem;
     border: var(--border-thick);
     background: var(--ink);
     color: var(--bg-color);
-    display: inline-flex;
+    display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: flex-start;
     box-shadow: 8px 8px 0px 0px var(--accent);
-    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
     position: relative;
     overflow: hidden;
+    /* Ensure z-index is managed for fullscreen */
+    z-index: 100;
+}
+
+/* Fullscreen Mode State */
+.countdown-container.fullscreen-active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
 }
 
 .countdown-container:hover {
     transform: translate(-4px, -4px);
     box-shadow: 12px 12px 0px 0px var(--accent-hover);
+}
+
+/* Disable hover effect in fullscreen */
+.countdown-container.fullscreen-active:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.fullscreen-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    color: var(--accent);
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    z-index: 10;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullscreen-btn:hover {
+    opacity: 1;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
 }
 
 .timer-label {
@@ -318,6 +368,14 @@ body {
     margin-bottom: 0.5rem;
     letter-spacing: 2px;
     z-index: 1;
+    transition: all 0.5s ease;
+}
+
+/* Scale label in fullscreen */
+.countdown-container.fullscreen-active .timer-label {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 4px;
 }
 
 .timer-value {
@@ -328,6 +386,14 @@ body {
     letter-spacing: -5px;
     color: white;
     z-index: 1;
+    transition: all 0.5s ease;
+}
+
+/* Scale timer in fullscreen */
+.countdown-container.fullscreen-active .timer-value {
+    font-size: clamp(6rem, 20vw, 15rem);
+    letter-spacing: -10px;
+    text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.4);
 }
 
 /* Response for smaller screens */
@@ -336,6 +402,12 @@ body {
         padding: 1.5rem;
         margin-top: 1.5rem;
         width: 100%;
+    }
+
+    /* Adjust fullscreen font sizes for mobile */
+    .countdown-container.fullscreen-active .timer-value {
+        font-size: 18vw;
+        letter-spacing: -5px;
     }
 
     .timer-value {
