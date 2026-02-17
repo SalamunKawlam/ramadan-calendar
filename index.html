@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="auto">
 
 <head>
     <meta charset="UTF-8">
@@ -87,13 +87,21 @@
         <!-- JS will populate this -->
     </div>
 
-    <!-- Debug Date Picker -->
-    <div class="debug-controls">
-        <label for="debugDate">Debug Date:</label>
-        <input type="date" id="debugDate">
-        <label for="debugTime">Debug Time:</label>
-        <input type="time" id="debugTime" step="1">
-        <button id="testNotifyBtn" style="margin-top: 0.5rem; cursor: pointer;">Test Notify (3s)</button>
+    <!-- Debug Controls -->
+    <div class="debug-panel" id="debugPanel">
+        <button class="debug-toggle" id="debugToggle" aria-label="Toggle Debug">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
+            </svg>
+        </button>
+        <div class="debug-controls" id="debugControls">
+            <label for="debugDate">Date:</label>
+            <input type="date" id="debugDate">
+            <label for="debugTime">Time:</label>
+            <input type="time" id="debugTime" step="1">
+            <button id="testNotifyBtn">Test Notify</button>
+        </div>
     </div>
     <!-- Floating Action Bar -->
     <div class="fab" id="fab">

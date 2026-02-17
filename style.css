@@ -10,6 +10,7 @@
     
     --border-color: var(--ink);
     --text-muted: #555;
+    --warning: #d32f2f;
     
     /* Toned down borders and shadows as requested */
     --border-thick: 1.5px solid var(--border-color);
@@ -23,11 +24,12 @@
     --bg-color: #121212;
     --surface: #1e1e1e;
     --ink: #f4f3ef;
-    --accent: #bd93f9;
-    --shadow-hard: 2px 2px 0px 0px rgba(255, 255, 255, 0.1);
-    --shadow-hover: 1px 1px 0px 0px rgba(255, 255, 255, 0.05);
+    --accent: #9b6fd9;
+    --shadow-hard: 3px 3px 0px 0px rgba(255, 255, 255, 0.2);
+    --shadow-hover: 1px 1px 0px 0px rgba(255, 255, 255, 0.1);
     --border-color: #2a2a2a;
     --text-muted: #aaa;
+    --warning: #ff5555;
 }
 
 /* Auto mode: follow system preference */
@@ -36,11 +38,12 @@
         --bg-color: #121212;
         --surface: #1e1e1e;
         --ink: #f4f3ef;
-        --accent: #bd93f9;
-        --shadow-hard: 2px 2px 0px 0px rgba(255, 255, 255, 0.1);
-        --shadow-hover: 1px 1px 0px 0px rgba(255, 255, 255, 0.05);
+        --accent: #9b6fd9;
+        --shadow-hard: 3px 3px 0px 0px rgba(255, 255, 255, 0.2);
+        --shadow-hover: 1px 1px 0px 0px rgba(255, 255, 255, 0.1);
         --border-color: #2a2a2a;
         --text-muted: #aaa;
+        --warning: #ff5555;
     }
 }
 
@@ -193,7 +196,7 @@ body {
 }
 
 .reminder-title.warning {
-    background: #ff5555;
+    background: var(--warning);
     color: white;
 }
 
@@ -334,37 +337,94 @@ body {
     }
 }
 
-/* --- Debug Controls --- */
-.debug-controls {
+/* --- Debug Panel (Collapsible) --- */
+.debug-panel {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    background: var(--ink);
-    color: var(--bg-color);
-    padding: 1rem;
-    border: 2px solid var(--accent);
-    box-shadow: var(--shadow-hard);
+    bottom: 1.5rem;
+    left: 1.5rem;
     z-index: 1000;
     font-family: 'Space Mono', monospace;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: flex-start;
     gap: 0.5rem;
 }
 
+.debug-toggle {
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    border: 1.5px solid var(--border-color);
+    background: var(--surface);
+    color: var(--ink);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-hard);
+    transition: all 0.2s ease;
+    opacity: 0.5;
+}
+
+.debug-toggle:hover {
+    opacity: 1;
+    transform: translate(1px, 1px);
+    box-shadow: var(--shadow-hover);
+}
+
+.debug-panel.open .debug-toggle {
+    opacity: 1;
+    background: var(--ink);
+    color: var(--bg-color);
+}
+
+.debug-controls {
+    display: none;
+    background: var(--surface);
+    color: var(--ink);
+    padding: 0.75rem;
+    border: 1.5px solid var(--border-color);
+    border-radius: 0;
+    box-shadow: var(--shadow-hard);
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.7rem;
+}
+
+.debug-panel.open .debug-controls {
+    display: flex;
+}
+
 .debug-controls label {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
     text-transform: uppercase;
     font-weight: 700;
 }
 
 .debug-controls input {
     background: var(--bg-color);
-    border: none;
-    padding: 0.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 0.3rem 0.4rem;
     font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
     font-weight: 700;
     cursor: pointer;
     color: var(--ink);
+}
+
+.debug-controls button {
+    background: var(--ink);
+    color: var(--bg-color);
+    border: none;
+    border-radius: 4px;
+    padding: 0.3rem 0.5rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 0.25rem;
 }
 
 /* --- Countdown Section --- */
@@ -464,9 +524,8 @@ body {
 
 .fullscreen-btn:hover {
     opacity: 1;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
+    color: var(--bg-color);
+    background: rgba(128, 128, 128, 0.25);
 }
 
 .timer-label {
@@ -502,7 +561,7 @@ body {
 .timer-subtext {
     font-family: 'Space Mono', monospace;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--bg-color);
     opacity: 0.6;
     margin-top: 1rem;
@@ -514,7 +573,7 @@ body {
 .countdown-container.fullscreen-active .timer-subtext {
     font-size: 1.5rem;
     margin-top: 2rem;
-    opacity: 0.8;
+    opacity: 0.4;
 }
 
 /* Scale timer in fullscreen */
@@ -546,8 +605,87 @@ body {
         letter-spacing: -2px;
     }
 
+    .countdown-container.fullscreen-active .timer-subtext {
+        font-size: clamp(0.7rem, 3vw, 1rem);
+        margin-top: 1rem;
+    }
+
     .timer-value {
         font-size: 3.5rem;
         letter-spacing: -2px;
     }
+}
+
+/* --- Floating Action Bar --- */
+.fab {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    z-index: 999;
+    font-family: 'Space Mono', monospace;
+}
+
+.fab-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    border: 1.5px solid var(--border-color);
+    background: var(--surface);
+    color: var(--ink);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-hard);
+    transition: all 0.2s ease;
+}
+
+.fab-btn:hover {
+    transform: translate(1px, 1px);
+    box-shadow: var(--shadow-hover);
+}
+
+.theme-switcher {
+    display: flex;
+    border: 1.5px solid var(--border-color);
+    border-radius: 0;
+    overflow: hidden;
+    background: var(--surface);
+    box-shadow: var(--shadow-hard);
+}
+
+.theme-btn {
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.theme-btn:not(:last-child) {
+    border-right: 1px solid var(--border-color);
+}
+
+.theme-btn.active {
+    background: var(--ink);
+    color: var(--bg-color);
+}
+
+.theme-btn:hover:not(.active) {
+    background: var(--border-color);
+    color: var(--ink);
+}
+
+/* Hide FAB in fullscreen */
+.countdown-container.fullscreen-active ~ .fab {
+    display: none;
 }

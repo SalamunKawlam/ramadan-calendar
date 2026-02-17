@@ -395,13 +395,27 @@ loadCalendar(debugDateInput.value).then(() => {
 document.getElementById('testNotifyBtn').addEventListener('click', () => {
     const btn = document.getElementById('testNotifyBtn');
     btn.disabled = true;
-    btn.textContent = "Triggering in 3s...";
+    let count = 3;
+    btn.textContent = count;
 
-    setTimeout(() => {
-        sendNotification("Test Notification", "This is a 3-second test notification for the Ramadan Tracker.");
-        btn.disabled = false;
-        btn.textContent = "Test Notify (3s)";
-    }, 3000);
+    const interval = setInterval(() => {
+        count--;
+        if (count > 0) {
+            btn.textContent = count;
+        } else {
+            clearInterval(interval);
+            const messages = [
+                { title: "Sehri Ending Soon", body: "Sehri ends in 15 minutes. Finish eating and prepare for Fajr." },
+                { title: "Sehri Alert", body: "Only 5 minutes left for Sehri. Stop eating before the Adhan." },
+                { title: "Iftar in 10 Minutes", body: "Iftar is almost here. Prepare to break your fast." },
+                { title: "It's Iftar Time!", body: "Allahumma laka sumtu wa ala rizqika aftartu — break your fast now." },
+            ];
+            const msg = messages[Math.floor(Math.random() * messages.length)];
+            sendNotification(msg.title, msg.body);
+            btn.disabled = false;
+            btn.textContent = "Test Notify";
+        }
+    }, 1000);
 });
 // --- Fullscreen Logic ---
 const fullscreenToggleBtn = document.getElementById('fullscreenToggle');
@@ -433,10 +447,13 @@ function updateFullscreenUI() {
         iconExpand.style.display = 'block';
         iconCollapse.style.display = 'none';
 
-        // Restore status bar color based on preference
+        // Restore status bar color based on theme preference
         if (themeColorTag) {
-            const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-            themeColorTag.content = isDarkMode ? "#121212" : "#f4f3ef";
+            const theme = document.documentElement.dataset.theme || 'auto';
+            let isDark = false;
+            if (theme === 'dark') isDark = true;
+            else if (theme === 'auto') isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            themeColorTag.content = isDark ? "#121212" : "#f4f3ef";
         }
     }
 }
@@ -446,29 +463,98 @@ if (fullscreenToggleBtn) {
     document.addEventListener('fullscreenchange', updateFullscreenUI);
 }
 
-// Initial Theme Color Setup
-function initThemeColor() {
+// --- Debug Panel Toggle ---
+const debugToggle = document.getElementById('debugToggle');
+const debugPanel = document.getElementById('debugPanel');
+if (debugToggle && debugPanel) {
+    debugToggle.addEventListener('click', () => {
+        debugPanel.classList.toggle('open');
+    });
+}
+
+// --- Theme Switcher ---
+function initThemeSwitcher() {
     const themeColorTag = document.getElementById('theme-color-tag');
-    if (!themeColorTag) return;
+    const themeBtns = document.querySelectorAll('.theme-btn');
+    const htmlEl = document.documentElement;
 
-    const updateColor = () => {
-        if (!document.fullscreenElement) {
-            const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-            themeColorTag.content = isDarkMode ? "#121212" : "#f4f3ef";
-        }
-    };
+    // Restore saved preference
+    const saved = localStorage.getItem('theme-preference') || 'auto';
+    applyTheme(saved);
 
-    // Set initial color
-    updateColor();
+    // Button click handlers
+    themeBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const value = btn.dataset.themeValue;
+            localStorage.setItem('theme-preference', value);
+            applyTheme(value);
+        });
+    });
 
-    // Listen for system theme changes
+    // Listen for system theme changes (for auto mode)
     if (window.matchMedia) {
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateColor);
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+            if (htmlEl.dataset.theme === 'auto') {
+                updateThemeColorMeta();
+            }
+        });
+    }
+
+    function applyTheme(value) {
+        htmlEl.dataset.theme = value;
+
+        // Update active button
+        themeBtns.forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.themeValue === value);
+        });
+
+        updateThemeColorMeta();
+    }
+
+    function updateThemeColorMeta() {
+        if (!themeColorTag || document.fullscreenElement) return;
+
+        const theme = htmlEl.dataset.theme;
+        let isDark = false;
+
+        if (theme === 'dark') {
+            isDark = true;
+        } else if (theme === 'auto') {
+            isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        }
+
+        themeColorTag.content = isDark ? "#121212" : "#f4f3ef";
     }
 }
 
-// Call init functionality
-initThemeColor();
+initThemeSwitcher();
+
+// --- PWA Install ---
+let deferredPrompt = null;
+const installBtn = document.getElementById('installBtn');
+
+window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    if (installBtn) installBtn.style.display = 'flex';
+});
+
+if (installBtn) {
+    installBtn.addEventListener('click', async () => {
+        if (!deferredPrompt) return;
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        if (outcome === 'accepted') {
+            installBtn.style.display = 'none';
+        }
+        deferredPrompt = null;
+    });
+}
+
+window.addEventListener('appinstalled', () => {
+    if (installBtn) installBtn.style.display = 'none';
+    deferredPrompt = null;
+});
 
 // --- PWA Service Worker Registration ---
 if ('serviceWorker' in navigator) {
