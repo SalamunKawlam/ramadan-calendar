@@ -463,13 +463,19 @@ if (fullscreenToggleBtn) {
     document.addEventListener('fullscreenchange', updateFullscreenUI);
 }
 
-// --- Debug Panel Toggle ---
+// --- Debug Panel Toggle (local dev only) ---
 const debugToggle = document.getElementById('debugToggle');
 const debugPanel = document.getElementById('debugPanel');
-if (debugToggle && debugPanel) {
-    debugToggle.addEventListener('click', () => {
-        debugPanel.classList.toggle('open');
-    });
+const isLocalDev = ['localhost', '127.0.0.1', ''].includes(location.hostname);
+
+if (debugPanel) {
+    if (!isLocalDev) {
+        debugPanel.style.display = 'none';
+    } else if (debugToggle) {
+        debugToggle.addEventListener('click', () => {
+            debugPanel.classList.toggle('open');
+        });
+    }
 }
 
 // --- Theme Switcher ---
