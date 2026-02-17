@@ -462,6 +462,24 @@ body {
     transition: all 0.5s ease;
 }
 
+.timer-subtext {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--bg-color);
+    opacity: 0.6;
+    margin-top: 1rem;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+}
+
+/* Fullscreen adjustments for subtext */
+.countdown-container.fullscreen-active .timer-subtext {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    opacity: 0.8;
+}
+
 /* Scale timer in fullscreen */
 .countdown-container.fullscreen-active .timer-value {
     font-size: clamp(6rem, 20vw, 15rem);

@@ -296,6 +296,7 @@ function startCountdown() {
 
     const timerLabel = document.getElementById('timerLabel');
     const timerValue = document.getElementById('timerValue');
+    const timerSubtext = document.getElementById('timerSubtext');
 
     countdownInterval = setInterval(() => {
         if (!cachedData) return;
@@ -317,25 +318,35 @@ function startCountdown() {
         let targetDate = null;
         let targetLabel = "";
         let eventType = "";
+        let currentDayData = null;
 
+        // Find current or upcoming day data
         for (let i = 0; i < cachedData.length; i++) {
             const item = cachedData[i];
             const sehriTime = parseTime(item.date, item.sehri);
             const iftarTime = parseTime(item.date, item.iftar);
 
-            if (now < sehriTime) {
-                targetDate = sehriTime;
-                targetLabel = `SEHRI ENDS (Day ${item.day})`;
-                eventType = "Sehri";
-                break;
-            }
-
+            // If we are before sehri or before iftar of this day, it's the current active day
             if (now < iftarTime) {
-                targetDate = iftarTime;
-                targetLabel = `IFTAR TIME (Day ${item.day})`;
-                eventType = "Iftar";
+                currentDayData = item;
+                if (now < sehriTime) {
+                    targetDate = sehriTime;
+                    targetLabel = `SEHRI ENDS (Day ${item.day})`;
+                    eventType = "Sehri";
+                } else {
+                    targetDate = iftarTime;
+                    targetLabel = `IFTAR TIME (Day ${item.day})`;
+                    eventType = "Iftar";
+                }
                 break;
             }
+        }
+
+        // Display current day's Sehri/Iftar context
+        if (currentDayData && timerSubtext) {
+            timerSubtext.textContent = `Sehri: ${currentDayData.sehri} // Iftar: ${currentDayData.iftar}`;
+        } else if (timerSubtext) {
+            timerSubtext.textContent = "";
         }
 
         if (!targetDate) {
