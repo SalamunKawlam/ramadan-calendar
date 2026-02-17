@@ -1,16 +1,47 @@
 :root {
     --bg-color: #f4f3ef;
     /* Off-white paper */
+    --surface: #ffffff;
     --ink: #1a1a1a;
     --accent: #bd93f9;
     /* Acid Purple */
     --accent-hover: #ff79c6;
     /* Hot Pink */
+    
+    --border-color: var(--ink);
+    --text-muted: #555;
+    
     /* Toned down borders and shadows as requested */
-    --border-thick: 1.5px solid var(--ink);
-    --border-thin: 1px solid var(--ink);
+    --border-thick: 1.5px solid var(--border-color);
+    --border-thin: 1px solid var(--border-color);
     --shadow-hard: 3px 3px 0px 0px var(--ink);
     --shadow-hover: 1px 1px 0px 0px var(--ink);
+}
+
+/* Explicit dark mode */
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --surface: #1e1e1e;
+    --ink: #f4f3ef;
+    --accent: #bd93f9;
+    --shadow-hard: 2px 2px 0px 0px rgba(255, 255, 255, 0.1);
+    --shadow-hover: 1px 1px 0px 0px rgba(255, 255, 255, 0.05);
+    --border-color: #2a2a2a;
+    --text-muted: #aaa;
+}
+
+/* Auto mode: follow system preference */
+@media (prefers-color-scheme: dark) {
+    [data-theme="auto"] {
+        --bg-color: #121212;
+        --surface: #1e1e1e;
+        --ink: #f4f3ef;
+        --accent: #bd93f9;
+        --shadow-hard: 2px 2px 0px 0px rgba(255, 255, 255, 0.1);
+        --shadow-hover: 1px 1px 0px 0px rgba(255, 255, 255, 0.05);
+        --border-color: #2a2a2a;
+        --text-muted: #aaa;
+    }
 }
 
 * {
@@ -108,7 +139,7 @@ body {
     /* Push to the right edge */
     border: var(--border-thick);
     padding: 1.5rem;
-    background: white;
+    background: var(--surface);
     box-shadow: var(--shadow-hard);
     display: flex;
     flex-direction: column;
@@ -155,10 +186,15 @@ body {
     font-size: 0.85rem;
     margin-bottom: 0.75rem;
     background: var(--ink);
-    color: white;
+    color: var(--bg-color);
     display: inline-block;
     padding: 0.2rem 0.5rem;
     align-self: flex-start;
+}
+
+.reminder-title.warning {
+    background: #ff5555;
+    color: white;
 }
 
 .reminder-text {
@@ -173,7 +209,7 @@ body {
 .reminder-source {
     font-family: 'Space Mono', monospace;
     font-size: 0.8rem;
-    color: #555;
+    color: var(--text-muted);
     text-align: right;
     display: block;
     font-style: italic;
@@ -196,7 +232,7 @@ body {
 
 /* --- Day Card --- */
 .day-card {
-    background: white;
+    background: var(--surface);
     border: var(--border-thick);
     box-shadow: var(--shadow-hard);
     transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -241,7 +277,7 @@ body {
 
 .ramadan-day {
     background: var(--ink);
-    color: white;
+    color: var(--bg-color);
     padding: 0.1rem 0.4rem;
 }
 
@@ -328,6 +364,7 @@ body {
     font-family: 'Space Mono', monospace;
     font-weight: 700;
     cursor: pointer;
+    color: var(--ink);
 }
 
 /* --- Countdown Section --- */
@@ -457,7 +494,7 @@ body {
     font-weight: 700;
     line-height: 0.9;
     letter-spacing: -5px;
-    color: white;
+    color: var(--bg-color);
     z-index: 1;
     transition: all 0.5s ease;
 }

@@ -436,7 +436,7 @@ function updateFullscreenUI() {
         // Restore status bar color based on preference
         if (themeColorTag) {
             const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-            themeColorTag.content = isDarkMode ? "#1a1a1a" : "#f4f3ef";
+            themeColorTag.content = isDarkMode ? "#121212" : "#f4f3ef";
         }
     }
 }
@@ -445,6 +445,30 @@ if (fullscreenToggleBtn) {
     fullscreenToggleBtn.addEventListener('click', toggleFullscreen);
     document.addEventListener('fullscreenchange', updateFullscreenUI);
 }
+
+// Initial Theme Color Setup
+function initThemeColor() {
+    const themeColorTag = document.getElementById('theme-color-tag');
+    if (!themeColorTag) return;
+
+    const updateColor = () => {
+        if (!document.fullscreenElement) {
+            const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            themeColorTag.content = isDarkMode ? "#121212" : "#f4f3ef";
+        }
+    };
+
+    // Set initial color
+    updateColor();
+
+    // Listen for system theme changes
+    if (window.matchMedia) {
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateColor);
+    }
+}
+
+// Call init functionality
+initThemeColor();
 
 // --- PWA Service Worker Registration ---
 if ('serviceWorker' in navigator) {
