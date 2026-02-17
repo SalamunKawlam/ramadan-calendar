@@ -114,7 +114,9 @@ body {
     flex-direction: column;
     justify-content: start;
     /* height: fit-content; */
-    min-height: 300px;
+    min-height: 250px;
+    height: auto;
+    transition: height 0.6s cubic-bezier(0.19, 1, 0.22, 1);
     overflow: hidden;
     /* Clip slide animations */
 }

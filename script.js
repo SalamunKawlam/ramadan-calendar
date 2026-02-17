@@ -75,28 +75,43 @@ window.addEventListener('resize', setupMarquee);
 function updateReminders() {
     if (commands.length === 0 || warnings.length === 0) return;
 
+    const remindersBox = document.querySelector('.reminders-box');
     const commandWrapper = document.getElementById('commandWrapper');
     const warningWrapper = document.getElementById('warningWrapper');
 
-    // 1. Slide Out (Up)
+    // 1. Capture Current Height
+    const currentHeight = remindersBox.offsetHeight;
+    remindersBox.style.height = `${currentHeight}px`;
+
+    // 2. Slide Out (Up)
     commandWrapper.classList.remove('slide-in');
     warningWrapper.classList.remove('slide-in');
     commandWrapper.classList.add('slide-out');
     warningWrapper.classList.add('slide-out');
 
     setTimeout(() => {
-        // 2. Update Indices
+        // 3. Update Indices
         commandIndex = (commandIndex + 1) % commands.length;
         warningIndex = (warningIndex + 1) % warnings.length;
 
-        // 3. Update Text Content
+        // 4. Update Text Content
         document.getElementById('commandText').textContent = commands[commandIndex].text;
         document.getElementById('commandSource').textContent = commands[commandIndex].source;
 
         document.getElementById('warningText').textContent = warnings[warningIndex].text;
         document.getElementById('warningSource').textContent = warnings[warningIndex].source;
 
-        // 4. Slide In (from Bottom)
+        // 5. Measure New Height
+        remindersBox.style.height = 'auto';
+        const newHeight = remindersBox.scrollHeight;
+        remindersBox.style.height = `${currentHeight}px`; // Force back to transition from
+
+        // Force a reflow
+        remindersBox.offsetHeight;
+
+        // 6. Apply New Height & Slide In
+        remindersBox.style.height = `${newHeight}px`;
+
         commandWrapper.classList.remove('slide-out');
         warningWrapper.classList.remove('slide-out');
         commandWrapper.classList.add('slide-in');
