@@ -476,9 +476,17 @@ body {
     }
 
     /* Adjust fullscreen font sizes for mobile */
+    .countdown-container.fullscreen-active .timer-label {
+        font-size: clamp(0.8rem, 4vw, 1.2rem);
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
     .countdown-container.fullscreen-active .timer-value {
-        font-size: 18vw;
-        letter-spacing: -5px;
+        font-size: clamp(3rem, 15vw, 8rem);
+        letter-spacing: -2px;
     }
 
     .timer-value {

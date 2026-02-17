@@ -394,16 +394,24 @@ function toggleFullscreen() {
 }
 
 function updateFullscreenUI() {
+    const themeColorTag = document.getElementById('theme-color-tag');
     if (document.fullscreenElement) {
         countdownContainer.classList.add('fullscreen-active');
         iconExpand.style.display = 'none';
         iconCollapse.style.display = 'block';
+
+        // Set status bar to black in fullscreen
+        if (themeColorTag) themeColorTag.content = "#1a1a1a";
     } else {
         countdownContainer.classList.remove('fullscreen-active');
         iconExpand.style.display = 'block';
         iconCollapse.style.display = 'none';
 
-        // Removed forced reflow hack to allow smooth CSS transition
+        // Restore status bar color based on preference
+        if (themeColorTag) {
+            const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            themeColorTag.content = isDarkMode ? "#1a1a1a" : "#f4f3ef";
+        }
     }
 }
 
