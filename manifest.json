@@ -1,0 +1,22 @@
+{
+  "name": "Ramadan Calendar",
+  "short_name": "Ramadan26",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f4f3ef",
+  "theme_color": "#1a1a1a",
+  "description": "A brutalist-style Ramadan, Sehi & Iftar tracker.",
+  "icons": [
+    {
+      "src": "media/tinted_ramadan calendar icon_light.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "media/tinted_ramadan calendar icon_dark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "monochrome"
+    }
+  ]
+}

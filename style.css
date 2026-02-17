@@ -112,7 +112,7 @@ body {
     box-shadow: var(--shadow-hard);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     /* height: fit-content; */
     min-height: 300px;
     overflow: hidden;
