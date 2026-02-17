@@ -606,13 +606,17 @@ body {
     }
 
     .countdown-container.fullscreen-active .timer-subtext {
-        font-size: clamp(0.7rem, 3vw, 1rem);
-        margin-top: 1rem;
+        font-size: clamp(0.55rem, 2.5vw, 0.85rem);
+        margin-top: 0.75rem;
     }
 
     .timer-value {
         font-size: 3.5rem;
         letter-spacing: -2px;
+    }
+
+    .timer-subtext {
+        font-size: 0.75rem;
     }
 }
 
