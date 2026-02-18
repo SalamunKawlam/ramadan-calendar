@@ -554,6 +554,7 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: none;
+    background: var(--bg-color); /* Match theme */
 }
 
 .countdown-container:hover {
@@ -635,14 +636,16 @@ body {
 .countdown-container.fullscreen-active .timer-subtext {
     font-size: 1.5rem;
     margin-top: 2rem;
-    opacity: 0.4;
+    opacity: 0.6;
+    color: var(--ink); /* Match theme text */
 }
 
 /* Scale timer in fullscreen */
 .countdown-container.fullscreen-active .timer-value {
     font-size: clamp(6rem, 20vw, 15rem);
     letter-spacing: -10px;
-    text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.4);
+    text-shadow: none; /* Removed harsh shadow */
+    color: var(--ink); /* Match theme text */
 }
 
 /* Response for smaller screens */
