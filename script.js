@@ -146,6 +146,10 @@ loadReminders();
 const grid = document.getElementById('calendarGrid');
 let cachedData = null; // Store data to avoid re-fetching
 
+function getSelectedDistrict() {
+    return localStorage.getItem('selected-district') || 'Dhaka';
+}
+
 async function loadCalendar(simulatedToday = null) {
     try {
         if (!cachedData) {
@@ -153,7 +157,8 @@ async function loadCalendar(simulatedToday = null) {
             cachedData = await response.json();
         }
 
-        const data = cachedData;
+        const district = getSelectedDistrict();
+        const data = cachedData[district] || cachedData['Dhaka'];
         let htmlContent = '';
 
         // Use simulated date if provided, otherwise real today
@@ -166,11 +171,12 @@ async function loadCalendar(simulatedToday = null) {
             const itemDate = new Date(dateStr);
             itemDate.setHours(0, 0, 0, 0);
 
-            // Formatter for Date: "19 February" -> "FEB 19"
+            // Formatter for Date: "19 February" -> "FEB 19 | Thu"
             const parts = item.date.split(' ');
             const dayPart = parts[0];
             const monthPart = parts[1].substring(0, 3).toUpperCase();
-            const displayDate = `${monthPart} ${dayPart}`;
+            const dayOfWeek = itemDate.toLocaleDateString('en-US', { weekday: 'short' }).toUpperCase();
+            const displayDate = `${monthPart} ${dayPart} <span class="date-separator">|</span> <span class="day-name">${dayOfWeek}</span>`;
 
             // Formatter for Time: "5:12 AM" -> "5:12<span class="ampm">AM</span>"
             const formatTimeStr = (t) => {
@@ -212,6 +218,21 @@ async function loadCalendar(simulatedToday = null) {
         grid.innerHTML = '<p style="text-align:center; padding: 2rem;">Error loading calendar data. Please ensure you are running this on a local server (e.g., Live Server).</p>';
     }
 }
+
+// --- District Selector ---
+(function initDistrictSelector() {
+    const selector = document.getElementById('districtSelector');
+    if (!selector) return;
+
+    // Load saved district
+    selector.value = getSelectedDistrict();
+
+    selector.addEventListener('change', () => {
+        localStorage.setItem('selected-district', selector.value);
+        cachedData && loadCalendar(); // re-render with new district
+        startCountdown();             // restart countdown for new times
+    });
+})();
 
 // --- Debug Logic ---
 const debugContainer = document.querySelector('.debug-controls');
@@ -301,6 +322,8 @@ function startCountdown() {
     countdownInterval = setInterval(() => {
         if (!cachedData) return;
 
+        const districtData = cachedData[getSelectedDistrict()] || cachedData['Dhaka'];
+
         const now = getSimulatedNow();
 
         const parseTime = (dateStr, timeStr) => {
@@ -321,8 +344,8 @@ function startCountdown() {
         let currentDayData = null;
 
         // Find current or upcoming day data
-        for (let i = 0; i < cachedData.length; i++) {
-            const item = cachedData[i];
+        for (let i = 0; i < districtData.length; i++) {
+            const item = districtData[i];
             const sehriTime = parseTime(item.date, item.sehri);
             const iftarTime = parseTime(item.date, item.iftar);
 
@@ -350,7 +373,7 @@ function startCountdown() {
         }
 
         if (!targetDate) {
-            const firstDay = parseTime(cachedData[0].date, cachedData[0].sehri);
+            const firstDay = parseTime(districtData[0].date, districtData[0].sehri);
             if (now < firstDay) {
                 targetDate = firstDay;
                 targetLabel = "RAMADAN STARTS IN";
@@ -361,15 +384,20 @@ function startCountdown() {
             }
         }
 
-        // --- Notification Check (10 mins = 600,000ms) ---
+        // --- Notification Check (respects user preferences) ---
         const diff = targetDate - now;
-        const tenMinutes = 10 * 60 * 1000;
+        const notifPrefs = getNotificationPreferences();
+        const minutesBefore = notifPrefs.minutesBefore * 60 * 1000;
         const eventId = `${targetDate.getTime()}`;
 
-        if (diff <= tenMinutes && diff > 0 && !notifiedEvents.has(eventId)) {
+        const sehriEnabled = notifPrefs.sehri;
+        const iftarEnabled = notifPrefs.iftar;
+        const shouldNotify = (eventType === "Sehri" && sehriEnabled) || (eventType === "Iftar" && iftarEnabled);
+
+        if (shouldNotify && diff <= minutesBefore && diff > 0 && !notifiedEvents.has(eventId)) {
             const message = eventType === "Sehri"
-                ? "Sehri is ending in 10 minutes!"
-                : "Iftar is in 10 minutes!";
+                ? `Sehri is ending in ${notifPrefs.minutesBefore} minutes!`
+                : `Iftar is in ${notifPrefs.minutesBefore} minutes!`;
             sendNotification(`Ramadan Tracker: ${eventType} Warning`, message);
             notifiedEvents.add(eventId);
         }
@@ -574,3 +602,76 @@ if ('serviceWorker' in navigator) {
             });
     });
 }
+
+// --- Notification Preferences ---
+function getNotificationPreferences() {
+    return {
+        sehri: localStorage.getItem('notif-sehri') !== 'false',
+        iftar: localStorage.getItem('notif-iftar') !== 'false',
+        minutesBefore: parseInt(localStorage.getItem('notif-minutes-before') || '10', 10)
+    };
+}
+
+function saveNotificationPreferences(sehri, iftar, minutesBefore) {
+    localStorage.setItem('notif-sehri', sehri);
+    localStorage.setItem('notif-iftar', iftar);
+    localStorage.setItem('notif-minutes-before', minutesBefore);
+}
+
+// --- Notification Modal Logic ---
+(function initNotifModal() {
+    const overlay = document.getElementById('notifModalOverlay');
+    const openBtn = document.getElementById('notifSettingsBtn');
+    const closeBtn = document.getElementById('notifModalClose');
+    const saveBtn = document.getElementById('notifSaveBtn');
+    const sehriToggle = document.getElementById('notifSehriToggle');
+    const iftarToggle = document.getElementById('notifIftarToggle');
+    const minutesInput = document.getElementById('notifMinutesBefore');
+    const sliderValue = document.getElementById('notifSliderValue');
+
+    if (!overlay || !openBtn) return;
+
+    function updateSliderLabel() {
+        sliderValue.textContent = `${minutesInput.value} min`;
+    }
+
+    minutesInput.addEventListener('input', updateSliderLabel);
+
+    function openModal() {
+        // Load current preferences into the form
+        const prefs = getNotificationPreferences();
+        sehriToggle.checked = prefs.sehri;
+        iftarToggle.checked = prefs.iftar;
+        minutesInput.value = prefs.minutesBefore;
+        updateSliderLabel();
+        overlay.classList.add('active');
+    }
+
+    function closeModal() {
+        overlay.classList.remove('active');
+    }
+
+    openBtn.addEventListener('click', openModal);
+    closeBtn.addEventListener('click', closeModal);
+
+    // Close on backdrop click
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) closeModal();
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && overlay.classList.contains('active')) closeModal();
+    });
+
+    // Save
+    saveBtn.addEventListener('click', () => {
+        const mins = Math.max(1, Math.min(60, parseInt(minutesInput.value) || 10));
+        saveNotificationPreferences(sehriToggle.checked, iftarToggle.checked, mins);
+        // Also request permission if enabling notifications for the first time
+        if (sehriToggle.checked || iftarToggle.checked) {
+            requestNotificationPermission();
+        }
+        closeModal();
+    });
+})();

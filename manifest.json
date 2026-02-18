@@ -2,14 +2,14 @@
   "name": "Ramadan Calendar 2026",
   "short_name": "Ramadan Calendar 2026",
   "start_url": ".",
-  "display": "fullscreen",
+  "display": "standalone",
   "background_color": "#f4f3ef",
-  "theme_color": "#1a1a1a",
+  "theme_color": "#f4f3ef",
   "description": "A brutalist-style Ramadan, Sehi & Iftar tracker.",
   "icons": [
     {
       "src": "media/ramadan_calendar_app_icon_light.svg",
-      "sizes": "any",
+      "sizes": "any maskable",
       "type": "image/svg+xml"
     }
   ]
