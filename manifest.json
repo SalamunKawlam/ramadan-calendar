@@ -8,9 +8,9 @@
   "description": "A brutalist-style Ramadan, Sehi & Iftar tracker.",
   "icons": [
     {
-      "src": "media/ramadan_calendar_app_icon_light.svg",
+      "src": "media/ramadan_calendar_app_icon.png",
       "sizes": "any maskable",
-      "type": "image/svg+xml"
+      "type": "image/png"
     }
   ]
 }
