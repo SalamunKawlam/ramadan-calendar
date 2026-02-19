@@ -591,6 +591,18 @@ body {
     background: rgba(128, 128, 128, 0.25);
 }
 
+/* Fullscreen-specific collapse button overrides */
+.countdown-container.fullscreen-active .fullscreen-btn {
+    color: var(--ink);
+    opacity: 0.5;
+}
+
+.countdown-container.fullscreen-active .fullscreen-btn:hover {
+    color: var(--ink);
+    background: rgba(128, 128, 128, 0.15);
+    opacity: 1;
+}
+
 .timer-label {
     font-family: 'Space Mono', monospace;
     font-size: 0.8rem;

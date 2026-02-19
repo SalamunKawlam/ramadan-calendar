@@ -318,8 +318,10 @@ function startCountdown() {
     const timerLabel = document.getElementById('timerLabel');
     const timerValue = document.getElementById('timerValue');
     const timerSubtext = document.getElementById('timerSubtext');
+    let lastLabel = null;
+    let lastSubtext = null;
 
-    countdownInterval = setInterval(() => {
+    function tick() {
         if (!cachedData) return;
 
         const districtData = cachedData[getSelectedDistrict()] || cachedData['Dhaka'];
@@ -365,11 +367,11 @@ function startCountdown() {
             }
         }
 
-        // Display current day's Sehri/Iftar context
-        if (currentDayData && timerSubtext) {
-            timerSubtext.textContent = `Sehri: ${currentDayData.sehri} // Iftar: ${currentDayData.iftar}`;
-        } else if (timerSubtext) {
-            timerSubtext.textContent = "";
+        // Display current day's Sehri/Iftar context (only update DOM when changed)
+        const newSubtext = currentDayData ? `Sehri: ${currentDayData.sehri} // Iftar: ${currentDayData.iftar}` : "";
+        if (timerSubtext && newSubtext !== lastSubtext) {
+            timerSubtext.textContent = newSubtext;
+            lastSubtext = newSubtext;
         }
 
         if (!targetDate) {
@@ -378,7 +380,10 @@ function startCountdown() {
                 targetDate = firstDay;
                 targetLabel = "RAMADAN STARTS IN";
             } else {
-                timerLabel.textContent = "EID MUBARAK";
+                if (lastLabel !== "EID MUBARAK") {
+                    timerLabel.textContent = "EID MUBARAK";
+                    lastLabel = "EID MUBARAK";
+                }
                 timerValue.textContent = "00:00:00";
                 return;
             }
@@ -406,10 +411,16 @@ function startCountdown() {
         const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
         const s = Math.floor((diff % (1000 * 60)) / 1000);
 
-        timerLabel.textContent = targetLabel;
+        if (targetLabel !== lastLabel) {
+            timerLabel.textContent = targetLabel;
+            lastLabel = targetLabel;
+        }
         timerValue.textContent = `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
+    }
 
-    }, 1000);
+    // Run immediately so the timer shows values on the first frame
+    tick();
+    countdownInterval = setInterval(tick, 1000);
 }
 
 // Initial Load
@@ -417,6 +428,15 @@ loadCalendar(debugDateInput.value).then(() => {
     startCountdown();
     updateDateDisplay();
     setupMarquee();
+});
+
+// --- Resync timer when returning from background tab ---
+// Browsers throttle/pause setInterval in background tabs, which can cause
+// the timer to appear stuck. Restart the countdown when the page becomes visible.
+document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible' && cachedData) {
+        startCountdown();
+    }
 });
 
 // --- Test Notification Trigger ---
