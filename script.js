@@ -400,10 +400,17 @@ function startCountdown() {
         const shouldNotify = (eventType === "Sehri" && sehriEnabled) || (eventType === "Iftar" && iftarEnabled);
 
         if (shouldNotify && diff <= minutesBefore && diff > 0 && !notifiedEvents.has(eventId)) {
+            const actualMinutesLeft = Math.ceil(diff / (1000 * 60));
+            
+            const title = eventType === "Sehri"
+                ? `Sehri is ending in ${actualMinutesLeft} minutes!`
+                : `Iftar is in ${actualMinutesLeft} minutes!`;
+                
             const message = eventType === "Sehri"
-                ? `Sehri is ending in ${notifPrefs.minutesBefore} minutes!`
-                : `Iftar is in ${notifPrefs.minutesBefore} minutes!`;
-            sendNotification(`Ramadan Tracker: ${eventType} Warning`, message);
+                ? "Wrap up your meal and make your intention (niyyah) for the fast. May Allah accept your efforts."
+                : "Get ready for Iftar. Don't forget to make lots of duas since the time before Iftar is a time where duas are accepted.";
+                
+            sendNotification(title, message);
             notifiedEvents.add(eventId);
         }
 
@@ -452,14 +459,72 @@ document.getElementById('testNotifyBtn').addEventListener('click', () => {
             btn.textContent = count;
         } else {
             clearInterval(interval);
-            const messages = [
-                { title: "Sehri Ending Soon", body: "Sehri ends in 15 minutes. Finish eating and prepare for Fajr." },
-                { title: "Sehri Alert", body: "Only 5 minutes left for Sehri. Stop eating before the Adhan." },
-                { title: "Iftar in 10 Minutes", body: "Iftar is almost here. Prepare to break your fast." },
-                { title: "It's Iftar Time!", body: "Allahumma laka sumtu wa ala rizqika aftartu — break your fast now." },
-            ];
-            const msg = messages[Math.floor(Math.random() * messages.length)];
-            sendNotification(msg.title, msg.body);
+            
+            if (!cachedData) {
+                btn.disabled = false;
+                btn.textContent = "Test Notify";
+                return;
+            }
+
+            const districtData = cachedData[getSelectedDistrict()] || cachedData['Dhaka'];
+            const now = getSimulatedNow();
+
+            const parseTime = (dateStr, timeStr) => {
+                const d = new Date(`${dateStr} 2026`);
+                const [time, modifier] = timeStr.split(' ');
+                let [hours, minutes] = time.split(':');
+                hours = parseInt(hours);
+                minutes = parseInt(minutes);
+                if (hours === 12 && modifier === 'AM') hours = 0;
+                if (hours !== 12 && modifier === 'PM') hours += 12;
+                d.setHours(hours, minutes, 0, 0);
+                return d;
+            };
+
+            let targetDate = null;
+            let eventType = "";
+
+            for (let i = 0; i < districtData.length; i++) {
+                const item = districtData[i];
+                const sehriTime = parseTime(item.date, item.sehri);
+                const iftarTime = parseTime(item.date, item.iftar);
+
+                if (now < iftarTime) {
+                    if (now < sehriTime) {
+                        targetDate = sehriTime;
+                        eventType = "Sehri";
+                    } else {
+                        targetDate = iftarTime;
+                        eventType = "Iftar";
+                    }
+                    break;
+                }
+            }
+
+            if (!targetDate) {
+                const firstDay = parseTime(districtData[0].date, districtData[0].sehri);
+                if (now < firstDay) {
+                    const diff = firstDay - now;
+                    const actualMinutesLeft = Math.ceil(diff / (1000 * 60));
+                    sendNotification(`[TEST] Ramadan starts in ${actualMinutesLeft} min`, "Get ready for the first Sehri!");
+                } else {
+                    sendNotification(`[TEST] Eid Mubarak`, "Ramadan has concluded for this year.");
+                }
+            } else {
+                const diff = targetDate - now;
+                const actualMinutesLeft = Math.ceil(diff / (1000 * 60));
+                
+                const title = eventType === "Sehri"
+                    ? `Sehri is ending in ${actualMinutesLeft} minutes!`
+                    : `Iftar is in ${actualMinutesLeft} minutes!`;
+                    
+                const message = eventType === "Sehri"
+                    ? "Wrap up your meal and make your intention (niyyah) for the fast. May Allah accept your efforts."
+                    : "Get ready for Iftar. Don't forget to make lots of duas since the time before Iftar is a time where duas are accepted.";
+                    
+                sendNotification(`[TEST] ${title}`, message);
+            }
+
             btn.disabled = false;
             btn.textContent = "Test Notify";
         }
@@ -483,10 +548,13 @@ function toggleFullscreen() {
 
 function updateFullscreenUI() {
     const themeColorTag = document.getElementById('theme-color-tag');
+    const fullscreenThemeToggleBtn = document.getElementById('fullscreenThemeToggle');
+    
     if (document.fullscreenElement) {
         countdownContainer.classList.add('fullscreen-active');
         iconExpand.style.display = 'none';
         iconCollapse.style.display = 'block';
+        if (fullscreenThemeToggleBtn) fullscreenThemeToggleBtn.style.display = 'flex';
 
         // Set status bar to black in fullscreen
         if (themeColorTag) themeColorTag.content = "#1a1a1a";
@@ -494,6 +562,7 @@ function updateFullscreenUI() {
         countdownContainer.classList.remove('fullscreen-active');
         iconExpand.style.display = 'block';
         iconCollapse.style.display = 'none';
+        if (fullscreenThemeToggleBtn) fullscreenThemeToggleBtn.style.display = 'none';
 
         // Restore status bar color based on theme preference
         if (themeColorTag) {
@@ -509,6 +578,29 @@ function updateFullscreenUI() {
 if (fullscreenToggleBtn) {
     fullscreenToggleBtn.addEventListener('click', toggleFullscreen);
     document.addEventListener('fullscreenchange', updateFullscreenUI);
+}
+
+const fullscreenThemeToggleBtn = document.getElementById('fullscreenThemeToggle');
+if (fullscreenThemeToggleBtn) {
+    fullscreenThemeToggleBtn.addEventListener('click', () => {
+        const htmlEl = document.documentElement;
+        let newTheme = htmlEl.dataset.theme === 'dark' ? 'light' : 'dark';
+        
+        // If it was auto, calculate current concrete theme and swap
+        if (htmlEl.dataset.theme === 'auto') {
+            const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            newTheme = isDark ? 'light' : 'dark';
+        }
+
+        htmlEl.dataset.theme = newTheme;
+        localStorage.setItem('theme-preference', newTheme);
+        
+        // Sync main theme buttons state
+        const themeBtns = document.querySelectorAll('.theme-btn');
+        themeBtns.forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.themeValue === newTheme);
+        });
+    });
 }
 
 // --- Debug Panel Toggle (local dev only) ---

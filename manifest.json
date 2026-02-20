@@ -9,13 +9,13 @@
   "icons": [
     {
       "src": "media/ramadan_calendar_app_icon_maskable.png",
-      "sizes": "any",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
       "src": "media/ramadan_calendar_app_icon.png",
-      "sizes": "any",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     }

@@ -312,9 +312,7 @@ body {
 
 /* Completed State */
 .day-card.completed {
-    opacity: 0.6;
-    background: #e6e6e6;
-    border-color: #999;
+    opacity: 0.4;
 }
 
 /* Card Header */
@@ -566,6 +564,13 @@ body {
 .countdown-container.fullscreen-active:hover {
     transform: none;
     box-shadow: none;
+}
+
+
+.fullscreen-theme-btn:hover {
+    opacity: 1;
+    color: var(--bg-color);
+    background: rgba(128, 128, 128, 0.25);
 }
 
 .fullscreen-btn {

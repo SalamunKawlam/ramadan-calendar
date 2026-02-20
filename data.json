@@ -1,2368 +1,2050 @@
 {
   "Dhaka": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:12 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:11 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:11 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:10 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:09 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:08 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:08 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:07 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:06 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:05 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:05 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:04 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:48 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:47 AM",
-      "iftar": "6:11 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:12 AM","iftar":"5:58 PM"},
+    {"day":2,"date":"20 February","sehri":"5:11 AM","iftar":"5:58 PM"},
+    {"day":3,"date":"21 February","sehri":"5:11 AM","iftar":"5:59 PM"},
+    {"day":4,"date":"22 February","sehri":"5:10 AM","iftar":"5:59 PM"},
+    {"day":5,"date":"23 February","sehri":"5:09 AM","iftar":"6:00 PM"},
+    {"day":6,"date":"24 February","sehri":"5:08 AM","iftar":"6:00 PM"},
+    {"day":7,"date":"25 February","sehri":"5:08 AM","iftar":"6:01 PM"},
+    {"day":8,"date":"26 February","sehri":"5:07 AM","iftar":"6:01 PM"},
+    {"day":9,"date":"27 February","sehri":"5:06 AM","iftar":"6:02 PM"},
+    {"day":10,"date":"28 February","sehri":"5:05 AM","iftar":"6:02 PM"},
+    {"day":11,"date":"01 March","sehri":"5:05 AM","iftar":"6:03 PM"},
+    {"day":12,"date":"02 March","sehri":"5:04 AM","iftar":"6:03 PM"},
+    {"day":13,"date":"03 March","sehri":"5:03 AM","iftar":"6:04 PM"},
+    {"day":14,"date":"04 March","sehri":"5:02 AM","iftar":"6:04 PM"},
+    {"day":15,"date":"05 March","sehri":"5:01 AM","iftar":"6:05 PM"},
+    {"day":16,"date":"06 March","sehri":"5:00 AM","iftar":"6:05 PM"},
+    {"day":17,"date":"07 March","sehri":"4:59 AM","iftar":"6:06 PM"},
+    {"day":18,"date":"08 March","sehri":"4:58 AM","iftar":"6:06 PM"},
+    {"day":19,"date":"09 March","sehri":"4:57 AM","iftar":"6:07 PM"},
+    {"day":20,"date":"10 March","sehri":"4:57 AM","iftar":"6:07 PM"},
+    {"day":21,"date":"11 March","sehri":"4:56 AM","iftar":"6:07 PM"},
+    {"day":22,"date":"12 March","sehri":"4:55 AM","iftar":"6:08 PM"},
+    {"day":23,"date":"13 March","sehri":"4:54 AM","iftar":"6:08 PM"},
+    {"day":24,"date":"14 March","sehri":"4:53 AM","iftar":"6:09 PM"},
+    {"day":25,"date":"15 March","sehri":"4:52 AM","iftar":"6:09 PM"},
+    {"day":26,"date":"16 March","sehri":"4:51 AM","iftar":"6:10 PM"},
+    {"day":27,"date":"17 March","sehri":"4:50 AM","iftar":"6:10 PM"},
+    {"day":28,"date":"18 March","sehri":"4:49 AM","iftar":"6:10 PM"},
+    {"day":29,"date":"19 February","sehri":"4:48 AM","iftar":"6:11 PM"},
+    {"day":30,"date":"20 February","sehri":"4:47 AM","iftar":"6:11 PM"}
   ],
   "Narayanganj": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:11 AM",
-      "iftar": "5:56 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:10 AM",
-      "iftar": "5:57 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:10 AM",
-      "iftar": "5:57 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:09 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:08 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:08 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:07 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:06 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:05 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:04 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:04 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:48 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:47 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:46 AM",
-      "iftar": "6:10 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:11 AM","iftar":"5:56 PM"},
+    {"day":2,"date":"20 February","sehri":"5:10 AM","iftar":"5:57 PM"},
+    {"day":3,"date":"21 February","sehri":"5:10 AM","iftar":"5:57 PM"},
+    {"day":4,"date":"22 February","sehri":"5:09 AM","iftar":"5:58 PM"},
+    {"day":5,"date":"23 February","sehri":"5:08 AM","iftar":"5:58 PM"},
+    {"day":6,"date":"24 February","sehri":"5:08 AM","iftar":"5:59 PM"},
+    {"day":7,"date":"25 February","sehri":"5:07 AM","iftar":"6:00 PM"},
+    {"day":8,"date":"26 February","sehri":"5:06 AM","iftar":"6:00 PM"},
+    {"day":9,"date":"27 February","sehri":"5:05 AM","iftar":"6:00 PM"},
+    {"day":10,"date":"28 February","sehri":"5:04 AM","iftar":"6:01 PM"},
+    {"day":11,"date":"01 March","sehri":"5:04 AM","iftar":"6:01 PM"},
+    {"day":12,"date":"02 March","sehri":"5:03 AM","iftar":"6:02 PM"},
+    {"day":13,"date":"03 March","sehri":"5:02 AM","iftar":"6:02 PM"},
+    {"day":14,"date":"04 March","sehri":"5:01 AM","iftar":"6:03 PM"},
+    {"day":15,"date":"05 March","sehri":"5:00 AM","iftar":"6:03 PM"},
+    {"day":16,"date":"06 March","sehri":"4:59 AM","iftar":"6:04 PM"},
+    {"day":17,"date":"07 March","sehri":"4:58 AM","iftar":"6:04 PM"},
+    {"day":18,"date":"08 March","sehri":"4:57 AM","iftar":"6:05 PM"},
+    {"day":19,"date":"09 March","sehri":"4:57 AM","iftar":"6:05 PM"},
+    {"day":20,"date":"10 March","sehri":"4:56 AM","iftar":"6:05 PM"},
+    {"day":21,"date":"11 March","sehri":"4:55 AM","iftar":"6:06 PM"},
+    {"day":22,"date":"12 March","sehri":"4:54 AM","iftar":"6:06 PM"},
+    {"day":23,"date":"13 March","sehri":"4:53 AM","iftar":"6:07 PM"},
+    {"day":24,"date":"14 March","sehri":"4:52 AM","iftar":"6:07 PM"},
+    {"day":25,"date":"15 March","sehri":"4:51 AM","iftar":"6:08 PM"},
+    {"day":26,"date":"16 March","sehri":"4:50 AM","iftar":"6:08 PM"},
+    {"day":27,"date":"17 March","sehri":"4:49 AM","iftar":"6:08 PM"},
+    {"day":28,"date":"18 March","sehri":"4:48 AM","iftar":"6:09 PM"},
+    {"day":29,"date":"19 February","sehri":"4:47 AM","iftar":"6:09 PM"},
+    {"day":30,"date":"20 February","sehri":"4:46 AM","iftar":"6:10 PM"}
   ],
   "Kishorganj": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:09 AM",
-      "iftar": "5:55 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:09 AM",
-      "iftar": "5:55 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:08 AM",
-      "iftar": "5:56 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:07 AM",
-      "iftar": "5:57 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:06 AM",
-      "iftar": "5:57 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:06 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:05 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:04 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:03 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:02 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:48 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:47 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:46 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:45 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:44 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:43 AM",
-      "iftar": "6:09 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:09 AM","iftar":"5:55 PM"},
+    {"day":2,"date":"20 February","sehri":"5:09 AM","iftar":"5:55 PM"},
+    {"day":3,"date":"21 February","sehri":"5:08 AM","iftar":"5:56 PM"},
+    {"day":4,"date":"22 February","sehri":"5:07 AM","iftar":"5:57 PM"},
+    {"day":5,"date":"23 February","sehri":"5:06 AM","iftar":"5:57 PM"},
+    {"day":6,"date":"24 February","sehri":"5:06 AM","iftar":"5:58 PM"},
+    {"day":7,"date":"25 February","sehri":"5:05 AM","iftar":"5:58 PM"},
+    {"day":8,"date":"26 February","sehri":"5:04 AM","iftar":"5:59 PM"},
+    {"day":9,"date":"27 February","sehri":"5:03 AM","iftar":"5:59 PM"},
+    {"day":10,"date":"28 February","sehri":"5:02 AM","iftar":"6:00 PM"},
+    {"day":11,"date":"01 March","sehri":"5:02 AM","iftar":"6:00 PM"},
+    {"day":12,"date":"02 March","sehri":"5:01 AM","iftar":"6:01 PM"},
+    {"day":13,"date":"03 March","sehri":"5:00 AM","iftar":"6:01 PM"},
+    {"day":14,"date":"04 March","sehri":"4:59 AM","iftar":"6:02 PM"},
+    {"day":15,"date":"05 March","sehri":"4:58 AM","iftar":"6:02 PM"},
+    {"day":16,"date":"06 March","sehri":"4:57 AM","iftar":"6:03 PM"},
+    {"day":17,"date":"07 March","sehri":"4:56 AM","iftar":"6:03 PM"},
+    {"day":18,"date":"08 March","sehri":"4:55 AM","iftar":"6:04 PM"},
+    {"day":19,"date":"09 March","sehri":"4:54 AM","iftar":"6:04 PM"},
+    {"day":20,"date":"10 March","sehri":"4:53 AM","iftar":"6:05 PM"},
+    {"day":21,"date":"11 March","sehri":"4:52 AM","iftar":"6:05 PM"},
+    {"day":22,"date":"12 March","sehri":"4:51 AM","iftar":"6:06 PM"},
+    {"day":23,"date":"13 March","sehri":"4:50 AM","iftar":"6:06 PM"},
+    {"day":24,"date":"14 March","sehri":"4:49 AM","iftar":"6:06 PM"},
+    {"day":25,"date":"15 March","sehri":"4:48 AM","iftar":"6:07 PM"},
+    {"day":26,"date":"16 March","sehri":"4:47 AM","iftar":"6:07 PM"},
+    {"day":27,"date":"17 March","sehri":"4:46 AM","iftar":"6:08 PM"},
+    {"day":28,"date":"18 March","sehri":"4:45 AM","iftar":"6:08 PM"},
+    {"day":29,"date":"19 February","sehri":"4:44 AM","iftar":"6:09 PM"},
+    {"day":30,"date":"20 February","sehri":"4:43 AM","iftar":"6:09 PM"}
   ],
   "Gazipur": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:11 AM",
-      "iftar": "5:57 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:11 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:10 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:09 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:09 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:08 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:07 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:06 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:05 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:05 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:04 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:48 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:47 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:46 AM",
-      "iftar": "6:11 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:11 AM","iftar":"5:57 PM"},
+    {"day":2,"date":"20 February","sehri":"5:11 AM","iftar":"5:58 PM"},
+    {"day":3,"date":"21 February","sehri":"5:10 AM","iftar":"5:58 PM"},
+    {"day":4,"date":"22 February","sehri":"5:09 AM","iftar":"5:59 PM"},
+    {"day":5,"date":"23 February","sehri":"5:09 AM","iftar":"5:59 PM"},
+    {"day":6,"date":"24 February","sehri":"5:08 AM","iftar":"6:00 PM"},
+    {"day":7,"date":"25 February","sehri":"5:07 AM","iftar":"6:00 PM"},
+    {"day":8,"date":"26 February","sehri":"5:06 AM","iftar":"6:01 PM"},
+    {"day":9,"date":"27 February","sehri":"5:05 AM","iftar":"6:01 PM"},
+    {"day":10,"date":"28 February","sehri":"5:05 AM","iftar":"6:02 PM"},
+    {"day":11,"date":"01 March","sehri":"5:04 AM","iftar":"6:02 PM"},
+    {"day":12,"date":"02 March","sehri":"5:03 AM","iftar":"6:03 PM"},
+    {"day":13,"date":"03 March","sehri":"5:02 AM","iftar":"6:03 PM"},
+    {"day":14,"date":"04 March","sehri":"5:01 AM","iftar":"6:04 PM"},
+    {"day":15,"date":"05 March","sehri":"5:00 AM","iftar":"6:04 PM"},
+    {"day":16,"date":"06 March","sehri":"4:59 AM","iftar":"6:05 PM"},
+    {"day":17,"date":"07 March","sehri":"4:58 AM","iftar":"6:05 PM"},
+    {"day":18,"date":"08 March","sehri":"4:58 AM","iftar":"6:06 PM"},
+    {"day":19,"date":"09 March","sehri":"4:57 AM","iftar":"6:06 PM"},
+    {"day":20,"date":"10 March","sehri":"4:56 AM","iftar":"6:06 PM"},
+    {"day":21,"date":"11 March","sehri":"4:55 AM","iftar":"6:07 PM"},
+    {"day":22,"date":"12 March","sehri":"4:54 AM","iftar":"6:07 PM"},
+    {"day":23,"date":"13 March","sehri":"4:53 AM","iftar":"6:08 PM"},
+    {"day":24,"date":"14 March","sehri":"4:52 AM","iftar":"6:08 PM"},
+    {"day":25,"date":"15 March","sehri":"4:51 AM","iftar":"6:09 PM"},
+    {"day":26,"date":"16 March","sehri":"4:50 AM","iftar":"6:09 PM"},
+    {"day":27,"date":"17 March","sehri":"4:49 AM","iftar":"6:09 PM"},
+    {"day":28,"date":"18 March","sehri":"4:48 AM","iftar":"6:10 PM"},
+    {"day":29,"date":"19 February","sehri":"4:47 AM","iftar":"6:10 PM"},
+    {"day":30,"date":"20 February","sehri":"4:46 AM","iftar":"6:11 PM"}
   ],
   "Gopalganj": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:13 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:13 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:12 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:11 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:11 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:10 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:09 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:08 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:08 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:07 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:06 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:05 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:04 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:12 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:12 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:13 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:13 AM","iftar":"6:00 PM"},
+    {"day":2,"date":"20 February","sehri":"5:13 AM","iftar":"6:00 PM"},
+    {"day":3,"date":"21 February","sehri":"5:12 AM","iftar":"6:01 PM"},
+    {"day":4,"date":"22 February","sehri":"5:11 AM","iftar":"6:01 PM"},
+    {"day":5,"date":"23 February","sehri":"5:11 AM","iftar":"6:02 PM"},
+    {"day":6,"date":"24 February","sehri":"5:10 AM","iftar":"6:02 PM"},
+    {"day":7,"date":"25 February","sehri":"5:09 AM","iftar":"6:03 PM"},
+    {"day":8,"date":"26 February","sehri":"5:08 AM","iftar":"6:03 PM"},
+    {"day":9,"date":"27 February","sehri":"5:08 AM","iftar":"6:04 PM"},
+    {"day":10,"date":"28 February","sehri":"5:07 AM","iftar":"6:04 PM"},
+    {"day":11,"date":"01 March","sehri":"5:06 AM","iftar":"6:05 PM"},
+    {"day":12,"date":"02 March","sehri":"5:05 AM","iftar":"6:05 PM"},
+    {"day":13,"date":"03 March","sehri":"5:04 AM","iftar":"6:06 PM"},
+    {"day":14,"date":"04 March","sehri":"5:03 AM","iftar":"6:06 PM"},
+    {"day":15,"date":"05 March","sehri":"5:03 AM","iftar":"6:07 PM"},
+    {"day":16,"date":"06 March","sehri":"5:02 AM","iftar":"6:07 PM"},
+    {"day":17,"date":"07 March","sehri":"5:01 AM","iftar":"6:07 PM"},
+    {"day":18,"date":"08 March","sehri":"5:00 AM","iftar":"6:08 PM"},
+    {"day":19,"date":"09 March","sehri":"4:59 AM","iftar":"6:08 PM"},
+    {"day":20,"date":"10 March","sehri":"4:58 AM","iftar":"6:09 PM"},
+    {"day":21,"date":"11 March","sehri":"4:57 AM","iftar":"6:09 PM"},
+    {"day":22,"date":"12 March","sehri":"4:56 AM","iftar":"6:09 PM"},
+    {"day":23,"date":"13 March","sehri":"4:55 AM","iftar":"6:10 PM"},
+    {"day":24,"date":"14 March","sehri":"4:54 AM","iftar":"6:10 PM"},
+    {"day":25,"date":"15 March","sehri":"4:53 AM","iftar":"6:11 PM"},
+    {"day":26,"date":"16 March","sehri":"4:52 AM","iftar":"6:11 PM"},
+    {"day":27,"date":"17 March","sehri":"4:52 AM","iftar":"6:11 PM"},
+    {"day":28,"date":"18 March","sehri":"4:51 AM","iftar":"6:12 PM"},
+    {"day":29,"date":"19 February","sehri":"4:50 AM","iftar":"6:12 PM"},
+    {"day":30,"date":"20 February","sehri":"4:49 AM","iftar":"6:13 PM"}
   ],
   "Tangail": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:13 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:12 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:12 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:11 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:10 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:09 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:09 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:08 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:07 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:06 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:05 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:05 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:04 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:12 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:48 AM",
-      "iftar": "6:12 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:47 AM",
-      "iftar": "6:12 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:13 AM","iftar":"5:58 PM"},
+    {"day":2,"date":"20 February","sehri":"5:12 AM","iftar":"5:59 PM"},
+    {"day":3,"date":"21 February","sehri":"5:12 AM","iftar":"5:59 PM"},
+    {"day":4,"date":"22 February","sehri":"5:11 AM","iftar":"6:00 PM"},
+    {"day":5,"date":"23 February","sehri":"5:10 AM","iftar":"6:00 PM"},
+    {"day":6,"date":"24 February","sehri":"5:09 AM","iftar":"6:01 PM"},
+    {"day":7,"date":"25 February","sehri":"5:09 AM","iftar":"6:02 PM"},
+    {"day":8,"date":"26 February","sehri":"5:08 AM","iftar":"6:02 PM"},
+    {"day":9,"date":"27 February","sehri":"5:07 AM","iftar":"6:03 PM"},
+    {"day":10,"date":"28 February","sehri":"5:06 AM","iftar":"6:03 PM"},
+    {"day":11,"date":"01 March","sehri":"5:05 AM","iftar":"6:04 PM"},
+    {"day":12,"date":"02 March","sehri":"5:05 AM","iftar":"6:04 PM"},
+    {"day":13,"date":"03 March","sehri":"5:04 AM","iftar":"6:05 PM"},
+    {"day":14,"date":"04 March","sehri":"5:03 AM","iftar":"6:05 PM"},
+    {"day":15,"date":"05 March","sehri":"5:02 AM","iftar":"6:06 PM"},
+    {"day":16,"date":"06 March","sehri":"5:01 AM","iftar":"6:06 PM"},
+    {"day":17,"date":"07 March","sehri":"5:00 AM","iftar":"6:07 PM"},
+    {"day":18,"date":"08 March","sehri":"4:59 AM","iftar":"6:07 PM"},
+    {"day":19,"date":"09 March","sehri":"4:58 AM","iftar":"6:08 PM"},
+    {"day":20,"date":"10 March","sehri":"4:57 AM","iftar":"6:08 PM"},
+    {"day":21,"date":"11 March","sehri":"4:56 AM","iftar":"6:08 PM"},
+    {"day":22,"date":"12 March","sehri":"4:55 AM","iftar":"6:09 PM"},
+    {"day":23,"date":"13 March","sehri":"4:54 AM","iftar":"6:09 PM"},
+    {"day":24,"date":"14 March","sehri":"4:53 AM","iftar":"6:10 PM"},
+    {"day":25,"date":"15 March","sehri":"4:52 AM","iftar":"6:10 PM"},
+    {"day":26,"date":"16 March","sehri":"4:51 AM","iftar":"6:11 PM"},
+    {"day":27,"date":"17 March","sehri":"4:50 AM","iftar":"6:11 PM"},
+    {"day":28,"date":"18 March","sehri":"4:49 AM","iftar":"6:12 PM"},
+    {"day":29,"date":"19 February","sehri":"4:48 AM","iftar":"6:12 PM"},
+    {"day":30,"date":"20 February","sehri":"4:47 AM","iftar":"6:12 PM"}
   ],
   "Narsingdi": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:10 AM",
-      "iftar": "5:55 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:10 AM",
-      "iftar": "5:56 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:09 AM",
-      "iftar": "5:57 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:08 AM",
-      "iftar": "5:57 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:07 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:07 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:06 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:05 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:04 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:03 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:48 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:47 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:46 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:45 AM",
-      "iftar": "6:09 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:10 AM","iftar":"5:55 PM"},
+    {"day":2,"date":"20 February","sehri":"5:10 AM","iftar":"5:56 PM"},
+    {"day":3,"date":"21 February","sehri":"5:09 AM","iftar":"5:57 PM"},
+    {"day":4,"date":"22 February","sehri":"5:08 AM","iftar":"5:57 PM"},
+    {"day":5,"date":"23 February","sehri":"5:07 AM","iftar":"5:58 PM"},
+    {"day":6,"date":"24 February","sehri":"5:07 AM","iftar":"5:58 PM"},
+    {"day":7,"date":"25 February","sehri":"5:06 AM","iftar":"5:59 PM"},
+    {"day":8,"date":"26 February","sehri":"5:05 AM","iftar":"5:59 PM"},
+    {"day":9,"date":"27 February","sehri":"5:04 AM","iftar":"6:00 PM"},
+    {"day":10,"date":"28 February","sehri":"5:03 AM","iftar":"6:00 PM"},
+    {"day":11,"date":"01 March","sehri":"5:03 AM","iftar":"6:01 PM"},
+    {"day":12,"date":"02 March","sehri":"5:02 AM","iftar":"6:01 PM"},
+    {"day":13,"date":"03 March","sehri":"5:01 AM","iftar":"6:02 PM"},
+    {"day":14,"date":"04 March","sehri":"5:00 AM","iftar":"6:02 PM"},
+    {"day":15,"date":"05 March","sehri":"4:59 AM","iftar":"6:03 PM"},
+    {"day":16,"date":"06 March","sehri":"4:58 AM","iftar":"6:03 PM"},
+    {"day":17,"date":"07 March","sehri":"4:57 AM","iftar":"6:04 PM"},
+    {"day":18,"date":"08 March","sehri":"4:56 AM","iftar":"6:04 PM"},
+    {"day":19,"date":"09 March","sehri":"4:56 AM","iftar":"6:04 PM"},
+    {"day":20,"date":"10 March","sehri":"4:55 AM","iftar":"6:05 PM"},
+    {"day":21,"date":"11 March","sehri":"4:54 AM","iftar":"6:05 PM"},
+    {"day":22,"date":"12 March","sehri":"4:53 AM","iftar":"6:06 PM"},
+    {"day":23,"date":"13 March","sehri":"4:52 AM","iftar":"6:06 PM"},
+    {"day":24,"date":"14 March","sehri":"4:51 AM","iftar":"6:07 PM"},
+    {"day":25,"date":"15 March","sehri":"4:50 AM","iftar":"6:07 PM"},
+    {"day":26,"date":"16 March","sehri":"4:49 AM","iftar":"6:07 PM"},
+    {"day":27,"date":"17 March","sehri":"4:48 AM","iftar":"6:08 PM"},
+    {"day":28,"date":"18 March","sehri":"4:47 AM","iftar":"6:08 PM"},
+    {"day":29,"date":"19 February","sehri":"4:46 AM","iftar":"6:09 PM"},
+    {"day":30,"date":"20 February","sehri":"4:45 AM","iftar":"6:09 PM"}
   ],
   "Faridpur": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:13 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:12 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:12 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:11 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:10 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:10 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:09 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:08 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:07 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:06 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:06 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:05 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:04 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:12 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:12 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:13 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:13 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:48 AM",
-      "iftar": "6:13 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:13 AM","iftar":"6:00 PM"},
+    {"day":2,"date":"20 February","sehri":"5:12 AM","iftar":"6:01 PM"},
+    {"day":3,"date":"21 February","sehri":"5:12 AM","iftar":"6:01 PM"},
+    {"day":4,"date":"22 February","sehri":"5:11 AM","iftar":"6:02 PM"},
+    {"day":5,"date":"23 February","sehri":"5:10 AM","iftar":"6:02 PM"},
+    {"day":6,"date":"24 February","sehri":"5:10 AM","iftar":"6:03 PM"},
+    {"day":7,"date":"25 February","sehri":"5:09 AM","iftar":"6:03 PM"},
+    {"day":8,"date":"26 February","sehri":"5:08 AM","iftar":"6:04 PM"},
+    {"day":9,"date":"27 February","sehri":"5:07 AM","iftar":"6:04 PM"},
+    {"day":10,"date":"28 February","sehri":"5:06 AM","iftar":"6:05 PM"},
+    {"day":11,"date":"01 March","sehri":"5:06 AM","iftar":"6:05 PM"},
+    {"day":12,"date":"02 March","sehri":"5:05 AM","iftar":"6:06 PM"},
+    {"day":13,"date":"03 March","sehri":"5:04 AM","iftar":"6:06 PM"},
+    {"day":14,"date":"04 March","sehri":"5:03 AM","iftar":"6:07 PM"},
+    {"day":15,"date":"05 March","sehri":"5:02 AM","iftar":"6:07 PM"},
+    {"day":16,"date":"06 March","sehri":"5:01 AM","iftar":"6:08 PM"},
+    {"day":17,"date":"07 March","sehri":"5:00 AM","iftar":"6:08 PM"},
+    {"day":18,"date":"08 March","sehri":"5:00 AM","iftar":"6:08 PM"},
+    {"day":19,"date":"09 March","sehri":"4:59 AM","iftar":"6:09 PM"},
+    {"day":20,"date":"10 March","sehri":"4:58 AM","iftar":"6:09 PM"},
+    {"day":21,"date":"11 March","sehri":"4:57 AM","iftar":"6:10 PM"},
+    {"day":22,"date":"12 March","sehri":"4:56 AM","iftar":"6:10 PM"},
+    {"day":23,"date":"13 March","sehri":"4:55 AM","iftar":"6:11 PM"},
+    {"day":24,"date":"14 March","sehri":"4:54 AM","iftar":"6:11 PM"},
+    {"day":25,"date":"15 March","sehri":"4:53 AM","iftar":"6:11 PM"},
+    {"day":26,"date":"16 March","sehri":"4:52 AM","iftar":"6:12 PM"},
+    {"day":27,"date":"17 March","sehri":"4:51 AM","iftar":"6:12 PM"},
+    {"day":28,"date":"18 March","sehri":"4:50 AM","iftar":"6:13 PM"},
+    {"day":29,"date":"19 February","sehri":"4:49 AM","iftar":"6:13 PM"},
+    {"day":30,"date":"20 February","sehri":"4:48 AM","iftar":"6:13 PM"}
   ],
   "Madaripur": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:12 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:12 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:11 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:10 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:10 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:09 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:08 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:07 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:07 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:06 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:05 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:04 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:48 AM",
-      "iftar": "6:12 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:12 AM","iftar":"5:59 PM"},
+    {"day":2,"date":"20 February","sehri":"5:12 AM","iftar":"5:59 PM"},
+    {"day":3,"date":"21 February","sehri":"5:11 AM","iftar":"6:00 PM"},
+    {"day":4,"date":"22 February","sehri":"5:10 AM","iftar":"6:00 PM"},
+    {"day":5,"date":"23 February","sehri":"5:10 AM","iftar":"6:01 PM"},
+    {"day":6,"date":"24 February","sehri":"5:09 AM","iftar":"6:01 PM"},
+    {"day":7,"date":"25 February","sehri":"5:08 AM","iftar":"6:02 PM"},
+    {"day":8,"date":"26 February","sehri":"5:07 AM","iftar":"6:02 PM"},
+    {"day":9,"date":"27 February","sehri":"5:07 AM","iftar":"6:03 PM"},
+    {"day":10,"date":"28 February","sehri":"5:06 AM","iftar":"6:03 PM"},
+    {"day":11,"date":"01 March","sehri":"5:05 AM","iftar":"6:04 PM"},
+    {"day":12,"date":"02 March","sehri":"5:04 AM","iftar":"6:04 PM"},
+    {"day":13,"date":"03 March","sehri":"5:03 AM","iftar":"6:05 PM"},
+    {"day":14,"date":"04 March","sehri":"5:03 AM","iftar":"6:05 PM"},
+    {"day":15,"date":"05 March","sehri":"5:02 AM","iftar":"6:05 PM"},
+    {"day":16,"date":"06 March","sehri":"5:01 AM","iftar":"6:06 PM"},
+    {"day":17,"date":"07 March","sehri":"5:00 AM","iftar":"6:06 PM"},
+    {"day":18,"date":"08 March","sehri":"4:59 AM","iftar":"6:07 PM"},
+    {"day":19,"date":"09 March","sehri":"4:58 AM","iftar":"6:07 PM"},
+    {"day":20,"date":"10 March","sehri":"4:57 AM","iftar":"6:08 PM"},
+    {"day":21,"date":"11 March","sehri":"4:56 AM","iftar":"6:08 PM"},
+    {"day":22,"date":"12 March","sehri":"4:55 AM","iftar":"6:08 PM"},
+    {"day":23,"date":"13 March","sehri":"4:54 AM","iftar":"6:09 PM"},
+    {"day":24,"date":"14 March","sehri":"4:54 AM","iftar":"6:09 PM"},
+    {"day":25,"date":"15 March","sehri":"4:53 AM","iftar":"6:10 PM"},
+    {"day":26,"date":"16 March","sehri":"4:52 AM","iftar":"6:10 PM"},
+    {"day":27,"date":"17 March","sehri":"4:51 AM","iftar":"6:10 PM"},
+    {"day":28,"date":"18 March","sehri":"4:50 AM","iftar":"6:11 PM"},
+    {"day":29,"date":"19 February","sehri":"4:49 AM","iftar":"6:11 PM"},
+    {"day":30,"date":"20 February","sehri":"4:48 AM","iftar":"6:12 PM"}
   ],
   "Manikganj": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:13 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:12 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:12 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:11 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:10 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:09 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:09 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:08 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:07 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:06 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:06 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:05 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:04 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:12 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:12 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:48 AM",
-      "iftar": "6:13 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:13 AM","iftar":"5:59 PM"},
+    {"day":2,"date":"20 February","sehri":"5:12 AM","iftar":"6:00 PM"},
+    {"day":3,"date":"21 February","sehri":"5:12 AM","iftar":"6:00 PM"},
+    {"day":4,"date":"22 February","sehri":"5:11 AM","iftar":"6:01 PM"},
+    {"day":5,"date":"23 February","sehri":"5:10 AM","iftar":"6:01 PM"},
+    {"day":6,"date":"24 February","sehri":"5:09 AM","iftar":"6:02 PM"},
+    {"day":7,"date":"25 February","sehri":"5:09 AM","iftar":"6:02 PM"},
+    {"day":8,"date":"26 February","sehri":"5:08 AM","iftar":"6:03 PM"},
+    {"day":9,"date":"27 February","sehri":"5:07 AM","iftar":"6:03 PM"},
+    {"day":10,"date":"28 February","sehri":"5:06 AM","iftar":"6:04 PM"},
+    {"day":11,"date":"01 March","sehri":"5:06 AM","iftar":"6:04 PM"},
+    {"day":12,"date":"02 March","sehri":"5:05 AM","iftar":"6:05 PM"},
+    {"day":13,"date":"03 March","sehri":"5:04 AM","iftar":"6:05 PM"},
+    {"day":14,"date":"04 March","sehri":"5:03 AM","iftar":"6:06 PM"},
+    {"day":15,"date":"05 March","sehri":"5:02 AM","iftar":"6:06 PM"},
+    {"day":16,"date":"06 March","sehri":"5:01 AM","iftar":"6:07 PM"},
+    {"day":17,"date":"07 March","sehri":"5:00 AM","iftar":"6:07 PM"},
+    {"day":18,"date":"08 March","sehri":"4:59 AM","iftar":"6:07 PM"},
+    {"day":19,"date":"09 March","sehri":"4:58 AM","iftar":"6:08 PM"},
+    {"day":20,"date":"10 March","sehri":"4:58 AM","iftar":"6:08 PM"},
+    {"day":21,"date":"11 March","sehri":"4:57 AM","iftar":"6:09 PM"},
+    {"day":22,"date":"12 March","sehri":"4:56 AM","iftar":"6:09 PM"},
+    {"day":23,"date":"13 March","sehri":"4:55 AM","iftar":"6:10 PM"},
+    {"day":24,"date":"14 March","sehri":"4:54 AM","iftar":"6:10 PM"},
+    {"day":25,"date":"15 March","sehri":"4:53 AM","iftar":"6:11 PM"},
+    {"day":26,"date":"16 March","sehri":"4:52 AM","iftar":"6:11 PM"},
+    {"day":27,"date":"17 March","sehri":"4:51 AM","iftar":"6:11 PM"},
+    {"day":28,"date":"18 March","sehri":"4:50 AM","iftar":"6:12 PM"},
+    {"day":29,"date":"19 February","sehri":"4:49 AM","iftar":"6:12 PM"},
+    {"day":30,"date":"20 February","sehri":"4:48 AM","iftar":"6:13 PM"}
   ],
   "Munshiganj": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:11 AM",
-      "iftar": "5:57 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:10 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:10 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:09 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:08 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:08 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:07 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:06 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:05 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:05 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:04 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:48 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:47 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:46 AM",
-      "iftar": "6:11 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:11 AM","iftar":"5:57 PM"},
+    {"day":2,"date":"20 February","sehri":"5:10 AM","iftar":"5:58 PM"},
+    {"day":3,"date":"21 February","sehri":"5:10 AM","iftar":"5:58 PM"},
+    {"day":4,"date":"22 February","sehri":"5:09 AM","iftar":"5:59 PM"},
+    {"day":5,"date":"23 February","sehri":"5:08 AM","iftar":"5:59 PM"},
+    {"day":6,"date":"24 February","sehri":"5:08 AM","iftar":"6:00 PM"},
+    {"day":7,"date":"25 February","sehri":"5:07 AM","iftar":"6:01 PM"},
+    {"day":8,"date":"26 February","sehri":"5:06 AM","iftar":"6:01 PM"},
+    {"day":9,"date":"27 February","sehri":"5:05 AM","iftar":"6:01 PM"},
+    {"day":10,"date":"28 February","sehri":"5:05 AM","iftar":"6:02 PM"},
+    {"day":11,"date":"01 March","sehri":"5:04 AM","iftar":"6:02 PM"},
+    {"day":12,"date":"02 March","sehri":"5:03 AM","iftar":"6:03 PM"},
+    {"day":13,"date":"03 March","sehri":"5:02 AM","iftar":"6:03 PM"},
+    {"day":14,"date":"04 March","sehri":"5:01 AM","iftar":"6:04 PM"},
+    {"day":15,"date":"05 March","sehri":"5:00 AM","iftar":"6:04 PM"},
+    {"day":16,"date":"06 March","sehri":"4:59 AM","iftar":"6:05 PM"},
+    {"day":17,"date":"07 March","sehri":"4:59 AM","iftar":"6:05 PM"},
+    {"day":18,"date":"08 March","sehri":"4:58 AM","iftar":"6:06 PM"},
+    {"day":19,"date":"09 March","sehri":"4:57 AM","iftar":"6:06 PM"},
+    {"day":20,"date":"10 March","sehri":"4:56 AM","iftar":"6:06 PM"},
+    {"day":21,"date":"11 March","sehri":"4:55 AM","iftar":"6:07 PM"},
+    {"day":22,"date":"12 March","sehri":"4:54 AM","iftar":"6:07 PM"},
+    {"day":23,"date":"13 March","sehri":"4:53 AM","iftar":"6:08 PM"},
+    {"day":24,"date":"14 March","sehri":"4:52 AM","iftar":"6:08 PM"},
+    {"day":25,"date":"15 March","sehri":"4:51 AM","iftar":"6:09 PM"},
+    {"day":26,"date":"16 March","sehri":"4:50 AM","iftar":"6:09 PM"},
+    {"day":27,"date":"17 March","sehri":"4:49 AM","iftar":"6:09 PM"},
+    {"day":28,"date":"18 March","sehri":"4:48 AM","iftar":"6:10 PM"},
+    {"day":29,"date":"19 February","sehri":"4:47 AM","iftar":"6:10 PM"},
+    {"day":30,"date":"20 February","sehri":"4:46 AM","iftar":"6:11 PM"}
   ],
   "Rajbari": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:15 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:14 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:13 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:13 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:12 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:11 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:10 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:10 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:09 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:08 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:07 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:06 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:05 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "5:05 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "5:04 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:11 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:12 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:12 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:12 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:13 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:13 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:14 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:14 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:15 AM","iftar":"6:01 PM"},
+    {"day":2,"date":"20 February","sehri":"5:14 AM","iftar":"6:01 PM"},
+    {"day":3,"date":"21 February","sehri":"5:13 AM","iftar":"6:02 PM"},
+    {"day":4,"date":"22 February","sehri":"5:13 AM","iftar":"6:02 PM"},
+    {"day":5,"date":"23 February","sehri":"5:12 AM","iftar":"6:03 PM"},
+    {"day":6,"date":"24 February","sehri":"5:11 AM","iftar":"6:03 PM"},
+    {"day":7,"date":"25 February","sehri":"5:10 AM","iftar":"6:04 PM"},
+    {"day":8,"date":"26 February","sehri":"5:10 AM","iftar":"6:04 PM"},
+    {"day":9,"date":"27 February","sehri":"5:09 AM","iftar":"6:05 PM"},
+    {"day":10,"date":"28 February","sehri":"5:08 AM","iftar":"6:05 PM"},
+    {"day":11,"date":"01 March","sehri":"5:07 AM","iftar":"6:06 PM"},
+    {"day":12,"date":"02 March","sehri":"5:06 AM","iftar":"6:06 PM"},
+    {"day":13,"date":"03 March","sehri":"5:05 AM","iftar":"6:07 PM"},
+    {"day":14,"date":"04 March","sehri":"5:05 AM","iftar":"6:07 PM"},
+    {"day":15,"date":"05 March","sehri":"5:04 AM","iftar":"6:08 PM"},
+    {"day":16,"date":"06 March","sehri":"5:03 AM","iftar":"6:08 PM"},
+    {"day":17,"date":"07 March","sehri":"5:02 AM","iftar":"6:09 PM"},
+    {"day":18,"date":"08 March","sehri":"5:01 AM","iftar":"6:09 PM"},
+    {"day":19,"date":"09 March","sehri":"5:00 AM","iftar":"6:09 PM"},
+    {"day":20,"date":"10 March","sehri":"4:59 AM","iftar":"6:10 PM"},
+    {"day":21,"date":"11 March","sehri":"4:58 AM","iftar":"6:10 PM"},
+    {"day":22,"date":"12 March","sehri":"4:57 AM","iftar":"6:11 PM"},
+    {"day":23,"date":"13 March","sehri":"4:56 AM","iftar":"6:11 PM"},
+    {"day":24,"date":"14 March","sehri":"4:55 AM","iftar":"6:12 PM"},
+    {"day":25,"date":"15 March","sehri":"4:54 AM","iftar":"6:12 PM"},
+    {"day":26,"date":"16 March","sehri":"4:53 AM","iftar":"6:12 PM"},
+    {"day":27,"date":"17 March","sehri":"4:52 AM","iftar":"6:13 PM"},
+    {"day":28,"date":"18 March","sehri":"4:51 AM","iftar":"6:13 PM"},
+    {"day":29,"date":"19 February","sehri":"4:50 AM","iftar":"6:14 PM"},
+    {"day":30,"date":"20 February","sehri":"4:49 AM","iftar":"6:14 PM"}
   ],
   "Shariatpur": [
-    {
-      "day": 1,
-      "date": "19 February",
-      "sehri": "5:11 AM",
-      "iftar": "5:57 PM"
-    },
-    {
-      "day": 2,
-      "date": "20 February",
-      "sehri": "5:11 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 3,
-      "date": "21 February",
-      "sehri": "5:10 AM",
-      "iftar": "5:58 PM"
-    },
-    {
-      "day": 4,
-      "date": "22 February",
-      "sehri": "5:09 AM",
-      "iftar": "5:59 PM"
-    },
-    {
-      "day": 5,
-      "date": "23 February",
-      "sehri": "5:09 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 6,
-      "date": "24 February",
-      "sehri": "5:08 AM",
-      "iftar": "6:00 PM"
-    },
-    {
-      "day": 7,
-      "date": "25 February",
-      "sehri": "5:07 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 8,
-      "date": "26 February",
-      "sehri": "5:06 AM",
-      "iftar": "6:01 PM"
-    },
-    {
-      "day": 9,
-      "date": "27 February",
-      "sehri": "5:06 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 10,
-      "date": "28 February",
-      "sehri": "5:05 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 11,
-      "date": "01 March",
-      "sehri": "5:04 AM",
-      "iftar": "6:02 PM"
-    },
-    {
-      "day": 12,
-      "date": "02 March",
-      "sehri": "5:03 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 13,
-      "date": "03 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:03 PM"
-    },
-    {
-      "day": 14,
-      "date": "04 March",
-      "sehri": "5:02 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 15,
-      "date": "05 March",
-      "sehri": "5:01 AM",
-      "iftar": "6:04 PM"
-    },
-    {
-      "day": 16,
-      "date": "06 March",
-      "sehri": "5:00 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 17,
-      "date": "07 March",
-      "sehri": "4:59 AM",
-      "iftar": "6:05 PM"
-    },
-    {
-      "day": 18,
-      "date": "08 March",
-      "sehri": "4:58 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 19,
-      "date": "09 March",
-      "sehri": "4:57 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 20,
-      "date": "10 March",
-      "sehri": "4:56 AM",
-      "iftar": "6:06 PM"
-    },
-    {
-      "day": 21,
-      "date": "11 March",
-      "sehri": "4:55 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 22,
-      "date": "12 March",
-      "sehri": "4:54 AM",
-      "iftar": "6:07 PM"
-    },
-    {
-      "day": 23,
-      "date": "13 March",
-      "sehri": "4:53 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 24,
-      "date": "14 March",
-      "sehri": "4:52 AM",
-      "iftar": "6:08 PM"
-    },
-    {
-      "day": 25,
-      "date": "15 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 26,
-      "date": "16 March",
-      "sehri": "4:51 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 27,
-      "date": "17 March",
-      "sehri": "4:50 AM",
-      "iftar": "6:09 PM"
-    },
-    {
-      "day": 28,
-      "date": "18 March",
-      "sehri": "4:49 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 29,
-      "date": "19 March",
-      "sehri": "4:48 AM",
-      "iftar": "6:10 PM"
-    },
-    {
-      "day": 30,
-      "date": "20 March",
-      "sehri": "4:47 AM",
-      "iftar": "6:10 PM"
-    }
+    {"day":1,"date":"19 February","sehri":"5:11 AM","iftar":"5:57 PM"},
+    {"day":2,"date":"20 February","sehri":"5:11 AM","iftar":"5:58 PM"},
+    {"day":3,"date":"21 February","sehri":"5:10 AM","iftar":"5:58 PM"},
+    {"day":4,"date":"22 February","sehri":"5:09 AM","iftar":"5:59 PM"},
+    {"day":5,"date":"23 February","sehri":"5:09 AM","iftar":"6:00 PM"},
+    {"day":6,"date":"24 February","sehri":"5:08 AM","iftar":"6:00 PM"},
+    {"day":7,"date":"25 February","sehri":"5:07 AM","iftar":"6:01 PM"},
+    {"day":8,"date":"26 February","sehri":"5:06 AM","iftar":"6:01 PM"},
+    {"day":9,"date":"27 February","sehri":"5:06 AM","iftar":"6:02 PM"},
+    {"day":10,"date":"28 February","sehri":"5:05 AM","iftar":"6:02 PM"},
+    {"day":11,"date":"01 March","sehri":"5:04 AM","iftar":"6:02 PM"},
+    {"day":12,"date":"02 March","sehri":"5:03 AM","iftar":"6:03 PM"},
+    {"day":13,"date":"03 March","sehri":"5:02 AM","iftar":"6:03 PM"},
+    {"day":14,"date":"04 March","sehri":"5:02 AM","iftar":"6:04 PM"},
+    {"day":15,"date":"05 March","sehri":"5:01 AM","iftar":"6:04 PM"},
+    {"day":16,"date":"06 March","sehri":"5:00 AM","iftar":"6:05 PM"},
+    {"day":17,"date":"07 March","sehri":"4:59 AM","iftar":"6:05 PM"},
+    {"day":18,"date":"08 March","sehri":"4:58 AM","iftar":"6:06 PM"},
+    {"day":19,"date":"09 March","sehri":"4:57 AM","iftar":"6:06 PM"},
+    {"day":20,"date":"10 March","sehri":"4:56 AM","iftar":"6:06 PM"},
+    {"day":21,"date":"11 March","sehri":"4:55 AM","iftar":"6:07 PM"},
+    {"day":22,"date":"12 March","sehri":"4:54 AM","iftar":"6:07 PM"},
+    {"day":23,"date":"13 March","sehri":"4:53 AM","iftar":"6:08 PM"},
+    {"day":24,"date":"14 March","sehri":"4:52 AM","iftar":"6:08 PM"},
+    {"day":25,"date":"15 March","sehri":"4:51 AM","iftar":"6:09 PM"},
+    {"day":26,"date":"16 March","sehri":"4:51 AM","iftar":"6:09 PM"},
+    {"day":27,"date":"17 March","sehri":"4:50 AM","iftar":"6:09 PM"},
+    {"day":28,"date":"18 March","sehri":"4:49 AM","iftar":"6:10 PM"},
+    {"day":29,"date":"19 February","sehri":"4:48 AM","iftar":"6:10 PM"},
+    {"day":30,"date":"20 February","sehri":"4:47 AM","iftar":"6:10 PM"}
+  ],
+  "Shatkhira": [
+    {"day":1,"date":"19 February","sehri":"5:16 AM","iftar":"6:03 PM"},
+    {"day":2,"date":"20 February","sehri":"5:15 AM","iftar":"6:04 PM"},
+    {"day":3,"date":"21 February","sehri":"5:15 AM","iftar":"6:04 PM"},
+    {"day":4,"date":"22 February","sehri":"5:14 AM","iftar":"6:05 PM"},
+    {"day":5,"date":"23 February","sehri":"5:13 AM","iftar":"6:05 PM"},
+    {"day":6,"date":"24 February","sehri":"5:13 AM","iftar":"6:06 PM"},
+    {"day":7,"date":"25 February","sehri":"5:12 AM","iftar":"6:06 PM"},
+    {"day":8,"date":"26 February","sehri":"5:11 AM","iftar":"6:07 PM"},
+    {"day":9,"date":"27 February","sehri":"5:10 AM","iftar":"6:07 PM"},
+    {"day":10,"date":"28 February","sehri":"5:10 AM","iftar":"6:07 PM"},
+    {"day":11,"date":"01 March","sehri":"5:09 AM","iftar":"6:08 PM"},
+    {"day":12,"date":"02 March","sehri":"5:08 AM","iftar":"6:08 PM"},
+    {"day":13,"date":"03 March","sehri":"5:07 AM","iftar":"6:09 PM"},
+    {"day":14,"date":"04 March","sehri":"5:07 AM","iftar":"6:09 PM"},
+    {"day":15,"date":"05 March","sehri":"5:06 AM","iftar":"6:10 PM"},
+    {"day":16,"date":"06 March","sehri":"5:05 AM","iftar":"6:10 PM"},
+    {"day":17,"date":"07 March","sehri":"5:04 AM","iftar":"6:11 PM"},
+    {"day":18,"date":"08 March","sehri":"5:03 AM","iftar":"6:11 PM"},
+    {"day":19,"date":"09 March","sehri":"5:02 AM","iftar":"6:11 PM"},
+    {"day":20,"date":"10 March","sehri":"5:02 AM","iftar":"6:12 PM"},
+    {"day":21,"date":"11 March","sehri":"5:01 AM","iftar":"6:12 PM"},
+    {"day":22,"date":"12 March","sehri":"5:00 AM","iftar":"6:13 PM"},
+    {"day":23,"date":"13 March","sehri":"4:59 AM","iftar":"6:13 PM"},
+    {"day":24,"date":"14 March","sehri":"4:58 AM","iftar":"6:13 PM"},
+    {"day":25,"date":"15 March","sehri":"4:57 AM","iftar":"6:14 PM"},
+    {"day":26,"date":"16 March","sehri":"4:56 AM","iftar":"6:14 PM"},
+    {"day":27,"date":"17 March","sehri":"4:55 AM","iftar":"6:15 PM"},
+    {"day":28,"date":"18 March","sehri":"4:54 AM","iftar":"6:15 PM"},
+    {"day":29,"date":"19 February","sehri":"4:53 AM","iftar":"6:15 PM"},
+    {"day":30,"date":"20 February","sehri":"4:52 AM","iftar":"6:16 PM"}
+  ],
+  "Jessore": [
+    {"day":1,"date":"19 February","sehri":"5:16 AM","iftar":"6:03 PM"},
+    {"day":2,"date":"20 February","sehri":"5:15 AM","iftar":"6:04 PM"},
+    {"day":3,"date":"21 February","sehri":"5:14 AM","iftar":"6:04 PM"},
+    {"day":4,"date":"22 February","sehri":"5:14 AM","iftar":"6:05 PM"},
+    {"day":5,"date":"23 February","sehri":"5:13 AM","iftar":"6:05 PM"},
+    {"day":6,"date":"24 February","sehri":"5:12 AM","iftar":"6:06 PM"},
+    {"day":7,"date":"25 February","sehri":"5:11 AM","iftar":"6:06 PM"},
+    {"day":8,"date":"26 February","sehri":"5:11 AM","iftar":"6:07 PM"},
+    {"day":9,"date":"27 February","sehri":"5:10 AM","iftar":"6:07 PM"},
+    {"day":10,"date":"28 February","sehri":"5:09 AM","iftar":"6:08 PM"},
+    {"day":11,"date":"01 March","sehri":"5:08 AM","iftar":"6:08 PM"},
+    {"day":12,"date":"02 March","sehri":"5:07 AM","iftar":"6:09 PM"},
+    {"day":13,"date":"03 March","sehri":"5:07 AM","iftar":"6:09 PM"},
+    {"day":14,"date":"04 March","sehri":"5:06 AM","iftar":"6:09 PM"},
+    {"day":15,"date":"05 March","sehri":"5:05 AM","iftar":"6:10 PM"},
+    {"day":16,"date":"06 March","sehri":"5:04 AM","iftar":"6:10 PM"},
+    {"day":17,"date":"07 March","sehri":"5:03 AM","iftar":"6:11 PM"},
+    {"day":18,"date":"08 March","sehri":"5:02 AM","iftar":"6:11 PM"},
+    {"day":19,"date":"09 March","sehri":"5:01 AM","iftar":"6:12 PM"},
+    {"day":20,"date":"10 March","sehri":"5:01 AM","iftar":"6:12 PM"},
+    {"day":21,"date":"11 March","sehri":"5:00 AM","iftar":"6:12 PM"},
+    {"day":22,"date":"12 March","sehri":"4:59 AM","iftar":"6:13 PM"},
+    {"day":23,"date":"13 March","sehri":"4:58 AM","iftar":"6:13 PM"},
+    {"day":24,"date":"14 March","sehri":"4:57 AM","iftar":"6:14 PM"},
+    {"day":25,"date":"15 March","sehri":"4:56 AM","iftar":"6:14 PM"},
+    {"day":26,"date":"16 March","sehri":"4:55 AM","iftar":"6:14 PM"},
+    {"day":27,"date":"17 March","sehri":"4:54 AM","iftar":"6:15 PM"},
+    {"day":28,"date":"18 March","sehri":"4:53 AM","iftar":"6:15 PM"},
+    {"day":29,"date":"19 February","sehri":"4:52 AM","iftar":"6:16 PM"},
+    {"day":30,"date":"20 February","sehri":"4:51 AM","iftar":"6:16 PM"}
+  ],
+  "Meherpur": [
+    {"day":1,"date":"19 February","sehri":"5:19 AM","iftar":"6:04 PM"},
+    {"day":2,"date":"20 February","sehri":"5:18 AM","iftar":"6:04 PM"},
+    {"day":3,"date":"21 February","sehri":"5:17 AM","iftar":"6:05 PM"},
+    {"day":4,"date":"22 February","sehri":"5:16 AM","iftar":"6:05 PM"},
+    {"day":5,"date":"23 February","sehri":"5:16 AM","iftar":"6:06 PM"},
+    {"day":6,"date":"24 February","sehri":"5:15 AM","iftar":"6:06 PM"},
+    {"day":7,"date":"25 February","sehri":"5:14 AM","iftar":"6:07 PM"},
+    {"day":8,"date":"26 February","sehri":"5:13 AM","iftar":"6:07 PM"},
+    {"day":9,"date":"27 February","sehri":"5:13 AM","iftar":"6:08 PM"},
+    {"day":10,"date":"28 February","sehri":"5:12 AM","iftar":"6:08 PM"},
+    {"day":11,"date":"01 March","sehri":"5:11 AM","iftar":"6:09 PM"},
+    {"day":12,"date":"02 March","sehri":"5:10 AM","iftar":"6:09 PM"},
+    {"day":13,"date":"03 March","sehri":"5:09 AM","iftar":"6:10 PM"},
+    {"day":14,"date":"04 March","sehri":"5:08 AM","iftar":"6:10 PM"},
+    {"day":15,"date":"05 March","sehri":"5:08 AM","iftar":"6:11 PM"},
+    {"day":16,"date":"06 March","sehri":"5:07 AM","iftar":"6:11 PM"},
+    {"day":17,"date":"07 March","sehri":"5:06 AM","iftar":"6:12 PM"},
+    {"day":18,"date":"08 March","sehri":"5:05 AM","iftar":"6:12 PM"},
+    {"day":19,"date":"09 March","sehri":"5:04 AM","iftar":"6:12 PM"},
+    {"day":20,"date":"10 March","sehri":"5:03 AM","iftar":"6:13 PM"},
+    {"day":21,"date":"11 March","sehri":"5:02 AM","iftar":"6:13 PM"},
+    {"day":22,"date":"12 March","sehri":"5:01 AM","iftar":"6:14 PM"},
+    {"day":23,"date":"13 March","sehri":"5:00 AM","iftar":"6:14 PM"},
+    {"day":24,"date":"14 March","sehri":"4:59 AM","iftar":"6:15 PM"},
+    {"day":25,"date":"15 March","sehri":"4:58 AM","iftar":"6:15 PM"},
+    {"day":26,"date":"16 March","sehri":"4:57 AM","iftar":"6:15 PM"},
+    {"day":27,"date":"17 March","sehri":"4:56 AM","iftar":"6:16 PM"},
+    {"day":28,"date":"18 March","sehri":"4:55 AM","iftar":"6:16 PM"},
+    {"day":29,"date":"19 February","sehri":"4:54 AM","iftar":"6:17 PM"},
+    {"day":30,"date":"20 February","sehri":"4:53 AM","iftar":"6:17 PM"}
+  ],
+  "Magura": [
+    {"day":1,"date":"19 February","sehri":"5:15 AM","iftar":"6:01 PM"},
+    {"day":2,"date":"20 February","sehri":"5:15 AM","iftar":"6:02 PM"},
+    {"day":3,"date":"21 February","sehri":"5:14 AM","iftar":"6:02 PM"},
+    {"day":4,"date":"22 February","sehri":"5:13 AM","iftar":"6:03 PM"},
+    {"day":5,"date":"23 February","sehri":"5:13 AM","iftar":"6:03 PM"},
+    {"day":6,"date":"24 February","sehri":"5:12 AM","iftar":"6:04 PM"},
+    {"day":7,"date":"25 February","sehri":"5:11 AM","iftar":"6:04 PM"},
+    {"day":8,"date":"26 February","sehri":"5:10 AM","iftar":"6:05 PM"},
+    {"day":9,"date":"27 February","sehri":"5:10 AM","iftar":"6:05 PM"},
+    {"day":10,"date":"28 February","sehri":"5:09 AM","iftar":"6:06 PM"},
+    {"day":11,"date":"01 March","sehri":"5:08 AM","iftar":"6:06 PM"},
+    {"day":12,"date":"02 March","sehri":"5:07 AM","iftar":"6:07 PM"},
+    {"day":13,"date":"03 March","sehri":"5:06 AM","iftar":"6:07 PM"},
+    {"day":14,"date":"04 March","sehri":"5:05 AM","iftar":"6:08 PM"},
+    {"day":15,"date":"05 March","sehri":"5:05 AM","iftar":"6:08 PM"},
+    {"day":16,"date":"06 March","sehri":"5:04 AM","iftar":"6:09 PM"},
+    {"day":17,"date":"07 March","sehri":"5:03 AM","iftar":"6:09 PM"},
+    {"day":18,"date":"08 March","sehri":"5:02 AM","iftar":"6:09 PM"},
+    {"day":19,"date":"09 March","sehri":"5:01 AM","iftar":"6:10 PM"},
+    {"day":20,"date":"10 March","sehri":"5:00 AM","iftar":"6:10 PM"},
+    {"day":21,"date":"11 March","sehri":"4:59 AM","iftar":"6:11 PM"},
+    {"day":22,"date":"12 March","sehri":"4:58 AM","iftar":"6:11 PM"},
+    {"day":23,"date":"13 March","sehri":"4:57 AM","iftar":"6:12 PM"},
+    {"day":24,"date":"14 March","sehri":"4:56 AM","iftar":"6:12 PM"},
+    {"day":25,"date":"15 March","sehri":"4:55 AM","iftar":"6:12 PM"},
+    {"day":26,"date":"16 March","sehri":"4:54 AM","iftar":"6:13 PM"},
+    {"day":27,"date":"17 March","sehri":"4:53 AM","iftar":"6:13 PM"},
+    {"day":28,"date":"18 March","sehri":"4:52 AM","iftar":"6:14 PM"},
+    {"day":29,"date":"19 February","sehri":"4:51 AM","iftar":"6:14 PM"},
+    {"day":30,"date":"20 February","sehri":"4:50 AM","iftar":"6:14 PM"}
+  ],
+  "Bagerhat": [
+    {"day":1,"date":"19 February","sehri":"5:14 AM","iftar":"6:01 PM"},
+    {"day":2,"date":"20 February","sehri":"5:13 AM","iftar":"6:01 PM"},
+    {"day":3,"date":"21 February","sehri":"5:12 AM","iftar":"6:02 PM"},
+    {"day":4,"date":"22 February","sehri":"5:12 AM","iftar":"6:02 PM"},
+    {"day":5,"date":"23 February","sehri":"5:11 AM","iftar":"6:03 PM"},
+    {"day":6,"date":"24 February","sehri":"5:10 AM","iftar":"6:03 PM"},
+    {"day":7,"date":"25 February","sehri":"5:10 AM","iftar":"6:04 PM"},
+    {"day":8,"date":"26 February","sehri":"5:09 AM","iftar":"6:04 PM"},
+    {"day":9,"date":"27 February","sehri":"5:08 AM","iftar":"6:05 PM"},
+    {"day":10,"date":"28 February","sehri":"5:07 AM","iftar":"6:05 PM"},
+    {"day":11,"date":"01 March","sehri":"5:07 AM","iftar":"6:06 PM"},
+    {"day":12,"date":"02 March","sehri":"5:06 AM","iftar":"6:06 PM"},
+    {"day":13,"date":"03 March","sehri":"5:05 AM","iftar":"6:06 PM"},
+    {"day":14,"date":"04 March","sehri":"5:04 AM","iftar":"6:07 PM"},
+    {"day":15,"date":"05 March","sehri":"5:03 AM","iftar":"6:07 PM"},
+    {"day":16,"date":"06 March","sehri":"5:03 AM","iftar":"6:08 PM"},
+    {"day":17,"date":"07 March","sehri":"5:02 AM","iftar":"6:08 PM"},
+    {"day":18,"date":"08 March","sehri":"5:01 AM","iftar":"6:09 PM"},
+    {"day":19,"date":"09 March","sehri":"5:00 AM","iftar":"6:09 PM"},
+    {"day":20,"date":"10 March","sehri":"4:59 AM","iftar":"6:09 PM"},
+    {"day":21,"date":"11 March","sehri":"4:58 AM","iftar":"6:10 PM"},
+    {"day":22,"date":"12 March","sehri":"4:57 AM","iftar":"6:10 PM"},
+    {"day":23,"date":"13 March","sehri":"4:56 AM","iftar":"6:11 PM"},
+    {"day":24,"date":"14 March","sehri":"4:55 AM","iftar":"6:11 PM"},
+    {"day":25,"date":"15 March","sehri":"4:54 AM","iftar":"6:11 PM"},
+    {"day":26,"date":"16 March","sehri":"4:53 AM","iftar":"6:12 PM"},
+    {"day":27,"date":"17 March","sehri":"4:52 AM","iftar":"6:12 PM"},
+    {"day":28,"date":"18 March","sehri":"4:52 AM","iftar":"6:12 PM"},
+    {"day":29,"date":"19 February","sehri":"4:51 AM","iftar":"6:13 PM"},
+    {"day":30,"date":"20 February","sehri":"4:50 AM","iftar":"6:13 PM"}
+  ],
+  "Norail": [
+    {"day":1,"date":"19 February","sehri":"5:15 AM","iftar":"6:01 PM"},
+    {"day":2,"date":"20 February","sehri":"5:14 AM","iftar":"6:01 PM"},
+    {"day":3,"date":"21 February","sehri":"5:13 AM","iftar":"6:02 PM"},
+    {"day":4,"date":"22 February","sehri":"5:13 AM","iftar":"6:02 PM"},
+    {"day":5,"date":"23 February","sehri":"5:12 AM","iftar":"6:03 PM"},
+    {"day":6,"date":"24 February","sehri":"5:11 AM","iftar":"6:03 PM"},
+    {"day":7,"date":"25 February","sehri":"5:10 AM","iftar":"6:04 PM"},
+    {"day":8,"date":"26 February","sehri":"5:10 AM","iftar":"6:04 PM"},
+    {"day":9,"date":"27 February","sehri":"5:09 AM","iftar":"6:05 PM"},
+    {"day":10,"date":"28 February","sehri":"5:08 AM","iftar":"6:05 PM"},
+    {"day":11,"date":"01 March","sehri":"5:07 AM","iftar":"6:06 PM"},
+    {"day":12,"date":"02 March","sehri":"5:06 AM","iftar":"6:06 PM"},
+    {"day":13,"date":"03 March","sehri":"5:06 AM","iftar":"6:07 PM"},
+    {"day":14,"date":"04 March","sehri":"5:05 AM","iftar":"6:07 PM"},
+    {"day":15,"date":"05 March","sehri":"5:04 AM","iftar":"6:08 PM"},
+    {"day":16,"date":"06 March","sehri":"5:03 AM","iftar":"6:08 PM"},
+    {"day":17,"date":"07 March","sehri":"5:02 AM","iftar":"6:09 PM"},
+    {"day":18,"date":"08 March","sehri":"5:01 AM","iftar":"6:09 PM"},
+    {"day":19,"date":"09 March","sehri":"5:00 AM","iftar":"6:09 PM"},
+    {"day":20,"date":"10 March","sehri":"5:00 AM","iftar":"6:10 PM"},
+    {"day":21,"date":"11 March","sehri":"4:59 AM","iftar":"6:10 PM"},
+    {"day":22,"date":"12 March","sehri":"4:58 AM","iftar":"6:11 PM"},
+    {"day":23,"date":"13 March","sehri":"4:57 AM","iftar":"6:11 PM"},
+    {"day":24,"date":"14 March","sehri":"4:56 AM","iftar":"6:11 PM"},
+    {"day":25,"date":"15 March","sehri":"4:55 AM","iftar":"6:12 PM"},
+    {"day":26,"date":"16 March","sehri":"4:54 AM","iftar":"6:12 PM"},
+    {"day":27,"date":"17 March","sehri":"4:53 AM","iftar":"6:13 PM"},
+    {"day":28,"date":"18 March","sehri":"4:52 AM","iftar":"6:13 PM"},
+    {"day":29,"date":"19 February","sehri":"4:51 AM","iftar":"6:13 PM"},
+    {"day":30,"date":"20 February","sehri":"4:50 AM","iftar":"6:14 PM"}
+  ],
+  "Jhenaidah": [
+    {"day":1,"date":"19 February","sehri":"5:16 AM","iftar":"6:03 PM"},
+    {"day":2,"date":"20 February","sehri":"5:16 AM","iftar":"6:04 PM"},
+    {"day":3,"date":"21 February","sehri":"5:15 AM","iftar":"6:05 PM"},
+    {"day":4,"date":"22 February","sehri":"5:14 AM","iftar":"6:05 PM"},
+    {"day":5,"date":"23 February","sehri":"5:14 AM","iftar":"6:06 PM"},
+    {"day":6,"date":"24 February","sehri":"5:13 AM","iftar":"6:06 PM"},
+    {"day":7,"date":"25 February","sehri":"5:12 AM","iftar":"6:07 PM"},
+    {"day":8,"date":"26 February","sehri":"5:11 AM","iftar":"6:07 PM"},
+    {"day":9,"date":"27 February","sehri":"5:11 AM","iftar":"6:08 PM"},
+    {"day":10,"date":"28 February","sehri":"5:10 AM","iftar":"6:08 PM"},
+    {"day":11,"date":"01 March","sehri":"5:09 AM","iftar":"6:09 PM"},
+    {"day":12,"date":"02 March","sehri":"5:08 AM","iftar":"6:09 PM"},
+    {"day":13,"date":"03 March","sehri":"5:07 AM","iftar":"6:09 PM"},
+    {"day":14,"date":"04 March","sehri":"5:07 AM","iftar":"6:10 PM"},
+    {"day":15,"date":"05 March","sehri":"5:06 AM","iftar":"6:10 PM"},
+    {"day":16,"date":"06 March","sehri":"5:05 AM","iftar":"6:11 PM"},
+    {"day":17,"date":"07 March","sehri":"5:04 AM","iftar":"6:11 PM"},
+    {"day":18,"date":"08 March","sehri":"5:03 AM","iftar":"6:12 PM"},
+    {"day":19,"date":"09 March","sehri":"5:02 AM","iftar":"6:12 PM"},
+    {"day":20,"date":"10 March","sehri":"5:01 AM","iftar":"6:12 PM"},
+    {"day":21,"date":"11 March","sehri":"5:00 AM","iftar":"6:13 PM"},
+    {"day":22,"date":"12 March","sehri":"4:59 AM","iftar":"6:13 PM"},
+    {"day":23,"date":"13 March","sehri":"4:58 AM","iftar":"6:14 PM"},
+    {"day":24,"date":"14 March","sehri":"4:57 AM","iftar":"6:14 PM"},
+    {"day":25,"date":"15 March","sehri":"4:56 AM","iftar":"6:15 PM"},
+    {"day":26,"date":"16 March","sehri":"4:55 AM","iftar":"6:15 PM"},
+    {"day":27,"date":"17 March","sehri":"4:54 AM","iftar":"6:15 PM"},
+    {"day":28,"date":"18 March","sehri":"4:53 AM","iftar":"6:16 PM"},
+    {"day":29,"date":"19 February","sehri":"4:52 AM","iftar":"6:16 PM"},
+    {"day":30,"date":"20 February","sehri":"4:51 AM","iftar":"6:16 PM"}
+  ],
+  "Chuadanga": [
+    {"day":1,"date":"19 February","sehri":"5:18 AM","iftar":"6:03 PM"},
+    {"day":2,"date":"20 February","sehri":"5:17 AM","iftar":"6:04 PM"},
+    {"day":3,"date":"21 February","sehri":"5:17 AM","iftar":"6:05 PM"},
+    {"day":4,"date":"22 February","sehri":"5:16 AM","iftar":"6:05 PM"},
+    {"day":5,"date":"23 February","sehri":"5:15 AM","iftar":"6:06 PM"},
+    {"day":6,"date":"24 February","sehri":"5:14 AM","iftar":"6:06 PM"},
+    {"day":7,"date":"25 February","sehri":"5:14 AM","iftar":"6:07 PM"},
+    {"day":8,"date":"26 February","sehri":"5:13 AM","iftar":"6:07 PM"},
+    {"day":9,"date":"27 February","sehri":"5:12 AM","iftar":"6:08 PM"},
+    {"day":10,"date":"28 February","sehri":"5:11 AM","iftar":"6:08 PM"},
+    {"day":11,"date":"01 March","sehri":"5:10 AM","iftar":"6:09 PM"},
+    {"day":12,"date":"02 March","sehri":"5:10 AM","iftar":"6:09 PM"},
+    {"day":13,"date":"03 March","sehri":"5:09 AM","iftar":"6:10 PM"},
+    {"day":14,"date":"04 March","sehri":"5:08 AM","iftar":"6:10 PM"},
+    {"day":15,"date":"05 March","sehri":"5:07 AM","iftar":"6:10 PM"},
+    {"day":16,"date":"06 March","sehri":"5:06 AM","iftar":"6:11 PM"},
+    {"day":17,"date":"07 March","sehri":"5:05 AM","iftar":"6:11 PM"},
+    {"day":18,"date":"08 March","sehri":"5:04 AM","iftar":"6:12 PM"},
+    {"day":19,"date":"09 March","sehri":"5:03 AM","iftar":"6:12 PM"},
+    {"day":20,"date":"10 March","sehri":"5:03 AM","iftar":"6:13 PM"},
+    {"day":21,"date":"11 March","sehri":"5:02 AM","iftar":"6:13 PM"},
+    {"day":22,"date":"12 March","sehri":"5:01 AM","iftar":"6:14 PM"},
+    {"day":23,"date":"13 March","sehri":"5:00 AM","iftar":"6:14 PM"},
+    {"day":24,"date":"14 March","sehri":"4:59 AM","iftar":"6:14 PM"},
+    {"day":25,"date":"15 March","sehri":"4:58 AM","iftar":"6:15 PM"},
+    {"day":26,"date":"16 March","sehri":"4:57 AM","iftar":"6:15 PM"},
+    {"day":27,"date":"17 March","sehri":"4:56 AM","iftar":"6:16 PM"},
+    {"day":28,"date":"18 March","sehri":"4:55 AM","iftar":"6:16 PM"},
+    {"day":29,"date":"19 February","sehri":"4:54 AM","iftar":"6:16 PM"},
+    {"day":30,"date":"20 February","sehri":"4:53 AM","iftar":"6:17 PM"}
+  ],
+  "Khulna": [
+    {"day":1,"date":"19 February","sehri":"5:15 AM","iftar":"6:02 PM"},
+    {"day":2,"date":"20 February","sehri":"5:14 AM","iftar":"6:02 PM"},
+    {"day":3,"date":"21 February","sehri":"5:13 AM","iftar":"6:03 PM"},
+    {"day":4,"date":"22 February","sehri":"5:13 AM","iftar":"6:03 PM"},
+    {"day":5,"date":"23 February","sehri":"5:12 AM","iftar":"6:04 PM"},
+    {"day":6,"date":"24 February","sehri":"5:11 AM","iftar":"6:04 PM"},
+    {"day":7,"date":"25 February","sehri":"5:11 AM","iftar":"6:05 PM"},
+    {"day":8,"date":"26 February","sehri":"5:10 AM","iftar":"6:05 PM"},
+    {"day":9,"date":"27 February","sehri":"5:09 AM","iftar":"6:06 PM"},
+    {"day":10,"date":"28 February","sehri":"5:08 AM","iftar":"6:06 PM"},
+    {"day":11,"date":"01 March","sehri":"5:08 AM","iftar":"6:07 PM"},
+    {"day":12,"date":"02 March","sehri":"5:07 AM","iftar":"6:07 PM"},
+    {"day":13,"date":"03 March","sehri":"5:06 AM","iftar":"6:08 PM"},
+    {"day":14,"date":"04 March","sehri":"5:05 AM","iftar":"6:08 PM"},
+    {"day":15,"date":"05 March","sehri":"5:04 AM","iftar":"6:08 PM"},
+    {"day":16,"date":"06 March","sehri":"5:03 AM","iftar":"6:09 PM"},
+    {"day":17,"date":"07 March","sehri":"5:02 AM","iftar":"6:09 PM"},
+    {"day":18,"date":"08 March","sehri":"5:02 AM","iftar":"6:10 PM"},
+    {"day":19,"date":"09 March","sehri":"5:01 AM","iftar":"6:10 PM"},
+    {"day":20,"date":"10 March","sehri":"5:00 AM","iftar":"6:10 PM"},
+    {"day":21,"date":"11 March","sehri":"4:59 AM","iftar":"6:11 PM"},
+    {"day":22,"date":"12 March","sehri":"4:58 AM","iftar":"6:11 PM"},
+    {"day":23,"date":"13 March","sehri":"4:57 AM","iftar":"6:12 PM"},
+    {"day":24,"date":"14 March","sehri":"4:56 AM","iftar":"6:12 PM"},
+    {"day":25,"date":"15 March","sehri":"4:55 AM","iftar":"6:12 PM"},
+    {"day":26,"date":"16 March","sehri":"4:54 AM","iftar":"6:13 PM"},
+    {"day":27,"date":"17 March","sehri":"4:53 AM","iftar":"6:13 PM"},
+    {"day":28,"date":"18 March","sehri":"4:52 AM","iftar":"6:14 PM"},
+    {"day":29,"date":"19 February","sehri":"4:51 AM","iftar":"6:14 PM"},
+    {"day":30,"date":"20 February","sehri":"4:50 AM","iftar":"6:14 PM"}
+  ],
+  "Kushtia": [
+    {"day":1,"date":"19 February","sehri":"5:17 AM","iftar":"6:03 PM"},
+    {"day":2,"date":"20 February","sehri":"5:16 AM","iftar":"6:03 PM"},
+    {"day":3,"date":"21 February","sehri":"5:15 AM","iftar":"6:04 PM"},
+    {"day":4,"date":"22 February","sehri":"5:15 AM","iftar":"6:04 PM"},
+    {"day":5,"date":"23 February","sehri":"5:14 AM","iftar":"6:05 PM"},
+    {"day":6,"date":"24 February","sehri":"5:13 AM","iftar":"6:05 PM"},
+    {"day":7,"date":"25 February","sehri":"5:12 AM","iftar":"6:06 PM"},
+    {"day":8,"date":"26 February","sehri":"5:12 AM","iftar":"6:07 PM"},
+    {"day":9,"date":"27 February","sehri":"5:11 AM","iftar":"6:07 PM"},
+    {"day":10,"date":"28 February","sehri":"5:10 AM","iftar":"6:08 PM"},
+    {"day":11,"date":"01 March","sehri":"5:09 AM","iftar":"6:08 PM"},
+    {"day":12,"date":"02 March","sehri":"5:08 AM","iftar":"6:09 PM"},
+    {"day":13,"date":"03 March","sehri":"5:07 AM","iftar":"6:09 PM"},
+    {"day":14,"date":"04 March","sehri":"5:07 AM","iftar":"6:09 PM"},
+    {"day":15,"date":"05 March","sehri":"5:06 AM","iftar":"6:10 PM"},
+    {"day":16,"date":"06 March","sehri":"5:05 AM","iftar":"6:10 PM"},
+    {"day":17,"date":"07 March","sehri":"5:04 AM","iftar":"6:11 PM"},
+    {"day":18,"date":"08 March","sehri":"5:03 AM","iftar":"6:11 PM"},
+    {"day":19,"date":"09 March","sehri":"5:02 AM","iftar":"6:12 PM"},
+    {"day":20,"date":"10 March","sehri":"5:01 AM","iftar":"6:12 PM"},
+    {"day":21,"date":"11 March","sehri":"5:00 AM","iftar":"6:13 PM"},
+    {"day":22,"date":"12 March","sehri":"4:59 AM","iftar":"6:13 PM"},
+    {"day":23,"date":"13 March","sehri":"4:58 AM","iftar":"6:14 PM"},
+    {"day":24,"date":"14 March","sehri":"4:57 AM","iftar":"6:14 PM"},
+    {"day":25,"date":"15 March","sehri":"4:56 AM","iftar":"6:14 PM"},
+    {"day":26,"date":"16 March","sehri":"4:55 AM","iftar":"6:15 PM"},
+    {"day":27,"date":"17 March","sehri":"4:54 AM","iftar":"6:15 PM"},
+    {"day":28,"date":"18 March","sehri":"4:53 AM","iftar":"6:16 PM"},
+    {"day":29,"date":"19 February","sehri":"4:52 AM","iftar":"6:16 PM"},
+    {"day":30,"date":"20 February","sehri":"4:51 AM","iftar":"6:17 PM"}
+  ],
+  "Lakkhipur": [
+    {"day":1,"date":"19 February","sehri":"5:10 AM","iftar":"5:56 PM"},
+    {"day":2,"date":"20 February","sehri":"5:09 AM","iftar":"5:56 PM"},
+    {"day":3,"date":"21 February","sehri":"5:08 AM","iftar":"5:57 PM"},
+    {"day":4,"date":"22 February","sehri":"5:08 AM","iftar":"5:58 PM"},
+    {"day":5,"date":"23 February","sehri":"5:07 AM","iftar":"5:58 PM"},
+    {"day":6,"date":"24 February","sehri":"5:06 AM","iftar":"5:59 PM"},
+    {"day":7,"date":"25 February","sehri":"5:06 AM","iftar":"5:59 PM"},
+    {"day":8,"date":"26 February","sehri":"5:05 AM","iftar":"5:59 PM"},
+    {"day":9,"date":"27 February","sehri":"5:04 AM","iftar":"6:00 PM"},
+    {"day":10,"date":"28 February","sehri":"5:03 AM","iftar":"6:00 PM"},
+    {"day":11,"date":"01 March","sehri":"5:02 AM","iftar":"6:01 PM"},
+    {"day":12,"date":"02 March","sehri":"5:02 AM","iftar":"6:01 PM"},
+    {"day":13,"date":"03 March","sehri":"5:01 AM","iftar":"6:02 PM"},
+    {"day":14,"date":"04 March","sehri":"5:00 AM","iftar":"6:02 PM"},
+    {"day":15,"date":"05 March","sehri":"4:59 AM","iftar":"6:03 PM"},
+    {"day":16,"date":"06 March","sehri":"4:58 AM","iftar":"6:03 PM"},
+    {"day":17,"date":"07 March","sehri":"4:57 AM","iftar":"6:04 PM"},
+    {"day":18,"date":"08 March","sehri":"4:57 AM","iftar":"6:04 PM"},
+    {"day":19,"date":"09 March","sehri":"4:56 AM","iftar":"6:04 PM"},
+    {"day":20,"date":"10 March","sehri":"4:55 AM","iftar":"6:05 PM"},
+    {"day":21,"date":"11 March","sehri":"4:54 AM","iftar":"6:05 PM"},
+    {"day":22,"date":"12 March","sehri":"4:53 AM","iftar":"6:06 PM"},
+    {"day":23,"date":"13 March","sehri":"4:52 AM","iftar":"6:06 PM"},
+    {"day":24,"date":"14 March","sehri":"4:51 AM","iftar":"6:06 PM"},
+    {"day":25,"date":"15 March","sehri":"4:50 AM","iftar":"6:07 PM"},
+    {"day":26,"date":"16 March","sehri":"4:49 AM","iftar":"6:07 PM"},
+    {"day":27,"date":"17 March","sehri":"4:48 AM","iftar":"6:08 PM"},
+    {"day":28,"date":"18 March","sehri":"4:47 AM","iftar":"6:08 PM"},
+    {"day":29,"date":"19 February","sehri":"4:46 AM","iftar":"6:08 PM"},
+    {"day":30,"date":"20 February","sehri":"4:45 AM","iftar":"6:09 PM"}
+  ],
+  "Rangamati": [
+    {"day":1,"date":"19 February","sehri":"5:03 AM","iftar":"5:51 PM"},
+    {"day":2,"date":"20 February","sehri":"5:02 AM","iftar":"5:52 PM"},
+    {"day":3,"date":"21 February","sehri":"5:02 AM","iftar":"5:52 PM"},
+    {"day":4,"date":"22 February","sehri":"5:01 AM","iftar":"5:53 PM"},
+    {"day":5,"date":"23 February","sehri":"5:00 AM","iftar":"5:53 PM"},
+    {"day":6,"date":"24 February","sehri":"5:00 AM","iftar":"5:54 PM"},
+    {"day":7,"date":"25 February","sehri":"4:59 AM","iftar":"5:54 PM"},
+    {"day":8,"date":"26 February","sehri":"4:58 AM","iftar":"5:55 PM"},
+    {"day":9,"date":"27 February","sehri":"4:58 AM","iftar":"5:55 PM"},
+    {"day":10,"date":"28 February","sehri":"4:57 AM","iftar":"5:56 PM"},
+    {"day":11,"date":"01 March","sehri":"4:56 AM","iftar":"5:56 PM"},
+    {"day":12,"date":"02 March","sehri":"4:55 AM","iftar":"5:56 PM"},
+    {"day":13,"date":"03 March","sehri":"4:54 AM","iftar":"5:57 PM"},
+    {"day":14,"date":"04 March","sehri":"4:54 AM","iftar":"5:57 PM"},
+    {"day":15,"date":"05 March","sehri":"4:53 AM","iftar":"5:58 PM"},
+    {"day":16,"date":"06 March","sehri":"4:52 AM","iftar":"5:58 PM"},
+    {"day":17,"date":"07 March","sehri":"4:51 AM","iftar":"5:59 PM"},
+    {"day":18,"date":"08 March","sehri":"4:50 AM","iftar":"5:59 PM"},
+    {"day":19,"date":"09 March","sehri":"4:49 AM","iftar":"5:59 PM"},
+    {"day":20,"date":"10 March","sehri":"4:49 AM","iftar":"6:00 PM"},
+    {"day":21,"date":"11 March","sehri":"4:48 AM","iftar":"6:00 PM"},
+    {"day":22,"date":"12 March","sehri":"4:47 AM","iftar":"6:01 PM"},
+    {"day":23,"date":"13 March","sehri":"4:46 AM","iftar":"6:01 PM"},
+    {"day":24,"date":"14 March","sehri":"4:45 AM","iftar":"6:01 PM"},
+    {"day":25,"date":"15 March","sehri":"4:44 AM","iftar":"6:02 PM"},
+    {"day":26,"date":"16 March","sehri":"4:43 AM","iftar":"6:02 PM"},
+    {"day":27,"date":"17 March","sehri":"4:42 AM","iftar":"6:02 PM"},
+    {"day":28,"date":"18 March","sehri":"4:41 AM","iftar":"6:03 PM"},
+    {"day":29,"date":"19 February","sehri":"4:40 AM","iftar":"6:03 PM"},
+    {"day":30,"date":"20 February","sehri":"4:39 AM","iftar":"6:04 PM"}
+  ],
+  "Bramhanbaria": [
+    {"day":1,"date":"19 February","sehri":"5:09 AM","iftar":"5:55 PM"},
+    {"day":2,"date":"20 February","sehri":"5:08 AM","iftar":"5:56 PM"},
+    {"day":3,"date":"21 February","sehri":"5:08 AM","iftar":"5:56 PM"},
+    {"day":4,"date":"22 February","sehri":"5:07 AM","iftar":"5:57 PM"},
+    {"day":5,"date":"23 February","sehri":"5:06 AM","iftar":"5:57 PM"},
+    {"day":6,"date":"24 February","sehri":"5:05 AM","iftar":"5:58 PM"},
+    {"day":7,"date":"25 February","sehri":"5:05 AM","iftar":"5:58 PM"},
+    {"day":8,"date":"26 February","sehri":"5:04 AM","iftar":"5:59 PM"},
+    {"day":9,"date":"27 February","sehri":"5:03 AM","iftar":"5:59 PM"},
+    {"day":10,"date":"28 February","sehri":"5:02 AM","iftar":"6:00 PM"},
+    {"day":11,"date":"01 March","sehri":"5:01 AM","iftar":"6:00 PM"},
+    {"day":12,"date":"02 March","sehri":"5:00 AM","iftar":"6:01 PM"},
+    {"day":13,"date":"03 March","sehri":"5:00 AM","iftar":"6:01 PM"},
+    {"day":14,"date":"04 March","sehri":"4:59 AM","iftar":"6:02 PM"},
+    {"day":15,"date":"05 March","sehri":"4:58 AM","iftar":"6:02 PM"},
+    {"day":16,"date":"06 March","sehri":"4:57 AM","iftar":"6:02 PM"},
+    {"day":17,"date":"07 March","sehri":"4:56 AM","iftar":"6:03 PM"},
+    {"day":18,"date":"08 March","sehri":"4:55 AM","iftar":"6:03 PM"},
+    {"day":19,"date":"09 March","sehri":"4:54 AM","iftar":"6:04 PM"},
+    {"day":20,"date":"10 March","sehri":"4:53 AM","iftar":"6:04 PM"},
+    {"day":21,"date":"11 March","sehri":"4:52 AM","iftar":"6:05 PM"},
+    {"day":22,"date":"12 March","sehri":"4:51 AM","iftar":"6:05 PM"},
+    {"day":23,"date":"13 March","sehri":"4:50 AM","iftar":"6:06 PM"},
+    {"day":24,"date":"14 March","sehri":"4:49 AM","iftar":"6:06 PM"},
+    {"day":25,"date":"15 March","sehri":"4:48 AM","iftar":"6:06 PM"},
+    {"day":26,"date":"16 March","sehri":"4:47 AM","iftar":"6:07 PM"},
+    {"day":27,"date":"17 March","sehri":"4:46 AM","iftar":"6:07 PM"},
+    {"day":28,"date":"18 March","sehri":"4:45 AM","iftar":"6:08 PM"},
+    {"day":29,"date":"19 February","sehri":"4:44 AM","iftar":"6:08 PM"},
+    {"day":30,"date":"20 February","sehri":"4:43 AM","iftar":"6:08 PM"}
+  ],
+  "Bandarban": [
+    {"day":1,"date":"19 February","sehri":"5:02 AM","iftar":"5:51 PM"},
+    {"day":2,"date":"20 February","sehri":"5:02 AM","iftar":"5:52 PM"},
+    {"day":3,"date":"21 February","sehri":"5:01 AM","iftar":"5:52 PM"},
+    {"day":4,"date":"22 February","sehri":"5:01 AM","iftar":"5:53 PM"},
+    {"day":5,"date":"23 February","sehri":"5:00 AM","iftar":"5:53 PM"},
+    {"day":6,"date":"24 February","sehri":"4:59 AM","iftar":"5:54 PM"},
+    {"day":7,"date":"25 February","sehri":"4:59 AM","iftar":"5:54 PM"},
+    {"day":8,"date":"26 February","sehri":"4:58 AM","iftar":"5:55 PM"},
+    {"day":9,"date":"27 February","sehri":"4:57 AM","iftar":"5:55 PM"},
+    {"day":10,"date":"28 February","sehri":"4:56 AM","iftar":"5:55 PM"},
+    {"day":11,"date":"01 March","sehri":"4:56 AM","iftar":"5:56 PM"},
+    {"day":12,"date":"02 March","sehri":"4:55 AM","iftar":"5:56 PM"},
+    {"day":13,"date":"03 March","sehri":"4:54 AM","iftar":"5:57 PM"},
+    {"day":14,"date":"04 March","sehri":"4:53 AM","iftar":"5:57 PM"},
+    {"day":15,"date":"05 March","sehri":"4:53 AM","iftar":"5:58 PM"},
+    {"day":16,"date":"06 March","sehri":"4:52 AM","iftar":"5:58 PM"},
+    {"day":17,"date":"07 March","sehri":"4:51 AM","iftar":"5:58 PM"},
+    {"day":18,"date":"08 March","sehri":"4:50 AM","iftar":"5:59 PM"},
+    {"day":19,"date":"09 March","sehri":"4:49 AM","iftar":"5:59 PM"},
+    {"day":20,"date":"10 March","sehri":"4:48 AM","iftar":"5:59 PM"},
+    {"day":21,"date":"11 March","sehri":"4:48 AM","iftar":"6:00 PM"},
+    {"day":22,"date":"12 March","sehri":"4:47 AM","iftar":"6:00 PM"},
+    {"day":23,"date":"13 March","sehri":"4:46 AM","iftar":"6:01 PM"},
+    {"day":24,"date":"14 March","sehri":"4:45 AM","iftar":"6:01 PM"},
+    {"day":25,"date":"15 March","sehri":"4:44 AM","iftar":"6:01 PM"},
+    {"day":26,"date":"16 March","sehri":"4:43 AM","iftar":"6:02 PM"},
+    {"day":27,"date":"17 March","sehri":"4:42 AM","iftar":"6:02 PM"},
+    {"day":28,"date":"18 March","sehri":"4:41 AM","iftar":"6:02 PM"},
+    {"day":29,"date":"19 February","sehri":"4:40 AM","iftar":"6:03 PM"},
+    {"day":30,"date":"20 February","sehri":"4:39 AM","iftar":"6:03 PM"}
+  ],
+  "Feni": [
+    {"day":1,"date":"19 February","sehri":"5:07 AM","iftar":"5:54 PM"},
+    {"day":2,"date":"20 February","sehri":"5:07 AM","iftar":"5:54 PM"},
+    {"day":3,"date":"21 February","sehri":"5:06 AM","iftar":"5:55 PM"},
+    {"day":4,"date":"22 February","sehri":"5:05 AM","iftar":"5:55 PM"},
+    {"day":5,"date":"23 February","sehri":"5:05 AM","iftar":"5:56 PM"},
+    {"day":6,"date":"24 February","sehri":"5:04 AM","iftar":"5:56 PM"},
+    {"day":7,"date":"25 February","sehri":"5:03 AM","iftar":"5:57 PM"},
+    {"day":8,"date":"26 February","sehri":"5:03 AM","iftar":"5:57 PM"},
+    {"day":9,"date":"27 February","sehri":"5:02 AM","iftar":"5:58 PM"},
+    {"day":10,"date":"28 February","sehri":"5:01 AM","iftar":"5:58 PM"},
+    {"day":11,"date":"01 March","sehri":"5:00 AM","iftar":"5:59 PM"},
+    {"day":12,"date":"02 March","sehri":"4:59 AM","iftar":"5:59 PM"},
+    {"day":13,"date":"03 March","sehri":"4:59 AM","iftar":"5:59 PM"},
+    {"day":14,"date":"04 March","sehri":"4:58 AM","iftar":"6:00 PM"},
+    {"day":15,"date":"05 March","sehri":"4:57 AM","iftar":"6:00 PM"},
+    {"day":16,"date":"06 March","sehri":"4:56 AM","iftar":"6:01 PM"},
+    {"day":17,"date":"07 March","sehri":"4:55 AM","iftar":"6:01 PM"},
+    {"day":18,"date":"08 March","sehri":"4:54 AM","iftar":"6:02 PM"},
+    {"day":19,"date":"09 March","sehri":"4:53 AM","iftar":"6:02 PM"},
+    {"day":20,"date":"10 March","sehri":"4:52 AM","iftar":"6:02 PM"},
+    {"day":21,"date":"11 March","sehri":"4:52 AM","iftar":"6:03 PM"},
+    {"day":22,"date":"12 March","sehri":"4:51 AM","iftar":"6:03 PM"},
+    {"day":23,"date":"13 March","sehri":"4:50 AM","iftar":"6:04 PM"},
+    {"day":24,"date":"14 March","sehri":"4:49 AM","iftar":"6:04 PM"},
+    {"day":25,"date":"15 March","sehri":"4:48 AM","iftar":"6:04 PM"},
+    {"day":26,"date":"16 March","sehri":"4:47 AM","iftar":"6:05 PM"},
+    {"day":27,"date":"17 March","sehri":"4:46 AM","iftar":"6:05 PM"},
+    {"day":28,"date":"18 March","sehri":"4:45 AM","iftar":"6:06 PM"},
+    {"day":29,"date":"19 February","sehri":"4:44 AM","iftar":"6:06 PM"},
+    {"day":30,"date":"20 February","sehri":"4:43 AM","iftar":"6:06 PM"}
+  ],
+  "Noakhali": [
+    {"day":1,"date":"19 February","sehri":"5:08 AM","iftar":"5:55 PM"},
+    {"day":2,"date":"20 February","sehri":"5:07 AM","iftar":"5:55 PM"},
+    {"day":3,"date":"21 February","sehri":"5:07 AM","iftar":"5:56 PM"},
+    {"day":4,"date":"22 February","sehri":"5:06 AM","iftar":"5:57 PM"},
+    {"day":5,"date":"23 February","sehri":"5:05 AM","iftar":"5:57 PM"},
+    {"day":6,"date":"24 February","sehri":"5:04 AM","iftar":"5:58 PM"},
+    {"day":7,"date":"25 February","sehri":"5:04 AM","iftar":"5:58 PM"},
+    {"day":8,"date":"26 February","sehri":"5:03 AM","iftar":"5:58 PM"},
+    {"day":9,"date":"27 February","sehri":"5:02 AM","iftar":"5:59 PM"},
+    {"day":10,"date":"28 February","sehri":"5:02 AM","iftar":"5:59 PM"},
+    {"day":11,"date":"01 March","sehri":"5:01 AM","iftar":"6:00 PM"},
+    {"day":12,"date":"02 March","sehri":"5:00 AM","iftar":"6:00 PM"},
+    {"day":13,"date":"03 March","sehri":"4:59 AM","iftar":"6:01 PM"},
+    {"day":14,"date":"04 March","sehri":"4:58 AM","iftar":"6:01 PM"},
+    {"day":15,"date":"05 March","sehri":"4:58 AM","iftar":"6:02 PM"},
+    {"day":16,"date":"06 March","sehri":"4:57 AM","iftar":"6:02 PM"},
+    {"day":17,"date":"07 March","sehri":"4:56 AM","iftar":"6:03 PM"},
+    {"day":18,"date":"08 March","sehri":"4:55 AM","iftar":"6:03 PM"},
+    {"day":19,"date":"09 March","sehri":"4:54 AM","iftar":"6:03 PM"},
+    {"day":20,"date":"10 March","sehri":"4:53 AM","iftar":"6:04 PM"},
+    {"day":21,"date":"11 March","sehri":"4:52 AM","iftar":"6:04 PM"},
+    {"day":22,"date":"12 March","sehri":"4:51 AM","iftar":"6:05 PM"},
+    {"day":23,"date":"13 March","sehri":"4:50 AM","iftar":"6:05 PM"},
+    {"day":24,"date":"14 March","sehri":"4:50 AM","iftar":"6:05 PM"},
+    {"day":25,"date":"15 March","sehri":"4:49 AM","iftar":"6:06 PM"},
+    {"day":26,"date":"16 March","sehri":"4:48 AM","iftar":"6:06 PM"},
+    {"day":27,"date":"17 March","sehri":"4:47 AM","iftar":"6:07 PM"},
+    {"day":28,"date":"18 March","sehri":"4:46 AM","iftar":"6:07 PM"},
+    {"day":29,"date":"19 February","sehri":"4:45 AM","iftar":"6:07 PM"},
+    {"day":30,"date":"20 February","sehri":"4:44 AM","iftar":"6:08 PM"}
+  ],
+  "Chadpur": [
+    {"day":1,"date":"19 February","sehri":"5:10 AM","iftar":"5:56 PM"},
+    {"day":2,"date":"20 February","sehri":"5:09 AM","iftar":"5:57 PM"},
+    {"day":3,"date":"21 February","sehri":"5:08 AM","iftar":"5:57 PM"},
+    {"day":4,"date":"22 February","sehri":"5:08 AM","iftar":"5:58 PM"},
+    {"day":5,"date":"23 February","sehri":"5:07 AM","iftar":"5:58 PM"},
+    {"day":6,"date":"24 February","sehri":"5:06 AM","iftar":"5:59 PM"},
+    {"day":7,"date":"25 February","sehri":"5:06 AM","iftar":"5:59 PM"},
+    {"day":8,"date":"26 February","sehri":"5:05 AM","iftar":"6:00 PM"},
+    {"day":9,"date":"27 February","sehri":"5:04 AM","iftar":"6:00 PM"},
+    {"day":10,"date":"28 February","sehri":"5:03 AM","iftar":"6:01 PM"},
+    {"day":11,"date":"01 March","sehri":"5:02 AM","iftar":"6:01 PM"},
+    {"day":12,"date":"02 March","sehri":"5:02 AM","iftar":"6:02 PM"},
+    {"day":13,"date":"03 March","sehri":"5:01 AM","iftar":"6:02 PM"},
+    {"day":14,"date":"04 March","sehri":"5:00 AM","iftar":"6:03 PM"},
+    {"day":15,"date":"05 March","sehri":"4:59 AM","iftar":"6:03 PM"},
+    {"day":16,"date":"06 March","sehri":"4:58 AM","iftar":"6:04 PM"},
+    {"day":17,"date":"07 March","sehri":"4:57 AM","iftar":"6:04 PM"},
+    {"day":18,"date":"08 March","sehri":"4:56 AM","iftar":"6:04 PM"},
+    {"day":19,"date":"09 March","sehri":"4:56 AM","iftar":"6:05 PM"},
+    {"day":20,"date":"10 March","sehri":"4:55 AM","iftar":"6:05 PM"},
+    {"day":21,"date":"11 March","sehri":"4:54 AM","iftar":"6:06 PM"},
+    {"day":22,"date":"12 March","sehri":"4:53 AM","iftar":"6:06 PM"},
+    {"day":23,"date":"13 March","sehri":"4:52 AM","iftar":"6:06 PM"},
+    {"day":24,"date":"14 March","sehri":"4:51 AM","iftar":"6:07 PM"},
+    {"day":25,"date":"15 March","sehri":"4:50 AM","iftar":"6:07 PM"},
+    {"day":26,"date":"16 March","sehri":"4:49 AM","iftar":"6:08 PM"},
+    {"day":27,"date":"17 March","sehri":"4:48 AM","iftar":"6:08 PM"},
+    {"day":28,"date":"18 March","sehri":"4:47 AM","iftar":"6:08 PM"},
+    {"day":29,"date":"19 February","sehri":"4:46 AM","iftar":"6:09 PM"},
+    {"day":30,"date":"20 February","sehri":"4:45 AM","iftar":"6:09 PM"}
+  ],
+  "Chittagong": [
+    {"day":1,"date":"19 February","sehri":"5:05 AM","iftar":"5:53 PM"},
+    {"day":2,"date":"20 February","sehri":"5:04 AM","iftar":"5:54 PM"},
+    {"day":3,"date":"21 February","sehri":"5:03 AM","iftar":"5:54 PM"},
+    {"day":4,"date":"22 February","sehri":"5:03 AM","iftar":"5:55 PM"},
+    {"day":5,"date":"23 February","sehri":"5:02 AM","iftar":"5:55 PM"},
+    {"day":6,"date":"24 February","sehri":"5:01 AM","iftar":"5:56 PM"},
+    {"day":7,"date":"25 February","sehri":"5:01 AM","iftar":"5:56 PM"},
+    {"day":8,"date":"26 February","sehri":"5:00 AM","iftar":"5:57 PM"},
+    {"day":9,"date":"27 February","sehri":"4:59 AM","iftar":"5:57 PM"},
+    {"day":10,"date":"28 February","sehri":"4:58 AM","iftar":"5:58 PM"},
+    {"day":11,"date":"01 March","sehri":"4:58 AM","iftar":"5:58 PM"},
+    {"day":12,"date":"02 March","sehri":"4:57 AM","iftar":"5:59 PM"},
+    {"day":13,"date":"03 March","sehri":"4:56 AM","iftar":"5:59 PM"},
+    {"day":14,"date":"04 March","sehri":"4:55 AM","iftar":"5:59 PM"},
+    {"day":15,"date":"05 March","sehri":"4:54 AM","iftar":"6:00 PM"},
+    {"day":16,"date":"06 March","sehri":"4:54 AM","iftar":"6:00 PM"},
+    {"day":17,"date":"07 March","sehri":"4:53 AM","iftar":"6:01 PM"},
+    {"day":18,"date":"08 March","sehri":"4:52 AM","iftar":"6:01 PM"},
+    {"day":19,"date":"09 March","sehri":"4:51 AM","iftar":"6:01 PM"},
+    {"day":20,"date":"10 March","sehri":"4:50 AM","iftar":"6:02 PM"},
+    {"day":21,"date":"11 March","sehri":"4:49 AM","iftar":"6:02 PM"},
+    {"day":22,"date":"12 March","sehri":"4:48 AM","iftar":"6:03 PM"},
+    {"day":23,"date":"13 March","sehri":"4:47 AM","iftar":"6:03 PM"},
+    {"day":24,"date":"14 March","sehri":"4:47 AM","iftar":"6:03 PM"},
+    {"day":25,"date":"15 March","sehri":"4:46 AM","iftar":"6:04 PM"},
+    {"day":26,"date":"16 March","sehri":"4:45 AM","iftar":"6:04 PM"},
+    {"day":27,"date":"17 March","sehri":"4:44 AM","iftar":"6:04 PM"},
+    {"day":28,"date":"18 March","sehri":"4:43 AM","iftar":"6:05 PM"},
+    {"day":29,"date":"19 February","sehri":"4:42 AM","iftar":"6:05 PM"},
+    {"day":30,"date":"20 February","sehri":"4:41 AM","iftar":"6:06 PM"}
+  ],
+  "Khagrachori": [
+    {"day":1,"date":"19 February","sehri":"5:05 AM","iftar":"5:52 PM"},
+    {"day":2,"date":"20 February","sehri":"5:04 AM","iftar":"5:52 PM"},
+    {"day":3,"date":"21 February","sehri":"5:04 AM","iftar":"5:53 PM"},
+    {"day":4,"date":"22 February","sehri":"5:03 AM","iftar":"5:53 PM"},
+    {"day":5,"date":"23 February","sehri":"5:02 AM","iftar":"5:54 PM"},
+    {"day":6,"date":"24 February","sehri":"5:02 AM","iftar":"5:54 PM"},
+    {"day":7,"date":"25 February","sehri":"5:01 AM","iftar":"5:55 PM"},
+    {"day":8,"date":"26 February","sehri":"5:00 AM","iftar":"5:55 PM"},
+    {"day":9,"date":"27 February","sehri":"4:59 AM","iftar":"5:56 PM"},
+    {"day":10,"date":"28 February","sehri":"4:59 AM","iftar":"5:56 PM"},
+    {"day":11,"date":"01 March","sehri":"4:58 AM","iftar":"5:57 PM"},
+    {"day":12,"date":"02 March","sehri":"4:57 AM","iftar":"5:57 PM"},
+    {"day":13,"date":"03 March","sehri":"4:56 AM","iftar":"5:58 PM"},
+    {"day":14,"date":"04 March","sehri":"4:55 AM","iftar":"5:58 PM"},
+    {"day":15,"date":"05 March","sehri":"4:54 AM","iftar":"5:58 PM"},
+    {"day":16,"date":"06 March","sehri":"4:54 AM","iftar":"5:59 PM"},
+    {"day":17,"date":"07 March","sehri":"4:53 AM","iftar":"5:59 PM"},
+    {"day":18,"date":"08 March","sehri":"4:52 AM","iftar":"6:00 PM"},
+    {"day":19,"date":"09 March","sehri":"4:51 AM","iftar":"6:00 PM"},
+    {"day":20,"date":"10 March","sehri":"4:50 AM","iftar":"6:01 PM"},
+    {"day":21,"date":"11 March","sehri":"4:49 AM","iftar":"6:01 PM"},
+    {"day":22,"date":"12 March","sehri":"4:48 AM","iftar":"6:01 PM"},
+    {"day":23,"date":"13 March","sehri":"4:47 AM","iftar":"6:02 PM"},
+    {"day":24,"date":"14 March","sehri":"4:46 AM","iftar":"6:02 PM"},
+    {"day":25,"date":"15 March","sehri":"4:45 AM","iftar":"6:03 PM"},
+    {"day":26,"date":"16 March","sehri":"4:44 AM","iftar":"6:03 PM"},
+    {"day":27,"date":"17 March","sehri":"4:43 AM","iftar":"6:03 PM"},
+    {"day":28,"date":"18 March","sehri":"4:42 AM","iftar":"6:04 PM"},
+    {"day":29,"date":"19 February","sehri":"4:41 AM","iftar":"6:04 PM"},
+    {"day":30,"date":"20 February","sehri":"4:40 AM","iftar":"6:04 PM"}
+  ],
+  "Comilla": [
+    {"day":1,"date":"19 February","sehri":"5:08 AM","iftar":"5:55 PM"},
+    {"day":2,"date":"20 February","sehri":"5:08 AM","iftar":"5:56 PM"},
+    {"day":3,"date":"21 February","sehri":"5:07 AM","iftar":"5:57 PM"},
+    {"day":4,"date":"22 February","sehri":"5:06 AM","iftar":"5:57 PM"},
+    {"day":5,"date":"23 February","sehri":"5:06 AM","iftar":"5:58 PM"},
+    {"day":6,"date":"24 February","sehri":"5:05 AM","iftar":"5:58 PM"},
+    {"day":7,"date":"25 February","sehri":"5:04 AM","iftar":"5:59 PM"},
+    {"day":8,"date":"26 February","sehri":"5:03 AM","iftar":"5:59 PM"},
+    {"day":9,"date":"27 February","sehri":"5:03 AM","iftar":"6:00 PM"},
+    {"day":10,"date":"28 February","sehri":"5:02 AM","iftar":"6:00 PM"},
+    {"day":11,"date":"01 March","sehri":"5:01 AM","iftar":"6:01 PM"},
+    {"day":12,"date":"02 March","sehri":"5:00 AM","iftar":"6:01 PM"},
+    {"day":13,"date":"03 March","sehri":"4:59 AM","iftar":"6:02 PM"},
+    {"day":14,"date":"04 March","sehri":"4:59 AM","iftar":"6:02 PM"},
+    {"day":15,"date":"05 March","sehri":"4:58 AM","iftar":"6:02 PM"},
+    {"day":16,"date":"06 March","sehri":"4:57 AM","iftar":"6:03 PM"},
+    {"day":17,"date":"07 March","sehri":"4:56 AM","iftar":"6:03 PM"},
+    {"day":18,"date":"08 March","sehri":"4:55 AM","iftar":"6:04 PM"},
+    {"day":19,"date":"09 March","sehri":"4:54 AM","iftar":"6:04 PM"},
+    {"day":20,"date":"10 March","sehri":"4:53 AM","iftar":"6:05 PM"},
+    {"day":21,"date":"11 March","sehri":"4:52 AM","iftar":"6:05 PM"},
+    {"day":22,"date":"12 March","sehri":"4:51 AM","iftar":"6:06 PM"},
+    {"day":23,"date":"13 March","sehri":"4:51 AM","iftar":"6:06 PM"},
+    {"day":24,"date":"14 March","sehri":"4:50 AM","iftar":"6:06 PM"},
+    {"day":25,"date":"15 March","sehri":"4:49 AM","iftar":"6:07 PM"},
+    {"day":26,"date":"16 March","sehri":"4:48 AM","iftar":"6:07 PM"},
+    {"day":27,"date":"17 March","sehri":"4:47 AM","iftar":"6:08 PM"},
+    {"day":28,"date":"18 March","sehri":"4:46 AM","iftar":"6:08 PM"},
+    {"day":29,"date":"19 February","sehri":"4:45 AM","iftar":"6:08 PM"},
+    {"day":30,"date":"20 February","sehri":"4:44 AM","iftar":"6:09 PM"}
+  ],
+  "Cox's Bazar": [
+    {"day":1,"date":"19 February","sehri":"5:03 AM","iftar":"5:52 PM"},
+    {"day":2,"date":"20 February","sehri":"5:03 AM","iftar":"5:53 PM"},
+    {"day":3,"date":"21 February","sehri":"5:02 AM","iftar":"5:53 PM"},
+    {"day":4,"date":"22 February","sehri":"5:02 AM","iftar":"5:54 PM"},
+    {"day":5,"date":"23 February","sehri":"5:01 AM","iftar":"5:54 PM"},
+    {"day":6,"date":"24 February","sehri":"5:00 AM","iftar":"5:55 PM"},
+    {"day":7,"date":"25 February","sehri":"5:00 AM","iftar":"5:55 PM"},
+    {"day":8,"date":"26 February","sehri":"4:59 AM","iftar":"5:56 PM"},
+    {"day":9,"date":"27 February","sehri":"4:58 AM","iftar":"5:56 PM"},
+    {"day":10,"date":"28 February","sehri":"4:58 AM","iftar":"5:56 PM"},
+    {"day":11,"date":"01 March","sehri":"4:57 AM","iftar":"5:57 PM"},
+    {"day":12,"date":"02 March","sehri":"4:56 AM","iftar":"5:57 PM"},
+    {"day":13,"date":"03 March","sehri":"4:55 AM","iftar":"5:58 PM"},
+    {"day":14,"date":"04 March","sehri":"4:55 AM","iftar":"5:58 PM"},
+    {"day":15,"date":"05 March","sehri":"4:54 AM","iftar":"5:59 PM"},
+    {"day":16,"date":"06 March","sehri":"4:53 AM","iftar":"5:59 PM"},
+    {"day":17,"date":"07 March","sehri":"4:52 AM","iftar":"5:59 PM"},
+    {"day":18,"date":"08 March","sehri":"4:51 AM","iftar":"6:00 PM"},
+    {"day":19,"date":"09 March","sehri":"4:51 AM","iftar":"6:00 PM"},
+    {"day":20,"date":"10 March","sehri":"4:50 AM","iftar":"6:00 PM"},
+    {"day":21,"date":"11 March","sehri":"4:49 AM","iftar":"6:01 PM"},
+    {"day":22,"date":"12 March","sehri":"4:48 AM","iftar":"6:01 PM"},
+    {"day":23,"date":"13 March","sehri":"4:47 AM","iftar":"6:01 PM"},
+    {"day":24,"date":"14 March","sehri":"4:46 AM","iftar":"6:02 PM"},
+    {"day":25,"date":"15 March","sehri":"4:46 AM","iftar":"6:02 PM"},
+    {"day":26,"date":"16 March","sehri":"4:45 AM","iftar":"6:03 PM"},
+    {"day":27,"date":"17 March","sehri":"4:44 AM","iftar":"6:03 PM"},
+    {"day":28,"date":"18 March","sehri":"4:43 AM","iftar":"6:03 PM"},
+    {"day":29,"date":"19 February","sehri":"4:42 AM","iftar":"6:04 PM"},
+    {"day":30,"date":"20 February","sehri":"4:41 AM","iftar":"6:04 PM"}
+  ],
+  "Bhola": [
+    {"day":1,"date":"19 February","sehri":"5:09 AM","iftar":"5:57 PM"},
+    {"day":2,"date":"20 February","sehri":"5:09 AM","iftar":"5:58 PM"},
+    {"day":3,"date":"21 February","sehri":"5:08 AM","iftar":"5:58 PM"},
+    {"day":4,"date":"22 February","sehri":"5:08 AM","iftar":"5:59 PM"},
+    {"day":5,"date":"23 February","sehri":"5:07 AM","iftar":"5:59 PM"},
+    {"day":6,"date":"24 February","sehri":"5:06 AM","iftar":"6:00 PM"},
+    {"day":7,"date":"25 February","sehri":"5:05 AM","iftar":"6:00 PM"},
+    {"day":8,"date":"26 February","sehri":"5:05 AM","iftar":"6:01 PM"},
+    {"day":9,"date":"27 February","sehri":"5:04 AM","iftar":"6:01 PM"},
+    {"day":10,"date":"28 February","sehri":"5:03 AM","iftar":"6:01 PM"},
+    {"day":11,"date":"01 March","sehri":"5:02 AM","iftar":"6:02 PM"},
+    {"day":12,"date":"02 March","sehri":"5:02 AM","iftar":"6:02 PM"},
+    {"day":13,"date":"03 March","sehri":"5:01 AM","iftar":"6:03 PM"},
+    {"day":14,"date":"04 March","sehri":"5:00 AM","iftar":"6:03 PM"},
+    {"day":15,"date":"05 March","sehri":"4:59 AM","iftar":"6:04 PM"},
+    {"day":16,"date":"06 March","sehri":"4:58 AM","iftar":"6:04 PM"},
+    {"day":17,"date":"07 March","sehri":"4:57 AM","iftar":"6:04 PM"},
+    {"day":18,"date":"08 March","sehri":"4:57 AM","iftar":"6:05 PM"},
+    {"day":19,"date":"09 March","sehri":"4:56 AM","iftar":"6:05 PM"},
+    {"day":20,"date":"10 March","sehri":"4:55 AM","iftar":"6:06 PM"},
+    {"day":21,"date":"11 March","sehri":"4:54 AM","iftar":"6:06 PM"},
+    {"day":22,"date":"12 March","sehri":"4:53 AM","iftar":"6:06 PM"},
+    {"day":23,"date":"13 March","sehri":"4:52 AM","iftar":"6:07 PM"},
+    {"day":24,"date":"14 March","sehri":"4:51 AM","iftar":"6:07 PM"},
+    {"day":25,"date":"15 March","sehri":"4:50 AM","iftar":"6:07 PM"},
+    {"day":26,"date":"16 March","sehri":"4:49 AM","iftar":"6:08 PM"},
+    {"day":27,"date":"17 March","sehri":"4:48 AM","iftar":"6:08 PM"},
+    {"day":28,"date":"18 March","sehri":"4:47 AM","iftar":"6:08 PM"},
+    {"day":29,"date":"19 February","sehri":"4:46 AM","iftar":"6:09 PM"},
+    {"day":30,"date":"20 February","sehri":"4:45 AM","iftar":"6:09 PM"}
+  ],
+  "Barishal": [
+    {"day":1,"date":"19 February","sehri":"5:11 AM","iftar":"5:59 PM"},
+    {"day":2,"date":"20 February","sehri":"5:10 AM","iftar":"5:59 PM"},
+    {"day":3,"date":"21 February","sehri":"5:09 AM","iftar":"6:00 PM"},
+    {"day":4,"date":"22 February","sehri":"5:09 AM","iftar":"6:00 PM"},
+    {"day":5,"date":"23 February","sehri":"5:08 AM","iftar":"6:01 PM"},
+    {"day":6,"date":"24 February","sehri":"5:07 AM","iftar":"6:01 PM"},
+    {"day":7,"date":"25 February","sehri":"5:07 AM","iftar":"6:02 PM"},
+    {"day":8,"date":"26 February","sehri":"5:06 AM","iftar":"6:02 PM"},
+    {"day":9,"date":"27 February","sehri":"5:05 AM","iftar":"6:03 PM"},
+    {"day":10,"date":"28 February","sehri":"5:04 AM","iftar":"6:03 PM"},
+    {"day":11,"date":"01 March","sehri":"5:04 AM","iftar":"6:03 PM"},
+    {"day":12,"date":"02 March","sehri":"5:03 AM","iftar":"6:04 PM"},
+    {"day":13,"date":"03 March","sehri":"5:02 AM","iftar":"6:04 PM"},
+    {"day":14,"date":"04 March","sehri":"5:01 AM","iftar":"6:05 PM"},
+    {"day":15,"date":"05 March","sehri":"5:00 AM","iftar":"6:05 PM"},
+    {"day":16,"date":"06 March","sehri":"4:59 AM","iftar":"6:06 PM"},
+    {"day":17,"date":"07 March","sehri":"4:59 AM","iftar":"6:06 PM"},
+    {"day":18,"date":"08 March","sehri":"4:58 AM","iftar":"6:07 PM"},
+    {"day":19,"date":"09 March","sehri":"4:57 AM","iftar":"6:07 PM"},
+    {"day":20,"date":"10 March","sehri":"4:56 AM","iftar":"6:07 PM"},
+    {"day":21,"date":"11 March","sehri":"4:55 AM","iftar":"6:08 PM"},
+    {"day":22,"date":"12 March","sehri":"4:54 AM","iftar":"6:08 PM"},
+    {"day":23,"date":"13 March","sehri":"4:53 AM","iftar":"6:09 PM"},
+    {"day":24,"date":"14 March","sehri":"4:52 AM","iftar":"6:09 PM"},
+    {"day":25,"date":"15 March","sehri":"4:51 AM","iftar":"6:09 PM"},
+    {"day":26,"date":"16 March","sehri":"4:50 AM","iftar":"6:10 PM"},
+    {"day":27,"date":"17 March","sehri":"4:49 AM","iftar":"6:10 PM"},
+    {"day":28,"date":"18 March","sehri":"4:48 AM","iftar":"6:10 PM"},
+    {"day":29,"date":"19 February","sehri":"4:47 AM","iftar":"6:11 PM"},
+    {"day":30,"date":"20 February","sehri":"4:46 AM","iftar":"6:11 PM"}
+  ],
+  "Borguna": [
+    {"day":1,"date":"19 February","sehri":"5:12 AM","iftar":"6:00 PM"},
+    {"day":2,"date":"20 February","sehri":"5:11 AM","iftar":"6:00 PM"},
+    {"day":3,"date":"21 February","sehri":"5:11 AM","iftar":"6:01 PM"},
+    {"day":4,"date":"22 February","sehri":"5:10 AM","iftar":"6:01 PM"},
+    {"day":5,"date":"23 February","sehri":"5:09 AM","iftar":"6:02 PM"},
+    {"day":6,"date":"24 February","sehri":"5:09 AM","iftar":"6:02 PM"},
+    {"day":7,"date":"25 February","sehri":"5:08 AM","iftar":"6:03 PM"},
+    {"day":8,"date":"26 February","sehri":"5:07 AM","iftar":"6:03 PM"},
+    {"day":9,"date":"27 February","sehri":"5:06 AM","iftar":"6:04 PM"},
+    {"day":10,"date":"28 February","sehri":"5:06 AM","iftar":"6:04 PM"},
+    {"day":11,"date":"01 March","sehri":"5:05 AM","iftar":"6:04 PM"},
+    {"day":12,"date":"02 March","sehri":"5:04 AM","iftar":"6:05 PM"},
+    {"day":13,"date":"03 March","sehri":"5:03 AM","iftar":"6:05 PM"},
+    {"day":14,"date":"04 March","sehri":"5:03 AM","iftar":"6:06 PM"},
+    {"day":15,"date":"05 March","sehri":"5:02 AM","iftar":"6:06 PM"},
+    {"day":16,"date":"06 March","sehri":"5:01 AM","iftar":"6:07 PM"},
+    {"day":17,"date":"07 March","sehri":"5:00 AM","iftar":"6:07 PM"},
+    {"day":18,"date":"08 March","sehri":"4:59 AM","iftar":"6:07 PM"},
+    {"day":19,"date":"09 March","sehri":"4:58 AM","iftar":"6:08 PM"},
+    {"day":20,"date":"10 March","sehri":"4:57 AM","iftar":"6:08 PM"},
+    {"day":21,"date":"11 March","sehri":"4:57 AM","iftar":"6:08 PM"},
+    {"day":22,"date":"12 March","sehri":"4:56 AM","iftar":"6:09 PM"},
+    {"day":23,"date":"13 March","sehri":"4:55 AM","iftar":"6:09 PM"},
+    {"day":24,"date":"14 March","sehri":"4:54 AM","iftar":"6:10 PM"},
+    {"day":25,"date":"15 March","sehri":"4:53 AM","iftar":"6:10 PM"},
+    {"day":26,"date":"16 March","sehri":"4:52 AM","iftar":"6:10 PM"},
+    {"day":27,"date":"17 March","sehri":"4:51 AM","iftar":"6:11 PM"},
+    {"day":28,"date":"18 March","sehri":"4:50 AM","iftar":"6:11 PM"},
+    {"day":29,"date":"19 February","sehri":"4:49 AM","iftar":"6:11 PM"},
+    {"day":30,"date":"20 February","sehri":"4:48 AM","iftar":"6:12 PM"}
+  ],
+  "Pirojpur": [
+    {"day":1,"date":"19 February","sehri":"5:13 AM","iftar":"5:59 PM"},
+    {"day":2,"date":"20 February","sehri":"5:12 AM","iftar":"6:00 PM"},
+    {"day":3,"date":"21 February","sehri":"5:12 AM","iftar":"6:00 PM"},
+    {"day":4,"date":"22 February","sehri":"5:11 AM","iftar":"6:01 PM"},
+    {"day":5,"date":"23 February","sehri":"5:10 AM","iftar":"6:01 PM"},
+    {"day":6,"date":"24 February","sehri":"5:10 AM","iftar":"6:02 PM"},
+    {"day":7,"date":"25 February","sehri":"5:09 AM","iftar":"6:02 PM"},
+    {"day":8,"date":"26 February","sehri":"5:08 AM","iftar":"6:03 PM"},
+    {"day":9,"date":"27 February","sehri":"5:07 AM","iftar":"6:03 PM"},
+    {"day":10,"date":"28 February","sehri":"5:07 AM","iftar":"6:04 PM"},
+    {"day":11,"date":"01 March","sehri":"5:06 AM","iftar":"6:04 PM"},
+    {"day":12,"date":"02 March","sehri":"5:05 AM","iftar":"6:05 PM"},
+    {"day":13,"date":"03 March","sehri":"5:04 AM","iftar":"6:05 PM"},
+    {"day":14,"date":"04 March","sehri":"5:03 AM","iftar":"6:06 PM"},
+    {"day":15,"date":"05 March","sehri":"5:02 AM","iftar":"6:06 PM"},
+    {"day":16,"date":"06 March","sehri":"5:02 AM","iftar":"6:06 PM"},
+    {"day":17,"date":"07 March","sehri":"5:01 AM","iftar":"6:07 PM"},
+    {"day":18,"date":"08 March","sehri":"5:00 AM","iftar":"6:07 PM"},
+    {"day":19,"date":"09 March","sehri":"4:59 AM","iftar":"6:08 PM"},
+    {"day":20,"date":"10 March","sehri":"4:58 AM","iftar":"6:08 PM"},
+    {"day":21,"date":"11 March","sehri":"4:57 AM","iftar":"6:08 PM"},
+    {"day":22,"date":"12 March","sehri":"4:56 AM","iftar":"6:09 PM"},
+    {"day":23,"date":"13 March","sehri":"4:55 AM","iftar":"6:09 PM"},
+    {"day":24,"date":"14 March","sehri":"4:54 AM","iftar":"6:10 PM"},
+    {"day":25,"date":"15 March","sehri":"4:53 AM","iftar":"6:10 PM"},
+    {"day":26,"date":"16 March","sehri":"4:52 AM","iftar":"6:10 PM"},
+    {"day":27,"date":"17 March","sehri":"4:51 AM","iftar":"6:11 PM"},
+    {"day":28,"date":"18 March","sehri":"4:50 AM","iftar":"6:11 PM"},
+    {"day":29,"date":"19 February","sehri":"4:50 AM","iftar":"6:11 PM"},
+    {"day":30,"date":"20 February","sehri":"4:49 AM","iftar":"6:12 PM"}
+  ],
+  "Patuakhali": [
+    {"day":1,"date":"19 February","sehri":"5:11 AM","iftar":"5:59 PM"},
+    {"day":2,"date":"20 February","sehri":"5:10 AM","iftar":"6:00 PM"},
+    {"day":3,"date":"21 February","sehri":"5:10 AM","iftar":"6:00 PM"},
+    {"day":4,"date":"22 February","sehri":"5:09 AM","iftar":"6:01 PM"},
+    {"day":5,"date":"23 February","sehri":"5:08 AM","iftar":"6:01 PM"},
+    {"day":6,"date":"24 February","sehri":"5:08 AM","iftar":"6:02 PM"},
+    {"day":7,"date":"25 February","sehri":"5:07 AM","iftar":"6:02 PM"},
+    {"day":8,"date":"26 February","sehri":"5:06 AM","iftar":"6:03 PM"},
+    {"day":9,"date":"27 February","sehri":"5:05 AM","iftar":"6:03 PM"},
+    {"day":10,"date":"28 February","sehri":"5:05 AM","iftar":"6:03 PM"},
+    {"day":11,"date":"01 March","sehri":"5:04 AM","iftar":"6:04 PM"},
+    {"day":12,"date":"02 March","sehri":"5:03 AM","iftar":"6:04 PM"},
+    {"day":13,"date":"03 March","sehri":"5:02 AM","iftar":"6:05 PM"},
+    {"day":14,"date":"04 March","sehri":"5:01 AM","iftar":"6:05 PM"},
+    {"day":15,"date":"05 March","sehri":"5:01 AM","iftar":"6:05 PM"},
+    {"day":16,"date":"06 March","sehri":"5:00 AM","iftar":"6:06 PM"},
+    {"day":17,"date":"07 March","sehri":"4:59 AM","iftar":"6:06 PM"},
+    {"day":18,"date":"08 March","sehri":"4:58 AM","iftar":"6:07 PM"},
+    {"day":19,"date":"09 March","sehri":"4:57 AM","iftar":"6:07 PM"},
+    {"day":20,"date":"10 March","sehri":"4:56 AM","iftar":"6:07 PM"},
+    {"day":21,"date":"11 March","sehri":"4:55 AM","iftar":"6:08 PM"},
+    {"day":22,"date":"12 March","sehri":"4:55 AM","iftar":"6:08 PM"},
+    {"day":23,"date":"13 March","sehri":"4:54 AM","iftar":"6:08 PM"},
+    {"day":24,"date":"14 March","sehri":"4:53 AM","iftar":"6:09 PM"},
+    {"day":25,"date":"15 March","sehri":"4:52 AM","iftar":"6:09 PM"},
+    {"day":26,"date":"16 March","sehri":"4:51 AM","iftar":"6:10 PM"},
+    {"day":27,"date":"17 March","sehri":"4:50 AM","iftar":"6:10 PM"},
+    {"day":28,"date":"18 March","sehri":"4:49 AM","iftar":"6:10 PM"},
+    {"day":29,"date":"19 February","sehri":"4:48 AM","iftar":"6:11 PM"},
+    {"day":30,"date":"20 February","sehri":"4:47 AM","iftar":"6:11 PM"}
+  ],
+  "Jhalkathi": [
+    {"day":1,"date":"19 February","sehri":"5:12 AM","iftar":"5:59 PM"},
+    {"day":2,"date":"20 February","sehri":"5:11 AM","iftar":"6:00 PM"},
+    {"day":3,"date":"21 February","sehri":"5:11 AM","iftar":"6:00 PM"},
+    {"day":4,"date":"22 February","sehri":"5:10 AM","iftar":"6:01 PM"},
+    {"day":5,"date":"23 February","sehri":"5:09 AM","iftar":"6:01 PM"},
+    {"day":6,"date":"24 February","sehri":"5:09 AM","iftar":"6:02 PM"},
+    {"day":7,"date":"25 February","sehri":"5:08 AM","iftar":"6:02 PM"},
+    {"day":8,"date":"26 February","sehri":"5:07 AM","iftar":"6:02 PM"},
+    {"day":9,"date":"27 February","sehri":"5:07 AM","iftar":"6:03 PM"},
+    {"day":10,"date":"28 February","sehri":"5:06 AM","iftar":"6:03 PM"},
+    {"day":11,"date":"01 March","sehri":"5:05 AM","iftar":"6:04 PM"},
+    {"day":12,"date":"02 March","sehri":"5:04 AM","iftar":"6:04 PM"},
+    {"day":13,"date":"03 March","sehri":"5:03 AM","iftar":"6:05 PM"},
+    {"day":14,"date":"04 March","sehri":"5:03 AM","iftar":"6:05 PM"},
+    {"day":15,"date":"05 March","sehri":"5:02 AM","iftar":"6:05 PM"},
+    {"day":16,"date":"06 March","sehri":"5:01 AM","iftar":"6:06 PM"},
+    {"day":17,"date":"07 March","sehri":"5:00 AM","iftar":"6:06 PM"},
+    {"day":18,"date":"08 March","sehri":"4:59 AM","iftar":"6:07 PM"},
+    {"day":19,"date":"09 March","sehri":"4:58 AM","iftar":"6:07 PM"},
+    {"day":20,"date":"10 March","sehri":"4:57 AM","iftar":"6:07 PM"},
+    {"day":21,"date":"11 March","sehri":"4:56 AM","iftar":"6:08 PM"},
+    {"day":22,"date":"12 March","sehri":"4:55 AM","iftar":"6:08 PM"},
+    {"day":23,"date":"13 March","sehri":"4:55 AM","iftar":"6:09 PM"},
+    {"day":24,"date":"14 March","sehri":"4:54 AM","iftar":"6:09 PM"},
+    {"day":25,"date":"15 March","sehri":"4:53 AM","iftar":"6:09 PM"},
+    {"day":26,"date":"16 March","sehri":"4:52 AM","iftar":"6:10 PM"},
+    {"day":27,"date":"17 March","sehri":"4:51 AM","iftar":"6:10 PM"},
+    {"day":28,"date":"18 March","sehri":"4:50 AM","iftar":"6:10 PM"},
+    {"day":29,"date":"19 February","sehri":"4:49 AM","iftar":"6:11 PM"},
+    {"day":30,"date":"20 February","sehri":"4:48 AM","iftar":"6:11 PM"}
+  ],
+  "Lalmonirhat": [
+    {"day":1,"date":"19 February","sehri":"5:16 AM","iftar":"6:00 PM"},
+    {"day":2,"date":"20 February","sehri":"5:16 AM","iftar":"6:00 PM"},
+    {"day":3,"date":"21 February","sehri":"5:15 AM","iftar":"6:01 PM"},
+    {"day":4,"date":"22 February","sehri":"5:14 AM","iftar":"6:02 PM"},
+    {"day":5,"date":"23 February","sehri":"5:13 AM","iftar":"6:02 PM"},
+    {"day":6,"date":"24 February","sehri":"5:13 AM","iftar":"6:03 PM"},
+    {"day":7,"date":"25 February","sehri":"5:12 AM","iftar":"6:03 PM"},
+    {"day":8,"date":"26 February","sehri":"5:11 AM","iftar":"6:04 PM"},
+    {"day":9,"date":"27 February","sehri":"5:10 AM","iftar":"6:05 PM"},
+    {"day":10,"date":"28 February","sehri":"5:09 AM","iftar":"6:05 PM"},
+    {"day":11,"date":"01 March","sehri":"5:08 AM","iftar":"6:06 PM"},
+    {"day":12,"date":"02 March","sehri":"5:07 AM","iftar":"6:06 PM"},
+    {"day":13,"date":"03 March","sehri":"5:06 AM","iftar":"6:07 PM"},
+    {"day":14,"date":"04 March","sehri":"5:06 AM","iftar":"6:07 PM"},
+    {"day":15,"date":"05 March","sehri":"5:05 AM","iftar":"6:08 PM"},
+    {"day":16,"date":"06 March","sehri":"5:04 AM","iftar":"6:09 PM"},
+    {"day":17,"date":"07 March","sehri":"5:03 AM","iftar":"6:09 PM"},
+    {"day":18,"date":"08 March","sehri":"5:02 AM","iftar":"6:10 PM"},
+    {"day":19,"date":"09 March","sehri":"5:01 AM","iftar":"6:10 PM"},
+    {"day":20,"date":"10 March","sehri":"5:00 AM","iftar":"6:11 PM"},
+    {"day":21,"date":"11 March","sehri":"4:59 AM","iftar":"6:11 PM"},
+    {"day":22,"date":"12 March","sehri":"4:58 AM","iftar":"6:12 PM"},
+    {"day":23,"date":"13 March","sehri":"4:57 AM","iftar":"6:12 PM"},
+    {"day":24,"date":"14 March","sehri":"4:56 AM","iftar":"6:13 PM"},
+    {"day":25,"date":"15 March","sehri":"4:54 AM","iftar":"6:13 PM"},
+    {"day":26,"date":"16 March","sehri":"4:53 AM","iftar":"6:14 PM"},
+    {"day":27,"date":"17 March","sehri":"4:52 AM","iftar":"6:14 PM"},
+    {"day":28,"date":"18 March","sehri":"4:51 AM","iftar":"6:15 PM"},
+    {"day":29,"date":"19 February","sehri":"4:50 AM","iftar":"6:15 PM"},
+    {"day":30,"date":"20 February","sehri":"4:49 AM","iftar":"6:16 PM"}
+  ],
+  "Rangpur": [
+    {"day":1,"date":"19 February","sehri":"5:17 AM","iftar":"6:00 PM"},
+    {"day":2,"date":"20 February","sehri":"5:16 AM","iftar":"6:01 PM"},
+    {"day":3,"date":"21 February","sehri":"5:15 AM","iftar":"6:02 PM"},
+    {"day":4,"date":"22 February","sehri":"5:14 AM","iftar":"6:02 PM"},
+    {"day":5,"date":"23 February","sehri":"5:14 AM","iftar":"6:03 PM"},
+    {"day":6,"date":"24 February","sehri":"5:13 AM","iftar":"6:03 PM"},
+    {"day":7,"date":"25 February","sehri":"5:12 AM","iftar":"6:04 PM"},
+    {"day":8,"date":"26 February","sehri":"5:11 AM","iftar":"6:04 PM"},
+    {"day":9,"date":"27 February","sehri":"5:10 AM","iftar":"6:05 PM"},
+    {"day":10,"date":"28 February","sehri":"5:09 AM","iftar":"6:06 PM"},
+    {"day":11,"date":"01 March","sehri":"5:08 AM","iftar":"6:06 PM"},
+    {"day":12,"date":"02 March","sehri":"5:08 AM","iftar":"6:07 PM"},
+    {"day":13,"date":"03 March","sehri":"5:07 AM","iftar":"6:07 PM"},
+    {"day":14,"date":"04 March","sehri":"5:06 AM","iftar":"6:08 PM"},
+    {"day":15,"date":"05 March","sehri":"5:05 AM","iftar":"6:08 PM"},
+    {"day":16,"date":"06 March","sehri":"5:04 AM","iftar":"6:09 PM"},
+    {"day":17,"date":"07 March","sehri":"5:03 AM","iftar":"6:09 PM"},
+    {"day":18,"date":"08 March","sehri":"5:02 AM","iftar":"6:10 PM"},
+    {"day":19,"date":"09 March","sehri":"5:01 AM","iftar":"6:10 PM"},
+    {"day":20,"date":"10 March","sehri":"5:00 AM","iftar":"6:11 PM"},
+    {"day":21,"date":"11 March","sehri":"4:59 AM","iftar":"6:11 PM"},
+    {"day":22,"date":"12 March","sehri":"4:58 AM","iftar":"6:12 PM"},
+    {"day":23,"date":"13 March","sehri":"4:57 AM","iftar":"6:12 PM"},
+    {"day":24,"date":"14 March","sehri":"4:56 AM","iftar":"6:13 PM"},
+    {"day":25,"date":"15 March","sehri":"4:55 AM","iftar":"6:13 PM"},
+    {"day":26,"date":"16 March","sehri":"4:54 AM","iftar":"6:14 PM"},
+    {"day":27,"date":"17 March","sehri":"4:53 AM","iftar":"6:14 PM"},
+    {"day":28,"date":"18 March","sehri":"4:52 AM","iftar":"6:15 PM"},
+    {"day":29,"date":"19 February","sehri":"4:50 AM","iftar":"6:15 PM"},
+    {"day":30,"date":"20 February","sehri":"4:49 AM","iftar":"6:16 PM"}
+  ],
+  "Panchogor": [
+    {"day":1,"date":"19 February","sehri":"5:20 AM","iftar":"6:02 PM"},
+    {"day":2,"date":"20 February","sehri":"5:19 AM","iftar":"6:03 PM"},
+    {"day":3,"date":"21 February","sehri":"5:18 AM","iftar":"6:04 PM"},
+    {"day":4,"date":"22 February","sehri":"5:17 AM","iftar":"6:04 PM"},
+    {"day":5,"date":"23 February","sehri":"5:17 AM","iftar":"6:05 PM"},
+    {"day":6,"date":"24 February","sehri":"5:16 AM","iftar":"6:05 PM"},
+    {"day":7,"date":"25 February","sehri":"5:15 AM","iftar":"6:06 PM"},
+    {"day":8,"date":"26 February","sehri":"5:14 AM","iftar":"6:07 PM"},
+    {"day":9,"date":"27 February","sehri":"5:13 AM","iftar":"6:07 PM"},
+    {"day":10,"date":"28 February","sehri":"5:12 AM","iftar":"6:08 PM"},
+    {"day":11,"date":"01 March","sehri":"5:11 AM","iftar":"6:08 PM"},
+    {"day":12,"date":"02 March","sehri":"5:11 AM","iftar":"6:09 PM"},
+    {"day":13,"date":"03 March","sehri":"5:10 AM","iftar":"6:09 PM"},
+    {"day":14,"date":"04 March","sehri":"5:09 AM","iftar":"6:10 PM"},
+    {"day":15,"date":"05 March","sehri":"5:08 AM","iftar":"6:10 PM"},
+    {"day":16,"date":"06 March","sehri":"5:07 AM","iftar":"6:11 PM"},
+    {"day":17,"date":"07 March","sehri":"5:06 AM","iftar":"6:12 PM"},
+    {"day":18,"date":"08 March","sehri":"5:05 AM","iftar":"6:12 PM"},
+    {"day":19,"date":"09 March","sehri":"5:04 AM","iftar":"6:13 PM"},
+    {"day":20,"date":"10 March","sehri":"5:03 AM","iftar":"6:13 PM"},
+    {"day":21,"date":"11 March","sehri":"5:02 AM","iftar":"6:14 PM"},
+    {"day":22,"date":"12 March","sehri":"5:01 AM","iftar":"6:14 PM"},
+    {"day":23,"date":"13 March","sehri":"5:00 AM","iftar":"6:15 PM"},
+    {"day":24,"date":"14 March","sehri":"4:58 AM","iftar":"6:15 PM"},
+    {"day":25,"date":"15 March","sehri":"4:57 AM","iftar":"6:16 PM"},
+    {"day":26,"date":"16 March","sehri":"4:56 AM","iftar":"6:16 PM"},
+    {"day":27,"date":"17 March","sehri":"4:55 AM","iftar":"6:17 PM"},
+    {"day":28,"date":"18 March","sehri":"4:54 AM","iftar":"6:17 PM"},
+    {"day":29,"date":"19 February","sehri":"4:53 AM","iftar":"6:18 PM"},
+    {"day":30,"date":"20 February","sehri":"4:52 AM","iftar":"6:18 PM"}
+  ],
+  "Nilphamari": [
+    {"day":1,"date":"19 February","sehri":"5:18 AM","iftar":"6:01 PM"},
+    {"day":2,"date":"20 February","sehri":"5:17 AM","iftar":"6:01 PM"},
+    {"day":3,"date":"21 February","sehri":"5:17 AM","iftar":"6:02 PM"},
+    {"day":4,"date":"22 February","sehri":"5:16 AM","iftar":"6:03 PM"},
+    {"day":5,"date":"23 February","sehri":"5:15 AM","iftar":"6:03 PM"},
+    {"day":6,"date":"24 February","sehri":"5:14 AM","iftar":"6:04 PM"},
+    {"day":7,"date":"25 February","sehri":"5:13 AM","iftar":"6:04 PM"},
+    {"day":8,"date":"26 February","sehri":"5:12 AM","iftar":"6:05 PM"},
+    {"day":9,"date":"27 February","sehri":"5:12 AM","iftar":"6:06 PM"},
+    {"day":10,"date":"28 February","sehri":"5:11 AM","iftar":"6:06 PM"},
+    {"day":11,"date":"01 March","sehri":"5:10 AM","iftar":"6:07 PM"},
+    {"day":12,"date":"02 March","sehri":"5:09 AM","iftar":"6:07 PM"},
+    {"day":13,"date":"03 March","sehri":"5:08 AM","iftar":"6:08 PM"},
+    {"day":14,"date":"04 March","sehri":"5:07 AM","iftar":"6:08 PM"},
+    {"day":15,"date":"05 March","sehri":"5:06 AM","iftar":"6:09 PM"},
+    {"day":16,"date":"06 March","sehri":"5:05 AM","iftar":"6:09 PM"},
+    {"day":17,"date":"07 March","sehri":"5:04 AM","iftar":"6:10 PM"},
+    {"day":18,"date":"08 March","sehri":"5:03 AM","iftar":"6:10 PM"},
+    {"day":19,"date":"09 March","sehri":"5:02 AM","iftar":"6:11 PM"},
+    {"day":20,"date":"10 March","sehri":"5:01 AM","iftar":"6:12 PM"},
+    {"day":21,"date":"11 March","sehri":"5:00 AM","iftar":"6:12 PM"},
+    {"day":22,"date":"12 March","sehri":"4:59 AM","iftar":"6:13 PM"},
+    {"day":23,"date":"13 March","sehri":"4:58 AM","iftar":"6:13 PM"},
+    {"day":24,"date":"14 March","sehri":"4:57 AM","iftar":"6:14 PM"},
+    {"day":25,"date":"15 March","sehri":"4:56 AM","iftar":"6:14 PM"},
+    {"day":26,"date":"16 March","sehri":"4:55 AM","iftar":"6:14 PM"},
+    {"day":27,"date":"17 March","sehri":"4:54 AM","iftar":"6:15 PM"},
+    {"day":28,"date":"18 March","sehri":"4:53 AM","iftar":"6:15 PM"},
+    {"day":29,"date":"19 February","sehri":"4:52 AM","iftar":"6:16 PM"},
+    {"day":30,"date":"20 February","sehri":"4:51 AM","iftar":"6:16 PM"}
+  ],
+  "Dinajpur": [
+    {"day":1,"date":"19 February","sehri":"5:17 AM","iftar":"6:02 PM"},
+    {"day":2,"date":"20 February","sehri":"5:17 AM","iftar":"6:03 PM"},
+    {"day":3,"date":"21 February","sehri":"5:16 AM","iftar":"6:04 PM"},
+    {"day":4,"date":"22 February","sehri":"5:15 AM","iftar":"6:04 PM"},
+    {"day":5,"date":"23 February","sehri":"5:14 AM","iftar":"6:05 PM"},
+    {"day":6,"date":"24 February","sehri":"5:14 AM","iftar":"6:05 PM"},
+    {"day":7,"date":"25 February","sehri":"5:13 AM","iftar":"6:06 PM"},
+    {"day":8,"date":"26 February","sehri":"5:12 AM","iftar":"6:07 PM"},
+    {"day":9,"date":"27 February","sehri":"5:11 AM","iftar":"6:07 PM"},
+    {"day":10,"date":"28 February","sehri":"5:10 AM","iftar":"6:08 PM"},
+    {"day":11,"date":"01 March","sehri":"5:09 AM","iftar":"6:08 PM"},
+    {"day":12,"date":"02 March","sehri":"5:09 AM","iftar":"6:09 PM"},
+    {"day":13,"date":"03 March","sehri":"5:08 AM","iftar":"6:09 PM"},
+    {"day":14,"date":"04 March","sehri":"5:07 AM","iftar":"6:10 PM"},
+    {"day":15,"date":"05 March","sehri":"5:06 AM","iftar":"6:10 PM"},
+    {"day":16,"date":"06 March","sehri":"5:05 AM","iftar":"6:11 PM"},
+    {"day":17,"date":"07 March","sehri":"5:04 AM","iftar":"6:11 PM"},
+    {"day":18,"date":"08 March","sehri":"5:03 AM","iftar":"6:12 PM"},
+    {"day":19,"date":"09 March","sehri":"5:02 AM","iftar":"6:12 PM"},
+    {"day":20,"date":"10 March","sehri":"5:01 AM","iftar":"6:13 PM"},
+    {"day":21,"date":"11 March","sehri":"5:00 AM","iftar":"6:13 PM"},
+    {"day":22,"date":"12 March","sehri":"4:59 AM","iftar":"6:14 PM"},
+    {"day":23,"date":"13 March","sehri":"4:58 AM","iftar":"6:14 PM"},
+    {"day":24,"date":"14 March","sehri":"4:57 AM","iftar":"6:15 PM"},
+    {"day":25,"date":"15 March","sehri":"4:56 AM","iftar":"6:15 PM"},
+    {"day":26,"date":"16 March","sehri":"4:55 AM","iftar":"6:16 PM"},
+    {"day":27,"date":"17 March","sehri":"4:54 AM","iftar":"6:16 PM"},
+    {"day":28,"date":"18 March","sehri":"4:53 AM","iftar":"6:17 PM"},
+    {"day":29,"date":"19 February","sehri":"4:52 AM","iftar":"6:17 PM"},
+    {"day":30,"date":"20 February","sehri":"4:51 AM","iftar":"6:18 PM"}
+  ],
+  "Thakurgaon": [
+    {"day":1,"date":"19 February","sehri":"5:20 AM","iftar":"6:04 PM"},
+    {"day":2,"date":"20 February","sehri":"5:20 AM","iftar":"6:04 PM"},
+    {"day":3,"date":"21 February","sehri":"5:19 AM","iftar":"6:05 PM"},
+    {"day":4,"date":"22 February","sehri":"5:18 AM","iftar":"6:05 PM"},
+    {"day":5,"date":"23 February","sehri":"5:17 AM","iftar":"6:06 PM"},
+    {"day":6,"date":"24 February","sehri":"5:16 AM","iftar":"6:07 PM"},
+    {"day":7,"date":"25 February","sehri":"5:16 AM","iftar":"6:07 PM"},
+    {"day":8,"date":"26 February","sehri":"5:15 AM","iftar":"6:08 PM"},
+    {"day":9,"date":"27 February","sehri":"5:14 AM","iftar":"6:08 PM"},
+    {"day":10,"date":"28 February","sehri":"5:13 AM","iftar":"6:09 PM"},
+    {"day":11,"date":"01 March","sehri":"5:12 AM","iftar":"6:09 PM"},
+    {"day":12,"date":"02 March","sehri":"5:11 AM","iftar":"6:10 PM"},
+    {"day":13,"date":"03 March","sehri":"5:10 AM","iftar":"6:10 PM"},
+    {"day":14,"date":"04 March","sehri":"5:09 AM","iftar":"6:11 PM"},
+    {"day":15,"date":"05 March","sehri":"5:08 AM","iftar":"6:12 PM"},
+    {"day":16,"date":"06 March","sehri":"5:07 AM","iftar":"6:12 PM"},
+    {"day":17,"date":"07 March","sehri":"5:06 AM","iftar":"6:13 PM"},
+    {"day":18,"date":"08 March","sehri":"5:05 AM","iftar":"6:13 PM"},
+    {"day":19,"date":"09 March","sehri":"5:04 AM","iftar":"6:14 PM"},
+    {"day":20,"date":"10 March","sehri":"5:03 AM","iftar":"6:14 PM"},
+    {"day":21,"date":"11 March","sehri":"5:02 AM","iftar":"6:15 PM"},
+    {"day":22,"date":"12 March","sehri":"5:01 AM","iftar":"6:15 PM"},
+    {"day":23,"date":"13 March","sehri":"5:00 AM","iftar":"6:16 PM"},
+    {"day":24,"date":"14 March","sehri":"4:59 AM","iftar":"6:16 PM"},
+    {"day":25,"date":"15 March","sehri":"4:58 AM","iftar":"6:17 PM"},
+    {"day":26,"date":"16 March","sehri":"4:57 AM","iftar":"6:17 PM"},
+    {"day":27,"date":"17 March","sehri":"4:56 AM","iftar":"6:18 PM"},
+    {"day":28,"date":"18 March","sehri":"4:55 AM","iftar":"6:18 PM"},
+    {"day":29,"date":"19 February","sehri":"4:54 AM","iftar":"6:19 PM"},
+    {"day":30,"date":"20 February","sehri":"4:53 AM","iftar":"6:19 PM"}
+  ],
+  "Gaibandha": [
+    {"day":1,"date":"19 February","sehri":"5:16 AM","iftar":"6:00 PM"},
+    {"day":2,"date":"20 February","sehri":"5:15 AM","iftar":"6:00 PM"},
+    {"day":3,"date":"21 February","sehri":"5:14 AM","iftar":"6:01 PM"},
+    {"day":4,"date":"22 February","sehri":"5:13 AM","iftar":"6:02 PM"},
+    {"day":5,"date":"23 February","sehri":"5:13 AM","iftar":"6:02 PM"},
+    {"day":6,"date":"24 February","sehri":"5:12 AM","iftar":"6:03 PM"},
+    {"day":7,"date":"25 February","sehri":"5:11 AM","iftar":"6:03 PM"},
+    {"day":8,"date":"26 February","sehri":"5:10 AM","iftar":"6:04 PM"},
+    {"day":9,"date":"27 February","sehri":"5:09 AM","iftar":"6:04 PM"},
+    {"day":10,"date":"28 February","sehri":"5:08 AM","iftar":"6:05 PM"},
+    {"day":11,"date":"01 March","sehri":"5:08 AM","iftar":"6:05 PM"},
+    {"day":12,"date":"02 March","sehri":"5:07 AM","iftar":"6:06 PM"},
+    {"day":13,"date":"03 March","sehri":"5:06 AM","iftar":"6:06 PM"},
+    {"day":14,"date":"04 March","sehri":"5:05 AM","iftar":"6:07 PM"},
+    {"day":15,"date":"05 March","sehri":"5:04 AM","iftar":"6:08 PM"},
+    {"day":16,"date":"06 March","sehri":"5:03 AM","iftar":"6:08 PM"},
+    {"day":17,"date":"07 March","sehri":"5:02 AM","iftar":"6:09 PM"},
+    {"day":18,"date":"08 March","sehri":"5:01 AM","iftar":"6:09 PM"},
+    {"day":19,"date":"09 March","sehri":"5:00 AM","iftar":"6:09 PM"},
+    {"day":20,"date":"10 March","sehri":"4:59 AM","iftar":"6:10 PM"},
+    {"day":21,"date":"11 March","sehri":"4:58 AM","iftar":"6:10 PM"},
+    {"day":22,"date":"12 March","sehri":"4:57 AM","iftar":"6:11 PM"},
+    {"day":23,"date":"13 March","sehri":"4:56 AM","iftar":"6:11 PM"},
+    {"day":24,"date":"14 March","sehri":"4:55 AM","iftar":"6:12 PM"},
+    {"day":25,"date":"15 March","sehri":"4:54 AM","iftar":"6:12 PM"},
+    {"day":26,"date":"16 March","sehri":"4:53 AM","iftar":"6:13 PM"},
+    {"day":27,"date":"17 March","sehri":"4:52 AM","iftar":"6:13 PM"},
+    {"day":28,"date":"18 March","sehri":"4:51 AM","iftar":"6:14 PM"},
+    {"day":29,"date":"19 February","sehri":"4:50 AM","iftar":"6:14 PM"},
+    {"day":30,"date":"20 February","sehri":"4:49 AM","iftar":"6:15 PM"}
+  ],
+  "Kurigram": [
+    {"day":1,"date":"19 February","sehri":"5:15 AM","iftar":"5:58 PM"},
+    {"day":2,"date":"20 February","sehri":"5:15 AM","iftar":"5:59 PM"},
+    {"day":3,"date":"21 February","sehri":"5:14 AM","iftar":"5:59 PM"},
+    {"day":4,"date":"22 February","sehri":"5:13 AM","iftar":"6:00 PM"},
+    {"day":5,"date":"23 February","sehri":"5:12 AM","iftar":"6:01 PM"},
+    {"day":6,"date":"24 February","sehri":"5:11 AM","iftar":"6:01 PM"},
+    {"day":7,"date":"25 February","sehri":"5:11 AM","iftar":"6:02 PM"},
+    {"day":8,"date":"26 February","sehri":"5:10 AM","iftar":"6:02 PM"},
+    {"day":9,"date":"27 February","sehri":"5:09 AM","iftar":"6:03 PM"},
+    {"day":10,"date":"28 February","sehri":"5:08 AM","iftar":"6:03 PM"},
+    {"day":11,"date":"01 March","sehri":"5:07 AM","iftar":"6:04 PM"},
+    {"day":12,"date":"02 March","sehri":"5:06 AM","iftar":"6:05 PM"},
+    {"day":13,"date":"03 March","sehri":"5:05 AM","iftar":"6:05 PM"},
+    {"day":14,"date":"04 March","sehri":"5:04 AM","iftar":"6:06 PM"},
+    {"day":15,"date":"05 March","sehri":"5:03 AM","iftar":"6:06 PM"},
+    {"day":16,"date":"06 March","sehri":"5:02 AM","iftar":"6:07 PM"},
+    {"day":17,"date":"07 March","sehri":"5:01 AM","iftar":"6:07 PM"},
+    {"day":18,"date":"08 March","sehri":"5:00 AM","iftar":"6:08 PM"},
+    {"day":19,"date":"09 March","sehri":"4:59 AM","iftar":"6:08 PM"},
+    {"day":20,"date":"10 March","sehri":"4:58 AM","iftar":"6:09 PM"},
+    {"day":21,"date":"11 March","sehri":"4:57 AM","iftar":"6:09 PM"},
+    {"day":22,"date":"12 March","sehri":"4:56 AM","iftar":"6:10 PM"},
+    {"day":23,"date":"13 March","sehri":"4:55 AM","iftar":"6:10 PM"},
+    {"day":24,"date":"14 March","sehri":"4:54 AM","iftar":"6:11 PM"},
+    {"day":25,"date":"15 March","sehri":"4:53 AM","iftar":"6:11 PM"},
+    {"day":26,"date":"16 March","sehri":"4:52 AM","iftar":"6:12 PM"},
+    {"day":27,"date":"17 March","sehri":"4:51 AM","iftar":"6:12 PM"},
+    {"day":28,"date":"18 March","sehri":"4:50 AM","iftar":"6:13 PM"},
+    {"day":29,"date":"19 February","sehri":"4:49 AM","iftar":"6:13 PM"},
+    {"day":30,"date":"20 February","sehri":"4:48 AM","iftar":"6:14 PM"}
+  ],
+  "Sherpur": [
+    {"day":1,"date":"19 February","sehri":"5:13 AM","iftar":"5:57 PM"},
+    {"day":2,"date":"20 February","sehri":"5:13 AM","iftar":"5:58 PM"},
+    {"day":3,"date":"21 February","sehri":"5:12 AM","iftar":"5:58 PM"},
+    {"day":4,"date":"22 February","sehri":"5:11 AM","iftar":"5:59 PM"},
+    {"day":5,"date":"23 February","sehri":"5:10 AM","iftar":"5:59 PM"},
+    {"day":6,"date":"24 February","sehri":"5:10 AM","iftar":"6:00 PM"},
+    {"day":7,"date":"25 February","sehri":"5:09 AM","iftar":"6:01 PM"},
+    {"day":8,"date":"26 February","sehri":"5:08 AM","iftar":"6:01 PM"},
+    {"day":9,"date":"27 February","sehri":"5:07 AM","iftar":"6:02 PM"},
+    {"day":10,"date":"28 February","sehri":"5:06 AM","iftar":"6:02 PM"},
+    {"day":11,"date":"01 March","sehri":"5:05 AM","iftar":"6:03 PM"},
+    {"day":12,"date":"02 March","sehri":"5:05 AM","iftar":"6:03 PM"},
+    {"day":13,"date":"03 March","sehri":"5:04 AM","iftar":"6:04 PM"},
+    {"day":14,"date":"04 March","sehri":"5:03 AM","iftar":"6:04 PM"},
+    {"day":15,"date":"05 March","sehri":"5:02 AM","iftar":"6:05 PM"},
+    {"day":16,"date":"06 March","sehri":"5:01 AM","iftar":"6:05 PM"},
+    {"day":17,"date":"07 March","sehri":"5:00 AM","iftar":"6:06 PM"},
+    {"day":18,"date":"08 March","sehri":"4:59 AM","iftar":"6:06 PM"},
+    {"day":19,"date":"09 March","sehri":"4:58 AM","iftar":"6:07 PM"},
+    {"day":20,"date":"10 March","sehri":"4:57 AM","iftar":"6:07 PM"},
+    {"day":21,"date":"11 March","sehri":"4:56 AM","iftar":"6:08 PM"},
+    {"day":22,"date":"12 March","sehri":"4:55 AM","iftar":"6:08 PM"},
+    {"day":23,"date":"13 March","sehri":"4:54 AM","iftar":"6:09 PM"},
+    {"day":24,"date":"14 March","sehri":"4:53 AM","iftar":"6:09 PM"},
+    {"day":25,"date":"15 March","sehri":"4:52 AM","iftar":"6:10 PM"},
+    {"day":26,"date":"16 March","sehri":"4:51 AM","iftar":"6:10 PM"},
+    {"day":27,"date":"17 March","sehri":"4:50 AM","iftar":"6:10 PM"},
+    {"day":28,"date":"18 March","sehri":"4:49 AM","iftar":"6:11 PM"},
+    {"day":29,"date":"19 February","sehri":"4:48 AM","iftar":"6:11 PM"},
+    {"day":30,"date":"20 February","sehri":"4:47 AM","iftar":"6:12 PM"}
+  ],
+  "Maimanshing": [
+    {"day":1,"date":"19 February","sehri":"5:11 AM","iftar":"5:57 PM"},
+    {"day":2,"date":"20 February","sehri":"5:10 AM","iftar":"5:57 PM"},
+    {"day":3,"date":"21 February","sehri":"5:10 AM","iftar":"5:58 PM"},
+    {"day":4,"date":"22 February","sehri":"5:09 AM","iftar":"5:58 PM"},
+    {"day":5,"date":"23 February","sehri":"5:08 AM","iftar":"5:59 PM"},
+    {"day":6,"date":"24 February","sehri":"5:07 AM","iftar":"5:59 PM"},
+    {"day":7,"date":"25 February","sehri":"5:07 AM","iftar":"6:00 PM"},
+    {"day":8,"date":"26 February","sehri":"5:06 AM","iftar":"6:01 PM"},
+    {"day":9,"date":"27 February","sehri":"5:05 AM","iftar":"6:01 PM"},
+    {"day":10,"date":"28 February","sehri":"5:04 AM","iftar":"6:02 PM"},
+    {"day":11,"date":"01 March","sehri":"5:03 AM","iftar":"6:02 PM"},
+    {"day":12,"date":"02 March","sehri":"5:02 AM","iftar":"6:03 PM"},
+    {"day":13,"date":"03 March","sehri":"5:02 AM","iftar":"6:03 PM"},
+    {"day":14,"date":"04 March","sehri":"5:01 AM","iftar":"6:04 PM"},
+    {"day":15,"date":"05 March","sehri":"5:00 AM","iftar":"6:04 PM"},
+    {"day":16,"date":"06 March","sehri":"4:59 AM","iftar":"6:05 PM"},
+    {"day":17,"date":"07 March","sehri":"4:58 AM","iftar":"6:05 PM"},
+    {"day":18,"date":"08 March","sehri":"4:57 AM","iftar":"6:06 PM"},
+    {"day":19,"date":"09 March","sehri":"4:56 AM","iftar":"6:06 PM"},
+    {"day":20,"date":"10 March","sehri":"4:55 AM","iftar":"6:07 PM"},
+    {"day":21,"date":"11 March","sehri":"4:54 AM","iftar":"6:07 PM"},
+    {"day":22,"date":"12 March","sehri":"4:53 AM","iftar":"6:07 PM"},
+    {"day":23,"date":"13 March","sehri":"4:52 AM","iftar":"6:08 PM"},
+    {"day":24,"date":"14 March","sehri":"4:51 AM","iftar":"6:08 PM"},
+    {"day":25,"date":"15 March","sehri":"4:50 AM","iftar":"6:09 PM"},
+    {"day":26,"date":"16 March","sehri":"4:49 AM","iftar":"6:09 PM"},
+    {"day":27,"date":"17 March","sehri":"4:48 AM","iftar":"6:10 PM"},
+    {"day":28,"date":"18 March","sehri":"4:47 AM","iftar":"6:10 PM"},
+    {"day":29,"date":"19 February","sehri":"4:46 AM","iftar":"6:11 PM"},
+    {"day":30,"date":"20 February","sehri":"4:45 AM","iftar":"6:11 PM"}
+  ],
+  "Netrokona": [
+    {"day":1,"date":"19 February","sehri":"5:09 AM","iftar":"5:55 PM"},
+    {"day":2,"date":"20 February","sehri":"5:09 AM","iftar":"5:55 PM"},
+    {"day":3,"date":"21 February","sehri":"5:08 AM","iftar":"5:56 PM"},
+    {"day":4,"date":"22 February","sehri":"5:07 AM","iftar":"5:57 PM"},
+    {"day":5,"date":"23 February","sehri":"5:06 AM","iftar":"5:57 PM"},
+    {"day":6,"date":"24 February","sehri":"5:06 AM","iftar":"5:58 PM"},
+    {"day":7,"date":"25 February","sehri":"5:05 AM","iftar":"5:58 PM"},
+    {"day":8,"date":"26 February","sehri":"5:04 AM","iftar":"5:59 PM"},
+    {"day":9,"date":"27 February","sehri":"5:03 AM","iftar":"5:59 PM"},
+    {"day":10,"date":"28 February","sehri":"5:02 AM","iftar":"6:00 PM"},
+    {"day":11,"date":"01 March","sehri":"5:02 AM","iftar":"6:00 PM"},
+    {"day":12,"date":"02 March","sehri":"5:01 AM","iftar":"6:01 PM"},
+    {"day":13,"date":"03 March","sehri":"5:00 AM","iftar":"6:01 PM"},
+    {"day":14,"date":"04 March","sehri":"4:59 AM","iftar":"6:02 PM"},
+    {"day":15,"date":"05 March","sehri":"4:58 AM","iftar":"6:02 PM"},
+    {"day":16,"date":"06 March","sehri":"4:57 AM","iftar":"6:03 PM"},
+    {"day":17,"date":"07 March","sehri":"4:56 AM","iftar":"6:03 PM"},
+    {"day":18,"date":"08 March","sehri":"4:55 AM","iftar":"6:04 PM"},
+    {"day":19,"date":"09 March","sehri":"4:54 AM","iftar":"6:04 PM"},
+    {"day":20,"date":"10 March","sehri":"4:53 AM","iftar":"6:05 PM"},
+    {"day":21,"date":"11 March","sehri":"4:52 AM","iftar":"6:05 PM"},
+    {"day":22,"date":"12 March","sehri":"4:51 AM","iftar":"6:06 PM"},
+    {"day":23,"date":"13 March","sehri":"4:50 AM","iftar":"6:06 PM"},
+    {"day":24,"date":"14 March","sehri":"4:49 AM","iftar":"6:07 PM"},
+    {"day":25,"date":"15 March","sehri":"4:48 AM","iftar":"6:07 PM"},
+    {"day":26,"date":"16 March","sehri":"4:47 AM","iftar":"6:08 PM"},
+    {"day":27,"date":"17 March","sehri":"4:46 AM","iftar":"6:08 PM"},
+    {"day":28,"date":"18 March","sehri":"4:45 AM","iftar":"6:09 PM"},
+    {"day":29,"date":"19 February","sehri":"4:44 AM","iftar":"6:09 PM"},
+    {"day":30,"date":"20 February","sehri":"4:43 AM","iftar":"6:09 PM"}
+  ],
+  "Jamalpur": [
+    {"day":1,"date":"19 February","sehri":"5:14 AM","iftar":"5:58 PM"},
+    {"day":2,"date":"20 February","sehri":"5:13 AM","iftar":"5:59 PM"},
+    {"day":3,"date":"21 February","sehri":"5:12 AM","iftar":"5:59 PM"},
+    {"day":4,"date":"22 February","sehri":"5:11 AM","iftar":"6:00 PM"},
+    {"day":5,"date":"23 February","sehri":"5:11 AM","iftar":"6:00 PM"},
+    {"day":6,"date":"24 February","sehri":"5:10 AM","iftar":"6:01 PM"},
+    {"day":7,"date":"25 February","sehri":"5:09 AM","iftar":"6:02 PM"},
+    {"day":8,"date":"26 February","sehri":"5:08 AM","iftar":"6:02 PM"},
+    {"day":9,"date":"27 February","sehri":"5:07 AM","iftar":"6:03 PM"},
+    {"day":10,"date":"28 February","sehri":"5:07 AM","iftar":"6:03 PM"},
+    {"day":11,"date":"01 March","sehri":"5:06 AM","iftar":"6:04 PM"},
+    {"day":12,"date":"02 March","sehri":"5:05 AM","iftar":"6:04 PM"},
+    {"day":13,"date":"03 March","sehri":"5:04 AM","iftar":"6:05 PM"},
+    {"day":14,"date":"04 March","sehri":"5:03 AM","iftar":"6:05 PM"},
+    {"day":15,"date":"05 March","sehri":"5:02 AM","iftar":"6:06 PM"},
+    {"day":16,"date":"06 March","sehri":"5:01 AM","iftar":"6:06 PM"},
+    {"day":17,"date":"07 March","sehri":"5:00 AM","iftar":"6:07 PM"},
+    {"day":18,"date":"08 March","sehri":"4:59 AM","iftar":"6:07 PM"},
+    {"day":19,"date":"09 March","sehri":"4:58 AM","iftar":"6:08 PM"},
+    {"day":20,"date":"10 March","sehri":"4:57 AM","iftar":"6:08 PM"},
+    {"day":21,"date":"11 March","sehri":"4:56 AM","iftar":"6:09 PM"},
+    {"day":22,"date":"12 March","sehri":"4:55 AM","iftar":"6:09 PM"},
+    {"day":23,"date":"13 March","sehri":"4:54 AM","iftar":"6:10 PM"},
+    {"day":24,"date":"14 March","sehri":"4:53 AM","iftar":"6:10 PM"},
+    {"day":25,"date":"15 March","sehri":"4:52 AM","iftar":"6:11 PM"},
+    {"day":26,"date":"16 March","sehri":"4:51 AM","iftar":"6:11 PM"},
+    {"day":27,"date":"17 March","sehri":"4:50 AM","iftar":"6:11 PM"},
+    {"day":28,"date":"18 March","sehri":"4:49 AM","iftar":"6:12 PM"},
+    {"day":29,"date":"19 February","sehri":"4:48 AM","iftar":"6:12 PM"},
+    {"day":30,"date":"20 February","sehri":"4:47 AM","iftar":"6:13 PM"}
+  ],
+  "Shirajganj": [
+    {"day":1,"date":"19 February","sehri":"5:15 AM","iftar":"6:00 PM"},
+    {"day":2,"date":"20 February","sehri":"5:14 AM","iftar":"6:01 PM"},
+    {"day":3,"date":"21 February","sehri":"5:13 AM","iftar":"6:01 PM"},
+    {"day":4,"date":"22 February","sehri":"5:13 AM","iftar":"6:02 PM"},
+    {"day":5,"date":"23 February","sehri":"5:12 AM","iftar":"6:02 PM"},
+    {"day":6,"date":"24 February","sehri":"5:11 AM","iftar":"6:03 PM"},
+    {"day":7,"date":"25 February","sehri":"5:11 AM","iftar":"6:04 PM"},
+    {"day":8,"date":"26 February","sehri":"5:10 AM","iftar":"6:04 PM"},
+    {"day":9,"date":"27 February","sehri":"5:09 AM","iftar":"6:05 PM"},
+    {"day":10,"date":"28 February","sehri":"5:08 AM","iftar":"6:05 PM"},
+    {"day":11,"date":"01 March","sehri":"5:07 AM","iftar":"6:06 PM"},
+    {"day":12,"date":"02 March","sehri":"5:06 AM","iftar":"6:06 PM"},
+    {"day":13,"date":"03 March","sehri":"5:06 AM","iftar":"6:07 PM"},
+    {"day":14,"date":"04 March","sehri":"5:05 AM","iftar":"6:07 PM"},
+    {"day":15,"date":"05 March","sehri":"5:04 AM","iftar":"6:08 PM"},
+    {"day":16,"date":"06 March","sehri":"5:03 AM","iftar":"6:08 PM"},
+    {"day":17,"date":"07 March","sehri":"5:02 AM","iftar":"6:09 PM"},
+    {"day":18,"date":"08 March","sehri":"5:01 AM","iftar":"6:09 PM"},
+    {"day":19,"date":"09 March","sehri":"5:00 AM","iftar":"6:09 PM"},
+    {"day":20,"date":"10 March","sehri":"4:59 AM","iftar":"6:10 PM"},
+    {"day":21,"date":"11 March","sehri":"4:58 AM","iftar":"6:10 PM"},
+    {"day":22,"date":"12 March","sehri":"4:57 AM","iftar":"6:11 PM"},
+    {"day":23,"date":"13 March","sehri":"4:56 AM","iftar":"6:11 PM"},
+    {"day":24,"date":"14 March","sehri":"4:55 AM","iftar":"6:12 PM"},
+    {"day":25,"date":"15 March","sehri":"4:54 AM","iftar":"6:12 PM"},
+    {"day":26,"date":"16 March","sehri":"4:53 AM","iftar":"6:13 PM"},
+    {"day":27,"date":"17 March","sehri":"4:52 AM","iftar":"6:13 PM"},
+    {"day":28,"date":"18 March","sehri":"4:51 AM","iftar":"6:13 PM"},
+    {"day":29,"date":"19 February","sehri":"4:50 AM","iftar":"6:14 PM"},
+    {"day":30,"date":"20 February","sehri":"4:49 AM","iftar":"6:14 PM"}
+  ],
+  "Rajshahi": [
+    {"day":1,"date":"19 February","sehri":"5:18 AM","iftar":"6:04 PM"},
+    {"day":2,"date":"20 February","sehri":"5:18 AM","iftar":"6:05 PM"},
+    {"day":3,"date":"21 February","sehri":"5:17 AM","iftar":"6:05 PM"},
+    {"day":4,"date":"22 February","sehri":"5:16 AM","iftar":"6:06 PM"},
+    {"day":5,"date":"23 February","sehri":"5:16 AM","iftar":"6:06 PM"},
+    {"day":6,"date":"24 February","sehri":"5:15 AM","iftar":"6:07 PM"},
+    {"day":7,"date":"25 February","sehri":"5:14 AM","iftar":"6:07 PM"},
+    {"day":8,"date":"26 February","sehri":"5:13 AM","iftar":"6:08 PM"},
+    {"day":9,"date":"27 February","sehri":"5:12 AM","iftar":"6:08 PM"},
+    {"day":10,"date":"28 February","sehri":"5:12 AM","iftar":"6:09 PM"},
+    {"day":11,"date":"01 March","sehri":"5:11 AM","iftar":"6:09 PM"},
+    {"day":12,"date":"02 March","sehri":"5:10 AM","iftar":"6:10 PM"},
+    {"day":13,"date":"03 March","sehri":"5:09 AM","iftar":"6:10 PM"},
+    {"day":14,"date":"04 March","sehri":"5:08 AM","iftar":"6:11 PM"},
+    {"day":15,"date":"05 March","sehri":"5:07 AM","iftar":"6:11 PM"},
+    {"day":16,"date":"06 March","sehri":"5:06 AM","iftar":"6:12 PM"},
+    {"day":17,"date":"07 March","sehri":"5:05 AM","iftar":"6:12 PM"},
+    {"day":18,"date":"08 March","sehri":"5:04 AM","iftar":"6:13 PM"},
+    {"day":19,"date":"09 March","sehri":"5:03 AM","iftar":"6:13 PM"},
+    {"day":20,"date":"10 March","sehri":"5:03 AM","iftar":"6:14 PM"},
+    {"day":21,"date":"11 March","sehri":"5:02 AM","iftar":"6:14 PM"},
+    {"day":22,"date":"12 March","sehri":"5:01 AM","iftar":"6:15 PM"},
+    {"day":23,"date":"13 March","sehri":"5:00 AM","iftar":"6:15 PM"},
+    {"day":24,"date":"14 March","sehri":"4:59 AM","iftar":"6:16 PM"},
+    {"day":25,"date":"15 March","sehri":"4:58 AM","iftar":"6:16 PM"},
+    {"day":26,"date":"16 March","sehri":"4:57 AM","iftar":"6:16 PM"},
+    {"day":27,"date":"17 March","sehri":"4:55 AM","iftar":"6:17 PM"},
+    {"day":28,"date":"18 March","sehri":"4:54 AM","iftar":"6:17 PM"},
+    {"day":29,"date":"19 February","sehri":"4:53 AM","iftar":"6:18 PM"},
+    {"day":30,"date":"20 February","sehri":"4:52 AM","iftar":"6:18 PM"}
+  ],
+  "Bogura": [
+    {"day":1,"date":"19 February","sehri":"5:15 AM","iftar":"6:01 PM"},
+    {"day":2,"date":"20 February","sehri":"5:15 AM","iftar":"6:02 PM"},
+    {"day":3,"date":"21 February","sehri":"5:14 AM","iftar":"6:02 PM"},
+    {"day":4,"date":"22 February","sehri":"5:13 AM","iftar":"6:03 PM"},
+    {"day":5,"date":"23 February","sehri":"5:12 AM","iftar":"6:03 PM"},
+    {"day":6,"date":"24 February","sehri":"5:12 AM","iftar":"6:04 PM"},
+    {"day":7,"date":"25 February","sehri":"5:11 AM","iftar":"6:04 PM"},
+    {"day":8,"date":"26 February","sehri":"5:10 AM","iftar":"6:05 PM"},
+    {"day":9,"date":"27 February","sehri":"5:09 AM","iftar":"6:06 PM"},
+    {"day":10,"date":"28 February","sehri":"5:08 AM","iftar":"6:06 PM"},
+    {"day":11,"date":"01 March","sehri":"5:08 AM","iftar":"6:07 PM"},
+    {"day":12,"date":"02 March","sehri":"5:07 AM","iftar":"6:07 PM"},
+    {"day":13,"date":"03 March","sehri":"5:06 AM","iftar":"6:08 PM"},
+    {"day":14,"date":"04 March","sehri":"5:05 AM","iftar":"6:08 PM"},
+    {"day":15,"date":"05 March","sehri":"5:04 AM","iftar":"6:09 PM"},
+    {"day":16,"date":"06 March","sehri":"5:03 AM","iftar":"6:09 PM"},
+    {"day":17,"date":"07 March","sehri":"5:02 AM","iftar":"6:10 PM"},
+    {"day":18,"date":"08 March","sehri":"5:01 AM","iftar":"6:10 PM"},
+    {"day":19,"date":"09 March","sehri":"5:00 AM","iftar":"6:11 PM"},
+    {"day":20,"date":"10 March","sehri":"4:59 AM","iftar":"6:11 PM"},
+    {"day":21,"date":"11 March","sehri":"4:58 AM","iftar":"6:11 PM"},
+    {"day":22,"date":"12 March","sehri":"4:57 AM","iftar":"6:12 PM"},
+    {"day":23,"date":"13 March","sehri":"4:56 AM","iftar":"6:12 PM"},
+    {"day":24,"date":"14 March","sehri":"4:55 AM","iftar":"6:13 PM"},
+    {"day":25,"date":"15 March","sehri":"4:54 AM","iftar":"6:13 PM"},
+    {"day":26,"date":"16 March","sehri":"4:53 AM","iftar":"6:14 PM"},
+    {"day":27,"date":"17 March","sehri":"4:52 AM","iftar":"6:14 PM"},
+    {"day":28,"date":"18 March","sehri":"4:51 AM","iftar":"6:15 PM"},
+    {"day":29,"date":"19 February","sehri":"4:50 AM","iftar":"6:15 PM"},
+    {"day":30,"date":"20 February","sehri":"4:49 AM","iftar":"6:15 PM"}
+  ],
+  "Pabna": [
+    {"day":1,"date":"19 February","sehri":"5:15 AM","iftar":"6:01 PM"},
+    {"day":2,"date":"20 February","sehri":"5:14 AM","iftar":"6:02 PM"},
+    {"day":3,"date":"21 February","sehri":"5:14 AM","iftar":"6:03 PM"},
+    {"day":4,"date":"22 February","sehri":"5:13 AM","iftar":"6:03 PM"},
+    {"day":5,"date":"23 February","sehri":"5:12 AM","iftar":"6:04 PM"},
+    {"day":6,"date":"24 February","sehri":"5:12 AM","iftar":"6:04 PM"},
+    {"day":7,"date":"25 February","sehri":"5:11 AM","iftar":"6:05 PM"},
+    {"day":8,"date":"26 February","sehri":"5:10 AM","iftar":"6:05 PM"},
+    {"day":9,"date":"27 February","sehri":"5:09 AM","iftar":"6:06 PM"},
+    {"day":10,"date":"28 February","sehri":"5:08 AM","iftar":"6:06 PM"},
+    {"day":11,"date":"01 March","sehri":"5:08 AM","iftar":"6:07 PM"},
+    {"day":12,"date":"02 March","sehri":"5:07 AM","iftar":"6:07 PM"},
+    {"day":13,"date":"03 March","sehri":"5:06 AM","iftar":"6:08 PM"},
+    {"day":14,"date":"04 March","sehri":"5:05 AM","iftar":"6:08 PM"},
+    {"day":15,"date":"05 March","sehri":"5:04 AM","iftar":"6:09 PM"},
+    {"day":16,"date":"06 March","sehri":"5:03 AM","iftar":"6:09 PM"},
+    {"day":17,"date":"07 March","sehri":"5:02 AM","iftar":"6:10 PM"},
+    {"day":18,"date":"08 March","sehri":"5:01 AM","iftar":"6:10 PM"},
+    {"day":19,"date":"09 March","sehri":"5:01 AM","iftar":"6:11 PM"},
+    {"day":20,"date":"10 March","sehri":"5:00 AM","iftar":"6:11 PM"},
+    {"day":21,"date":"11 March","sehri":"4:59 AM","iftar":"6:11 PM"},
+    {"day":22,"date":"12 March","sehri":"4:58 AM","iftar":"6:12 PM"},
+    {"day":23,"date":"13 March","sehri":"4:57 AM","iftar":"6:12 PM"},
+    {"day":24,"date":"14 March","sehri":"4:56 AM","iftar":"6:13 PM"},
+    {"day":25,"date":"15 March","sehri":"4:55 AM","iftar":"6:13 PM"},
+    {"day":26,"date":"16 March","sehri":"4:54 AM","iftar":"6:14 PM"},
+    {"day":27,"date":"17 March","sehri":"4:53 AM","iftar":"6:14 PM"},
+    {"day":28,"date":"18 March","sehri":"4:52 AM","iftar":"6:14 PM"},
+    {"day":29,"date":"19 February","sehri":"4:51 AM","iftar":"6:15 PM"},
+    {"day":30,"date":"20 February","sehri":"4:50 AM","iftar":"6:15 PM"}
+  ],
+  "Natore": [
+    {"day":1,"date":"19 February","sehri":"5:17 AM","iftar":"6:02 PM"},
+    {"day":2,"date":"20 February","sehri":"5:16 AM","iftar":"6:03 PM"},
+    {"day":3,"date":"21 February","sehri":"5:16 AM","iftar":"6:03 PM"},
+    {"day":4,"date":"22 February","sehri":"5:15 AM","iftar":"6:04 PM"},
+    {"day":5,"date":"23 February","sehri":"5:14 AM","iftar":"6:04 PM"},
+    {"day":6,"date":"24 February","sehri":"5:13 AM","iftar":"6:05 PM"},
+    {"day":7,"date":"25 February","sehri":"5:13 AM","iftar":"6:05 PM"},
+    {"day":8,"date":"26 February","sehri":"5:12 AM","iftar":"6:06 PM"},
+    {"day":9,"date":"27 February","sehri":"5:11 AM","iftar":"6:06 PM"},
+    {"day":10,"date":"28 February","sehri":"5:10 AM","iftar":"6:07 PM"},
+    {"day":11,"date":"01 March","sehri":"5:09 AM","iftar":"6:07 PM"},
+    {"day":12,"date":"02 March","sehri":"5:08 AM","iftar":"6:08 PM"},
+    {"day":13,"date":"03 March","sehri":"5:07 AM","iftar":"6:08 PM"},
+    {"day":14,"date":"04 March","sehri":"5:07 AM","iftar":"6:09 PM"},
+    {"day":15,"date":"05 March","sehri":"5:06 AM","iftar":"6:09 PM"},
+    {"day":16,"date":"06 March","sehri":"5:05 AM","iftar":"6:10 PM"},
+    {"day":17,"date":"07 March","sehri":"5:04 AM","iftar":"6:10 PM"},
+    {"day":18,"date":"08 March","sehri":"5:03 AM","iftar":"6:11 PM"},
+    {"day":19,"date":"09 March","sehri":"5:02 AM","iftar":"6:11 PM"},
+    {"day":20,"date":"10 March","sehri":"5:01 AM","iftar":"6:12 PM"},
+    {"day":21,"date":"11 March","sehri":"5:00 AM","iftar":"6:12 PM"},
+    {"day":22,"date":"12 March","sehri":"4:59 AM","iftar":"6:12 PM"},
+    {"day":23,"date":"13 March","sehri":"4:58 AM","iftar":"6:13 PM"},
+    {"day":24,"date":"14 March","sehri":"4:57 AM","iftar":"6:13 PM"},
+    {"day":25,"date":"15 March","sehri":"4:56 AM","iftar":"6:14 PM"},
+    {"day":26,"date":"16 March","sehri":"4:55 AM","iftar":"6:14 PM"},
+    {"day":27,"date":"17 March","sehri":"4:54 AM","iftar":"6:15 PM"},
+    {"day":28,"date":"18 March","sehri":"4:53 AM","iftar":"6:15 PM"},
+    {"day":29,"date":"19 February","sehri":"4:52 AM","iftar":"6:16 PM"},
+    {"day":30,"date":"20 February","sehri":"4:51 AM","iftar":"6:16 PM"}
+  ],
+  "Nougaon": [
+    {"day":1,"date":"19 February","sehri":"5:18 AM","iftar":"6:03 PM"},
+    {"day":2,"date":"20 February","sehri":"5:17 AM","iftar":"6:04 PM"},
+    {"day":3,"date":"21 February","sehri":"5:16 AM","iftar":"6:05 PM"},
+    {"day":4,"date":"22 February","sehri":"5:16 AM","iftar":"6:05 PM"},
+    {"day":5,"date":"23 February","sehri":"5:15 AM","iftar":"6:06 PM"},
+    {"day":6,"date":"24 February","sehri":"5:14 AM","iftar":"6:06 PM"},
+    {"day":7,"date":"25 February","sehri":"5:13 AM","iftar":"6:07 PM"},
+    {"day":8,"date":"26 February","sehri":"5:13 AM","iftar":"6:07 PM"},
+    {"day":9,"date":"27 February","sehri":"5:12 AM","iftar":"6:08 PM"},
+    {"day":10,"date":"28 February","sehri":"5:11 AM","iftar":"6:08 PM"},
+    {"day":11,"date":"01 March","sehri":"5:10 AM","iftar":"6:09 PM"},
+    {"day":12,"date":"02 March","sehri":"5:09 AM","iftar":"6:09 PM"},
+    {"day":13,"date":"03 March","sehri":"5:08 AM","iftar":"6:10 PM"},
+    {"day":14,"date":"04 March","sehri":"5:07 AM","iftar":"6:10 PM"},
+    {"day":15,"date":"05 March","sehri":"5:06 AM","iftar":"6:11 PM"},
+    {"day":16,"date":"06 March","sehri":"5:06 AM","iftar":"6:11 PM"},
+    {"day":17,"date":"07 March","sehri":"5:05 AM","iftar":"6:12 PM"},
+    {"day":18,"date":"08 March","sehri":"5:04 AM","iftar":"6:12 PM"},
+    {"day":19,"date":"09 March","sehri":"5:03 AM","iftar":"6:13 PM"},
+    {"day":20,"date":"10 March","sehri":"5:02 AM","iftar":"6:13 PM"},
+    {"day":21,"date":"11 March","sehri":"5:01 AM","iftar":"6:14 PM"},
+    {"day":22,"date":"12 March","sehri":"5:00 AM","iftar":"6:14 PM"},
+    {"day":23,"date":"13 March","sehri":"4:59 AM","iftar":"6:15 PM"},
+    {"day":24,"date":"14 March","sehri":"4:58 AM","iftar":"6:15 PM"},
+    {"day":25,"date":"15 March","sehri":"4:57 AM","iftar":"6:16 PM"},
+    {"day":26,"date":"16 March","sehri":"4:56 AM","iftar":"6:16 PM"},
+    {"day":27,"date":"17 March","sehri":"4:55 AM","iftar":"6:16 PM"},
+    {"day":28,"date":"18 March","sehri":"4:54 AM","iftar":"6:17 PM"},
+    {"day":29,"date":"19 February","sehri":"4:53 AM","iftar":"6:17 PM"},
+    {"day":30,"date":"20 February","sehri":"4:51 AM","iftar":"6:18 PM"}
+  ],
+  "Jopypurhat": [
+    {"day":1,"date":"19 February","sehri":"5:17 AM","iftar":"6:01 PM"},
+    {"day":2,"date":"20 February","sehri":"5:17 AM","iftar":"6:02 PM"},
+    {"day":3,"date":"21 February","sehri":"5:16 AM","iftar":"6:02 PM"},
+    {"day":4,"date":"22 February","sehri":"5:15 AM","iftar":"6:03 PM"},
+    {"day":5,"date":"23 February","sehri":"5:14 AM","iftar":"6:03 PM"},
+    {"day":6,"date":"24 February","sehri":"5:14 AM","iftar":"6:04 PM"},
+    {"day":7,"date":"25 February","sehri":"5:13 AM","iftar":"6:04 PM"},
+    {"day":8,"date":"26 February","sehri":"5:12 AM","iftar":"6:05 PM"},
+    {"day":9,"date":"27 February","sehri":"5:11 AM","iftar":"6:05 PM"},
+    {"day":10,"date":"28 February","sehri":"5:10 AM","iftar":"6:06 PM"},
+    {"day":11,"date":"01 March","sehri":"5:09 AM","iftar":"6:07 PM"},
+    {"day":12,"date":"02 March","sehri":"5:09 AM","iftar":"6:07 PM"},
+    {"day":13,"date":"03 March","sehri":"5:08 AM","iftar":"6:08 PM"},
+    {"day":14,"date":"04 March","sehri":"5:07 AM","iftar":"6:08 PM"},
+    {"day":15,"date":"05 March","sehri":"5:06 AM","iftar":"6:09 PM"},
+    {"day":16,"date":"06 March","sehri":"5:05 AM","iftar":"6:09 PM"},
+    {"day":17,"date":"07 March","sehri":"5:04 AM","iftar":"6:10 PM"},
+    {"day":18,"date":"08 March","sehri":"5:03 AM","iftar":"6:10 PM"},
+    {"day":19,"date":"09 March","sehri":"5:02 AM","iftar":"6:11 PM"},
+    {"day":20,"date":"10 March","sehri":"5:01 AM","iftar":"6:11 PM"},
+    {"day":21,"date":"11 March","sehri":"5:00 AM","iftar":"6:12 PM"},
+    {"day":22,"date":"12 March","sehri":"4:59 AM","iftar":"6:12 PM"},
+    {"day":23,"date":"13 March","sehri":"4:58 AM","iftar":"6:12 PM"},
+    {"day":24,"date":"14 March","sehri":"4:57 AM","iftar":"6:13 PM"},
+    {"day":25,"date":"15 March","sehri":"4:56 AM","iftar":"6:13 PM"},
+    {"day":26,"date":"16 March","sehri":"4:55 AM","iftar":"6:14 PM"},
+    {"day":27,"date":"17 March","sehri":"4:54 AM","iftar":"6:14 PM"},
+    {"day":28,"date":"18 March","sehri":"4:53 AM","iftar":"6:15 PM"},
+    {"day":29,"date":"19 February","sehri":"4:52 AM","iftar":"6:15 PM"},
+    {"day":30,"date":"20 February","sehri":"4:51 AM","iftar":"6:16 PM"}
+  ],
+  "Chapainababganj": [
+    {"day":1,"date":"19 February","sehri":"5:20 AM","iftar":"6:05 PM"},
+    {"day":2,"date":"20 February","sehri":"5:20 AM","iftar":"6:06 PM"},
+    {"day":3,"date":"21 February","sehri":"5:19 AM","iftar":"6:06 PM"},
+    {"day":4,"date":"22 February","sehri":"5:18 AM","iftar":"6:07 PM"},
+    {"day":5,"date":"23 February","sehri":"5:17 AM","iftar":"6:07 PM"},
+    {"day":6,"date":"24 February","sehri":"5:17 AM","iftar":"6:08 PM"},
+    {"day":7,"date":"25 February","sehri":"5:16 AM","iftar":"6:08 PM"},
+    {"day":8,"date":"26 February","sehri":"5:15 AM","iftar":"6:09 PM"},
+    {"day":9,"date":"27 February","sehri":"5:14 AM","iftar":"6:09 PM"},
+    {"day":10,"date":"28 February","sehri":"5:13 AM","iftar":"6:10 PM"},
+    {"day":11,"date":"01 March","sehri":"5:13 AM","iftar":"6:10 PM"},
+    {"day":12,"date":"02 March","sehri":"5:12 AM","iftar":"6:11 PM"},
+    {"day":13,"date":"03 March","sehri":"5:11 AM","iftar":"6:11 PM"},
+    {"day":14,"date":"04 March","sehri":"5:10 AM","iftar":"6:12 PM"},
+    {"day":15,"date":"05 March","sehri":"5:09 AM","iftar":"6:12 PM"},
+    {"day":16,"date":"06 March","sehri":"5:08 AM","iftar":"6:13 PM"},
+    {"day":17,"date":"07 March","sehri":"5:07 AM","iftar":"6:13 PM"},
+    {"day":18,"date":"08 March","sehri":"5:06 AM","iftar":"6:14 PM"},
+    {"day":19,"date":"09 March","sehri":"5:05 AM","iftar":"6:14 PM"},
+    {"day":20,"date":"10 March","sehri":"5:04 AM","iftar":"6:15 PM"},
+    {"day":21,"date":"11 March","sehri":"5:03 AM","iftar":"6:15 PM"},
+    {"day":22,"date":"12 March","sehri":"5:02 AM","iftar":"6:16 PM"},
+    {"day":23,"date":"13 March","sehri":"5:01 AM","iftar":"6:16 PM"},
+    {"day":24,"date":"14 March","sehri":"5:00 AM","iftar":"6:17 PM"},
+    {"day":25,"date":"15 March","sehri":"4:59 AM","iftar":"6:17 PM"},
+    {"day":26,"date":"16 March","sehri":"4:58 AM","iftar":"6:18 PM"},
+    {"day":27,"date":"17 March","sehri":"4:57 AM","iftar":"6:18 PM"},
+    {"day":28,"date":"18 March","sehri":"4:56 AM","iftar":"6:18 PM"},
+    {"day":29,"date":"19 February","sehri":"4:55 AM","iftar":"6:19 PM"},
+    {"day":30,"date":"20 February","sehri":"4:54 AM","iftar":"6:19 PM"}
+  ],
+  "Sylhet": [
+    {"day":1,"date":"19 February","sehri":"5:04 AM","iftar":"5:50 PM"},
+    {"day":2,"date":"20 February","sehri":"5:04 AM","iftar":"5:51 PM"},
+    {"day":3,"date":"21 February","sehri":"5:03 AM","iftar":"5:52 PM"},
+    {"day":4,"date":"22 February","sehri":"5:02 AM","iftar":"5:52 PM"},
+    {"day":5,"date":"23 February","sehri":"5:02 AM","iftar":"5:53 PM"},
+    {"day":6,"date":"24 February","sehri":"5:01 AM","iftar":"5:53 PM"},
+    {"day":7,"date":"25 February","sehri":"5:00 AM","iftar":"5:54 PM"},
+    {"day":8,"date":"26 February","sehri":"4:59 AM","iftar":"5:54 PM"},
+    {"day":9,"date":"27 February","sehri":"4:58 AM","iftar":"5:55 PM"},
+    {"day":10,"date":"28 February","sehri":"4:57 AM","iftar":"5:55 PM"},
+    {"day":11,"date":"01 March","sehri":"4:57 AM","iftar":"5:56 PM"},
+    {"day":12,"date":"02 March","sehri":"4:56 AM","iftar":"5:56 PM"},
+    {"day":13,"date":"03 March","sehri":"4:55 AM","iftar":"5:57 PM"},
+    {"day":14,"date":"04 March","sehri":"4:54 AM","iftar":"5:57 PM"},
+    {"day":15,"date":"05 March","sehri":"4:53 AM","iftar":"5:58 PM"},
+    {"day":16,"date":"06 March","sehri":"4:52 AM","iftar":"5:58 PM"},
+    {"day":17,"date":"07 March","sehri":"4:51 AM","iftar":"5:59 PM"},
+    {"day":18,"date":"08 March","sehri":"4:50 AM","iftar":"5:59 PM"},
+    {"day":19,"date":"09 March","sehri":"4:49 AM","iftar":"6:00 PM"},
+    {"day":20,"date":"10 March","sehri":"4:48 AM","iftar":"6:00 PM"},
+    {"day":21,"date":"11 March","sehri":"4:47 AM","iftar":"6:01 PM"},
+    {"day":22,"date":"12 March","sehri":"4:46 AM","iftar":"6:01 PM"},
+    {"day":23,"date":"13 March","sehri":"4:45 AM","iftar":"6:02 PM"},
+    {"day":24,"date":"14 March","sehri":"4:44 AM","iftar":"6:02 PM"},
+    {"day":25,"date":"15 March","sehri":"4:43 AM","iftar":"6:03 PM"},
+    {"day":26,"date":"16 March","sehri":"4:42 AM","iftar":"6:03 PM"},
+    {"day":27,"date":"17 March","sehri":"4:41 AM","iftar":"6:03 PM"},
+    {"day":28,"date":"18 March","sehri":"4:40 AM","iftar":"6:04 PM"},
+    {"day":29,"date":"19 February","sehri":"4:39 AM","iftar":"6:04 PM"},
+    {"day":30,"date":"20 February","sehri":"4:38 AM","iftar":"6:05 PM"}
+  ],
+  "Moulovibazar": [
+    {"day":1,"date":"19 February","sehri":"5:05 AM","iftar":"5:51 PM"},
+    {"day":2,"date":"20 February","sehri":"5:04 AM","iftar":"5:51 PM"},
+    {"day":3,"date":"21 February","sehri":"5:04 AM","iftar":"5:52 PM"},
+    {"day":4,"date":"22 February","sehri":"5:03 AM","iftar":"5:53 PM"},
+    {"day":5,"date":"23 February","sehri":"5:02 AM","iftar":"5:53 PM"},
+    {"day":6,"date":"24 February","sehri":"5:02 AM","iftar":"5:54 PM"},
+    {"day":7,"date":"25 February","sehri":"5:01 AM","iftar":"5:54 PM"},
+    {"day":8,"date":"26 February","sehri":"5:00 AM","iftar":"5:55 PM"},
+    {"day":9,"date":"27 February","sehri":"4:59 AM","iftar":"5:55 PM"},
+    {"day":10,"date":"28 February","sehri":"4:58 AM","iftar":"5:56 PM"},
+    {"day":11,"date":"01 March","sehri":"4:57 AM","iftar":"5:56 PM"},
+    {"day":12,"date":"02 March","sehri":"4:57 AM","iftar":"5:57 PM"},
+    {"day":13,"date":"03 March","sehri":"4:56 AM","iftar":"5:57 PM"},
+    {"day":14,"date":"04 March","sehri":"4:55 AM","iftar":"5:58 PM"},
+    {"day":15,"date":"05 March","sehri":"4:54 AM","iftar":"5:58 PM"},
+    {"day":16,"date":"06 March","sehri":"4:53 AM","iftar":"5:59 PM"},
+    {"day":17,"date":"07 March","sehri":"4:52 AM","iftar":"5:59 PM"},
+    {"day":18,"date":"08 March","sehri":"4:51 AM","iftar":"6:00 PM"},
+    {"day":19,"date":"09 March","sehri":"4:50 AM","iftar":"6:00 PM"},
+    {"day":20,"date":"10 March","sehri":"4:49 AM","iftar":"6:01 PM"},
+    {"day":21,"date":"11 March","sehri":"4:48 AM","iftar":"6:01 PM"},
+    {"day":22,"date":"12 March","sehri":"4:47 AM","iftar":"6:01 PM"},
+    {"day":23,"date":"13 March","sehri":"4:46 AM","iftar":"6:02 PM"},
+    {"day":24,"date":"14 March","sehri":"4:45 AM","iftar":"6:02 PM"},
+    {"day":25,"date":"15 March","sehri":"4:44 AM","iftar":"6:03 PM"},
+    {"day":26,"date":"16 March","sehri":"4:43 AM","iftar":"6:03 PM"},
+    {"day":27,"date":"17 March","sehri":"4:42 AM","iftar":"6:04 PM"},
+    {"day":28,"date":"18 March","sehri":"4:41 AM","iftar":"6:04 PM"},
+    {"day":29,"date":"19 February","sehri":"4:40 AM","iftar":"6:05 PM"},
+    {"day":30,"date":"20 February","sehri":"4:39 AM","iftar":"6:05 PM"}
+  ],
+  "Habiganj": [
+    {"day":1,"date":"19 February","sehri":"5:08 AM","iftar":"5:53 PM"},
+    {"day":2,"date":"20 February","sehri":"5:07 AM","iftar":"5:53 PM"},
+    {"day":3,"date":"21 February","sehri":"5:06 AM","iftar":"5:54 PM"},
+    {"day":4,"date":"22 February","sehri":"5:06 AM","iftar":"5:54 PM"},
+    {"day":5,"date":"23 February","sehri":"5:05 AM","iftar":"5:55 PM"},
+    {"day":6,"date":"24 February","sehri":"5:04 AM","iftar":"5:56 PM"},
+    {"day":7,"date":"25 February","sehri":"5:03 AM","iftar":"5:56 PM"},
+    {"day":8,"date":"26 February","sehri":"5:02 AM","iftar":"5:57 PM"},
+    {"day":9,"date":"27 February","sehri":"5:02 AM","iftar":"5:57 PM"},
+    {"day":10,"date":"28 February","sehri":"5:01 AM","iftar":"5:58 PM"},
+    {"day":11,"date":"01 March","sehri":"5:00 AM","iftar":"5:58 PM"},
+    {"day":12,"date":"02 March","sehri":"4:59 AM","iftar":"5:59 PM"},
+    {"day":13,"date":"03 March","sehri":"4:58 AM","iftar":"5:59 PM"},
+    {"day":14,"date":"04 March","sehri":"4:57 AM","iftar":"6:00 PM"},
+    {"day":15,"date":"05 March","sehri":"4:56 AM","iftar":"6:00 PM"},
+    {"day":16,"date":"06 March","sehri":"4:55 AM","iftar":"6:01 PM"},
+    {"day":17,"date":"07 March","sehri":"4:55 AM","iftar":"6:01 PM"},
+    {"day":18,"date":"08 March","sehri":"4:54 AM","iftar":"6:01 PM"},
+    {"day":19,"date":"09 March","sehri":"4:53 AM","iftar":"6:02 PM"},
+    {"day":20,"date":"10 March","sehri":"4:52 AM","iftar":"6:02 PM"},
+    {"day":21,"date":"11 March","sehri":"4:51 AM","iftar":"6:03 PM"},
+    {"day":22,"date":"12 March","sehri":"4:50 AM","iftar":"6:03 PM"},
+    {"day":23,"date":"13 March","sehri":"4:49 AM","iftar":"6:04 PM"},
+    {"day":24,"date":"14 March","sehri":"4:48 AM","iftar":"6:04 PM"},
+    {"day":25,"date":"15 March","sehri":"4:47 AM","iftar":"6:05 PM"},
+    {"day":26,"date":"16 March","sehri":"4:46 AM","iftar":"6:05 PM"},
+    {"day":27,"date":"17 March","sehri":"4:45 AM","iftar":"6:05 PM"},
+    {"day":28,"date":"18 March","sehri":"4:44 AM","iftar":"6:06 PM"},
+    {"day":29,"date":"19 February","sehri":"4:43 AM","iftar":"6:06 PM"},
+    {"day":30,"date":"20 February","sehri":"4:41 AM","iftar":"6:07 PM"}
+  ],
+  "Shunamganj": [
+    {"day":1,"date":"19 February","sehri":"5:08 AM","iftar":"5:53 PM"},
+    {"day":2,"date":"20 February","sehri":"5:07 AM","iftar":"5:54 PM"},
+    {"day":3,"date":"21 February","sehri":"5:06 AM","iftar":"5:54 PM"},
+    {"day":4,"date":"22 February","sehri":"5:05 AM","iftar":"5:55 PM"},
+    {"day":5,"date":"23 February","sehri":"5:05 AM","iftar":"5:55 PM"},
+    {"day":6,"date":"24 February","sehri":"5:04 AM","iftar":"5:56 PM"},
+    {"day":7,"date":"25 February","sehri":"5:03 AM","iftar":"5:56 PM"},
+    {"day":8,"date":"26 February","sehri":"5:02 AM","iftar":"5:57 PM"},
+    {"day":9,"date":"27 February","sehri":"5:01 AM","iftar":"5:57 PM"},
+    {"day":10,"date":"28 February","sehri":"5:01 AM","iftar":"5:58 PM"},
+    {"day":11,"date":"01 March","sehri":"5:00 AM","iftar":"5:59 PM"},
+    {"day":12,"date":"02 March","sehri":"4:59 AM","iftar":"5:59 PM"},
+    {"day":13,"date":"03 March","sehri":"4:58 AM","iftar":"6:00 PM"},
+    {"day":14,"date":"04 March","sehri":"4:57 AM","iftar":"6:00 PM"},
+    {"day":15,"date":"05 March","sehri":"4:56 AM","iftar":"6:01 PM"},
+    {"day":16,"date":"06 March","sehri":"4:55 AM","iftar":"6:01 PM"},
+    {"day":17,"date":"07 March","sehri":"4:54 AM","iftar":"6:02 PM"},
+    {"day":18,"date":"08 March","sehri":"4:53 AM","iftar":"6:02 PM"},
+    {"day":19,"date":"09 March","sehri":"4:52 AM","iftar":"6:03 PM"},
+    {"day":20,"date":"10 March","sehri":"4:51 AM","iftar":"6:03 PM"},
+    {"day":21,"date":"11 March","sehri":"4:50 AM","iftar":"6:03 PM"},
+    {"day":22,"date":"12 March","sehri":"4:49 AM","iftar":"6:04 PM"},
+    {"day":23,"date":"13 March","sehri":"4:48 AM","iftar":"6:04 PM"},
+    {"day":24,"date":"14 March","sehri":"4:47 AM","iftar":"6:05 PM"},
+    {"day":25,"date":"15 March","sehri":"4:46 AM","iftar":"6:05 PM"},
+    {"day":26,"date":"16 March","sehri":"4:45 AM","iftar":"6:06 PM"},
+    {"day":27,"date":"17 March","sehri":"4:44 AM","iftar":"6:06 PM"},
+    {"day":28,"date":"18 March","sehri":"4:43 AM","iftar":"6:07 PM"},
+    {"day":29,"date":"19 February","sehri":"4:42 AM","iftar":"6:07 PM"},
+    {"day":30,"date":"20 February","sehri":"4:41 AM","iftar":"6:08 PM"}
   ]
 }
