@@ -303,7 +303,21 @@ requestNotificationPermission();
 
 function sendNotification(title, body) {
     if ("Notification" in window && Notification.permission === "granted") {
-        new Notification(title, { body });
+        try {
+            if (navigator.serviceWorker && navigator.serviceWorker.controller) {
+                // Use Service Worker to show notification (required for some devices/PWAs)
+                navigator.serviceWorker.ready.then(registration => {
+                    registration.showNotification(title, {
+                        body: body,
+                        icon: './media/tinted_ramadan calendar icon_light.svg'
+                    });
+                });
+            } else {
+                new Notification(title, { body });
+            }
+        } catch (e) {
+            console.error("NOTIFICATION ERROR:", e);
+        }
     } else {
         console.log(`NOTIFICATION: ${title} - ${body}`);
     }
