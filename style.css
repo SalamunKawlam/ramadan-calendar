@@ -825,7 +825,7 @@ body {
 }
 
 .theme-btn:hover:not(.active) {
-    background: var(--border-color);
+    background: var(--bg-color);
     color: var(--ink);
 }
 
