@@ -219,9 +219,10 @@ async function loadCalendar(simulatedToday = null) {
     }
 }
 
-// --- District Selector ---
+// --- District Selector & Geolocation ---
 (function initDistrictSelector() {
     const selector = document.getElementById('districtSelector');
+    const autoLocateBtn = document.getElementById('autoLocateBtn');
     if (!selector) return;
 
     // Load saved district
@@ -232,6 +233,69 @@ async function loadCalendar(simulatedToday = null) {
         cachedData && loadCalendar(); // re-render with new district
         startCountdown();             // restart countdown for new times
     });
+
+    if (autoLocateBtn) {
+        autoLocateBtn.addEventListener('click', async () => {
+            if (!navigator.geolocation) {
+                alert("Geolocation is not supported by your browser");
+                return;
+            }
+
+            autoLocateBtn.classList.add('loading');
+
+            try {
+                // Fetch coordinates if we haven't already
+                const response = await fetch('./district_coords.json');
+                const districtCoords = await response.json();
+
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        const userLat = position.coords.latitude;
+                        const userLng = position.coords.longitude;
+                        
+                        let nearestDistrict = null;
+                        let minDistance = Infinity;
+
+                        // Haversine formula to find nearest district
+                        const R = 6371; // Radius of the earth in km
+                        for (const [district, coords] of Object.entries(districtCoords)) {
+                            const dLat = (coords.lat - userLat) * (Math.PI / 180);
+                            const dLon = (coords.lng - userLng) * (Math.PI / 180);
+                            const a = 
+                                Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                                Math.cos(userLat * (Math.PI / 180)) * Math.cos(coords.lat * (Math.PI / 180)) * 
+                                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+                            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+                            const distance = R * c; 
+
+                            if (distance < minDistance) {
+                                minDistance = distance;
+                                nearestDistrict = district;
+                            }
+                        }
+
+                        if (nearestDistrict && nearestDistrict !== selector.value) {
+                            selector.value = nearestDistrict;
+                            // Trigger the change event manually to save and refresh
+                            selector.dispatchEvent(new Event('change'));
+                        }
+                        autoLocateBtn.classList.remove('loading');
+                    },
+                    (error) => {
+                        console.error('Error getting location:', error);
+                        alert("Could not get your location. Please check your permissions.");
+                        autoLocateBtn.classList.remove('loading');
+                    },
+                    { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 }
+                );
+
+            } catch (err) {
+                console.error("Error fetching district coordinates:", err);
+                alert("Failed to load district data for auto-location.");
+                autoLocateBtn.classList.remove('loading');
+            }
+        });
+    }
 })();
 
 // --- Debug Logic ---

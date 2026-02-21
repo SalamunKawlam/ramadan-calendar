@@ -6,6 +6,7 @@ const ASSETS_TO_CACHE = [
     './script.js',
     './data.json',
     './reminders.json',
+    './district_coords.json',
     './media/ramadan_calendar_app_icon_light.svg',
     './media/tinted_ramadan calendar icon_light.svg',
     './media/tinted_ramadan calendar icon_dark.svg'
