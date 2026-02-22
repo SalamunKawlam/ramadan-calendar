@@ -190,8 +190,8 @@ body {
 
 /* Auto Locate Button */
 .auto-locate-btn {
-    width: 41px;
-    height: 41px;
+    width: 38px;
+    height: 38px;
     border-radius: 0;
     border: 1.5px solid var(--ink);
     background: var(--surface);
